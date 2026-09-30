@@ -1,0 +1,586 @@
+{
+  "buildings": "schools",
+  "config": {
+    "llm": "v3",
+    "temperature": 0.7,
+    "max_n_per_object": 5,
+    "n_rooms": 1,
+    "n_prompts": 5,
+    "max_retries": 10,
+    "max_threads": 4,
+    "parent_dir": "genxr-dataset",
+    "verbose": true
+  },
+  "log_path": "genxr-dataset/schools/1/prompt_schools_1_20250712-194600.json",
+  "n_rooms": 1,
+  "rooms": {
+    "resource room": {
+      "adjectives": [
+        "ethereal",
+        "inviting",
+        "sophisticated",
+        "contemporary",
+        "bohemian",
+        "lavish"
+      ],
+      "description": "The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance.",
+      "objects_list": [
+        "bookshelf 1",
+        "bookshelf 2",
+        "bookshelf 3",
+        "bookshelf 4",
+        "reading table 1",
+        "reading table 2",
+        "floor lamp 1",
+        "floor lamp 2",
+        "floor lamp 3",
+        "modular sofa",
+        "decorative plant 1",
+        "decorative plant 2",
+        "decorative plant 3",
+        "decorative plant 4",
+        "decorative plant 5",
+        "artistic rug",
+        "wall mounted projector",
+        "storage cabinet 1",
+        "storage cabinet 2",
+        "adjustable chair 1",
+        "adjustable chair 2",
+        "adjustable chair 3",
+        "adjustable chair 4",
+        "adjustable chair 5",
+        "pendant light 1",
+        "pendant light 2",
+        "whiteboard",
+        "charging station",
+        "sound absorbing panel 1",
+        "sound absorbing panel 2",
+        "sound absorbing panel 3",
+        "sound absorbing panel 4"
+      ],
+      "objects_desc": {
+        "bookshelf 1": "A sleek white bookshelf made with polished wood that is minimalist and modern.",
+        "bookshelf 2": "A sleek white bookshelf made with polished wood that is minimalist and modern.",
+        "bookshelf 3": "A sleek white bookshelf made with polished wood that is minimalist and modern.",
+        "bookshelf 4": "A sleek white bookshelf made with polished wood that is minimalist and modern.",
+        "reading table 1": "A warm oak reading table made with smooth laminate that is clean-lined and functional.",
+        "reading table 2": "A warm oak reading table made with smooth laminate that is clean-lined and functional.",
+        "floor lamp 1": "A brushed brass floor lamp made with matte metal that is slender and elegant.",
+        "floor lamp 2": "A brushed brass floor lamp made with matte metal that is slender and elegant.",
+        "floor lamp 3": "A brushed brass floor lamp made with matte metal that is slender and elegant.",
+        "modular sofa": "A soft gray modular sofa made with plush fabric that is curvaceous and inviting.",
+        "decorative plant 1": "A vibrant green decorative plant made with ceramic that is lush and sculptural.",
+        "decorative plant 2": "A vibrant green decorative plant made with ceramic that is lush and sculptural.",
+        "decorative plant 3": "A vibrant green decorative plant made with ceramic that is lush and sculptural.",
+        "decorative plant 4": "A vibrant green decorative plant made with ceramic that is lush and sculptural.",
+        "decorative plant 5": "A vibrant green decorative plant made with ceramic that is lush and sculptural.",
+        "artistic rug": "A muted teal artistic rug made with woven wool that is abstract and textured.",
+        "wall mounted projector": "A matte black wall mounted projector made with lightweight plastic that is compact and sleek.",
+        "storage cabinet 1": "A deep navy storage cabinet made with lacquered wood that is streamlined and spacious.",
+        "storage cabinet 2": "A deep navy storage cabinet made with lacquered wood that is streamlined and spacious.",
+        "adjustable chair 1": "A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.",
+        "adjustable chair 2": "A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.",
+        "adjustable chair 3": "A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.",
+        "adjustable chair 4": "A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.",
+        "adjustable chair 5": "A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.",
+        "pendant light 1": "A frosted glass pendant light made with brushed metal that is spherical and diffused.",
+        "pendant light 2": "A frosted glass pendant light made with brushed metal that is spherical and diffused.",
+        "whiteboard": "A glossy white whiteboard made with magnetic steel that is frameless and smooth.",
+        "charging station": "A matte silver charging station made with durable plastic that is compact and multi-port.",
+        "sound absorbing panel 1": "A soft gray sound absorbing panel made with acoustic foam that is geometric and lightweight.",
+        "sound absorbing panel 2": "A soft gray sound absorbing panel made with acoustic foam that is geometric and lightweight.",
+        "sound absorbing panel 3": "A soft gray sound absorbing panel made with acoustic foam that is geometric and lightweight.",
+        "sound absorbing panel 4": "A soft gray sound absorbing panel made with acoustic foam that is geometric and lightweight."
+      },
+      "object_relations": [
+        [
+          "bookshelf 1",
+          "placed adjacent to",
+          "bookshelf 2"
+        ],
+        [
+          "bookshelf 2",
+          "placed adjacent to",
+          "bookshelf 3"
+        ],
+        [
+          "bookshelf 3",
+          "placed adjacent to",
+          "bookshelf 4"
+        ],
+        [
+          "bookshelf 4",
+          "positioned 1 meter away from",
+          "storage cabinet 1"
+        ],
+        [
+          "storage cabinet 1",
+          "placed opposite to",
+          "storage cabinet 2"
+        ],
+        [
+          "reading table 1",
+          "centered between",
+          "floor lamp 1"
+        ],
+        [
+          "reading table 2",
+          "centered between",
+          "floor lamp 2"
+        ],
+        [
+          "floor lamp 1",
+          "positioned 0.5 meters behind",
+          "adjustable chair 1"
+        ],
+        [
+          "floor lamp 2",
+          "positioned 0.5 meters behind",
+          "adjustable chair 2"
+        ],
+        [
+          "floor lamp 3",
+          "placed next to",
+          "modular sofa"
+        ],
+        [
+          "modular sofa",
+          "placed on top of",
+          "artistic rug"
+        ],
+        [
+          "decorative plant 1",
+          "positioned in the corner near",
+          "bookshelf 1"
+        ],
+        [
+          "decorative plant 2",
+          "placed beside",
+          "reading table 1"
+        ],
+        [
+          "decorative plant 3",
+          "positioned next to",
+          "storage cabinet 2"
+        ],
+        [
+          "decorative plant 4",
+          "placed near",
+          "whiteboard"
+        ],
+        [
+          "decorative plant 5",
+          "positioned beside",
+          "charging station"
+        ],
+        [
+          "wall mounted projector",
+          "mounted above",
+          "whiteboard"
+        ],
+        [
+          "adjustable chair 3",
+          "placed at",
+          "reading table 1"
+        ],
+        [
+          "adjustable chair 4",
+          "placed at",
+          "reading table 2"
+        ],
+        [
+          "adjustable chair 5",
+          "positioned near",
+          "modular sofa"
+        ],
+        [
+          "pendant light 1",
+          "hung directly above",
+          "reading table 1"
+        ],
+        [
+          "pendant light 2",
+          "hung directly above",
+          "reading table 2"
+        ],
+        [
+          "whiteboard",
+          "mounted on the wall opposite to",
+          "storage cabinet 1"
+        ],
+        [
+          "charging station",
+          "placed on the wall near",
+          "adjustable chair 5"
+        ],
+        [
+          "sound absorbing panel 1",
+          "mounted on the wall behind",
+          "bookshelf 1"
+        ],
+        [
+          "sound absorbing panel 2",
+          "mounted on the wall behind",
+          "bookshelf 2"
+        ],
+        [
+          "sound absorbing panel 3",
+          "mounted on the wall behind",
+          "bookshelf 3"
+        ],
+        [
+          "sound absorbing panel 4",
+          "mounted on the wall behind",
+          "bookshelf 4"
+        ]
+      ],
+      "summary": "In this room, looking from the entrance, four sleek white bookshelves made with polished wood that are minimalist and modern are placed adjacently, with bookshelf 1 near decorative plant 1, a vibrant green ceramic plant that is lush and sculptural, and sound absorbing panel 1, a soft gray geometric panel made with acoustic foam, mounted behind it. Bookshelf 4 is positioned 1 meter away from storage cabinet 1, a deep navy lacquered wood cabinet that is streamlined and spacious, which is placed opposite to storage cabinet 2, beside decorative plant 3. Two warm oak reading tables made with smooth laminate that are clean-lined and functional are centered between floor lamps 1 and 2, brushed brass lamps made with matte metal that are slender and elegant, with floor lamp 1 positioned 0.5 meters behind adjustable chair 1, a neutral beige ergonomic chair made with breathable mesh, and floor lamp 2 similarly placed behind adjustable chair 2. Floor lamp 3 is next to a soft gray modular sofa made with plush fabric that is curvaceous and inviting, placed on top of a muted teal artistic rug made with woven wool that is abstract and textured. The wall mounted projector, a matte black compact device made with lightweight plastic, is mounted above the glossy white magnetic whiteboard that is frameless and smooth, opposite storage cabinet 1. Five decorative plants are placed throughout the room, including near the whiteboard and charging station, a matte silver multi-port device made with durable plastic. Five adjustable chairs are positioned at reading tables and near the sofa, while two frosted glass pendant lights made with brushed metal that are spherical and diffused hang directly above the reading tables. Four sound absorbing panels are mounted behind the bookshelves, completing the room's functional yet elegant layout."
+    }
+  },
+  "connections": [
+    {
+      "region_a": "resource room",
+      "region_b": "__outside__",
+      "conn_type": "sliding door",
+      "description": "A sleek silver sliding door made with tempered glass that is frameless and minimalist."
+    }
+  ],
+  "summaries": {
+    "overall": "The building features a single, contemporary resource room with a sophisticated layout and elegant design elements.",
+    "connections": "The resource room is connected to the outside via a sleek silver sliding door made with tempered glass that is frameless and minimalist."
+  },
+  "prompts": {
+    "full": "The building features a single, contemporary resource room with a sophisticated layout and elegant design elements. The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance. In this room, looking from the entrance, four sleek white bookshelves made with polished wood that are minimalist and modern are placed adjacently, with bookshelf 1 near decorative plant 1, a vibrant green ceramic plant that is lush and sculptural, and sound absorbing panel 1, a soft gray geometric panel made with acoustic foam, mounted behind it. Bookshelf 4 is positioned 1 meter away from storage cabinet 1, a deep navy lacquered wood cabinet that is streamlined and spacious, which is placed opposite to storage cabinet 2, beside decorative plant 3. Two warm oak reading tables made with smooth laminate that are clean-lined and functional are centered between floor lamps 1 and 2, brushed brass lamps made with matte metal that are slender and elegant, with floor lamp 1 positioned 0.5 meters behind adjustable chair 1, a neutral beige ergonomic chair made with breathable mesh, and floor lamp 2 similarly placed behind adjustable chair 2. Floor lamp 3 is next to a soft gray modular sofa made with plush fabric that is curvaceous and inviting, placed on top of a muted teal artistic rug made with woven wool that is abstract and textured. The wall mounted projector, a matte black compact device made with lightweight plastic, is mounted above the glossy white magnetic whiteboard that is frameless and smooth, opposite storage cabinet 1. Five decorative plants are placed throughout the room, including near the whiteboard and charging station, a matte silver multi-port device made with durable plastic. Five adjustable chairs are positioned at reading tables and near the sofa, while two frosted glass pendant lights made with brushed metal that are spherical and diffused hang directly above the reading tables. Four sound absorbing panels are mounted behind the bookshelves, completing the room's functional yet elegant layout. The resource room is connected to the outside via a sleek silver sliding door made with tempered glass that is frameless and minimalist.",
+    "humanized": "A contemporary resource room with an elegant and sophisticated layout awaits you, featuring an inviting ethereal palette on the walls and lavish bohemian-inspired flooring. Four sleek white bookshelves made of polished wood stand adjacent to each other, with the first near a vibrant green ceramic plant and a soft gray geometric sound-absorbing panel. The fourth bookshelf is a meter away from a deep navy lacquered wood storage cabinet, opposite another cabinet beside a decorative plant. Two warm oak reading tables, flanked by brushed brass floor lamps, sit between ergonomic beige mesh chairs. A plush gray modular sofa rests on a muted teal artistic rug, with a third floor lamp nearby. A matte black wall-mounted projector overlooks a glossy white magnetic whiteboard, while five decorative plants and a matte silver charging station add life and functionality. Five adjustable chairs and two frosted glass pendant lights complete the space, along with four sound-absorbing panels. The room is accessible via a sleek silver sliding door with tempered glass, blending minimalist design with practicality.",
+    "sentence": "A contemporary resource room with a sophisticated layout, elegant design elements, and functional furnishings including bookshelves, reading tables, and decorative plants.",
+    "pct_change_humanized": -0.5380434782608696,
+    "pct_change_sentence": -0.9429347826086957
+  },
+  "edits": [
+    {
+      "instruction": "Add a new object: a vintage-inspired brass floor lamp with an adjustable arm next to the modular sofa.",
+      "prompts": {
+        "full": "The building features a single, contemporary resource room with a sophisticated layout and elegant design elements. The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance. In this room, looking from the entrance, four sleek white bookshelves made with polished wood that are minimalist and modern are placed adjacently, with bookshelf 1 near decorative plant 1, a vibrant green ceramic plant that is lush and sculptural, and sound absorbing panel 1, a soft gray geometric panel made with acoustic foam, mounted behind it. Bookshelf 4 is positioned 1 meter away from storage cabinet 1, a deep navy lacquered wood cabinet that is streamlined and spacious, which is placed opposite to storage cabinet 2, beside decorative plant 3. Two warm oak reading tables made with smooth laminate that are clean-lined and functional are centered between floor lamps 1 and 2, brushed brass lamps made with matte metal that are slender and elegant, with floor lamp 1 positioned 0.5 meters behind adjustable chair 1, a neutral beige ergonomic chair made with breathable mesh, and floor lamp 2 similarly placed behind adjustable chair 2. Floor lamp 3 is next to a soft gray modular sofa made with plush fabric that is curvaceous and inviting, placed on top of a muted teal artistic rug made with woven wool that is abstract and textured. A vintage-inspired brass floor lamp with an adjustable arm is placed next to the modular sofa. The wall mounted projector, a matte black compact device made with lightweight plastic, is mounted above the glossy white magnetic whiteboard that is frameless and smooth, opposite storage cabinet 1. Five decorative plants are placed throughout the room, including near the whiteboard and charging station, a matte silver multi-port device made with durable plastic. Five adjustable chairs are positioned at reading tables and near the sofa, while two frosted glass pendant lights made with brushed metal that are spherical and diffused hang directly above the reading tables. Four sound absorbing panels are mounted behind the bookshelves, completing the room's functional yet elegant layout. The resource room is connected to the outside via a sleek silver sliding door made with tempered glass that is frameless and minimalist.",
+        "humanized": null,
+        "sentence": "A contemporary resource room with elegant design features, including sleek white bookshelves, warm oak reading tables, a modular sofa, decorative plants, sound-absorbing panels, and modern amenities like a wall-mounted projector and charging station, all connected via a sleek silver sliding door.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    },
+    {
+      "instruction": "Modify the appearance of the glossy white magnetic whiteboard to a matte black chalkboard with a wooden frame.",
+      "prompts": {
+        "full": "The building features a single, contemporary resource room with a sophisticated layout and elegant design elements. The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance. In this room, looking from the entrance, four sleek white bookshelves made with polished wood that are minimalist and modern are placed adjacently, with bookshelf 1 near decorative plant 1, a vibrant green ceramic plant that is lush and sculptural, and sound absorbing panel 1, a soft gray geometric panel made with acoustic foam, mounted behind it. Bookshelf 4 is positioned 1 meter away from storage cabinet 1, a deep navy lacquered wood cabinet that is streamlined and spacious, which is placed opposite to storage cabinet 2, beside decorative plant 3. Two warm oak reading tables made with smooth laminate that are clean-lined and functional are centered between floor lamps 1 and 2, brushed brass lamps made with matte metal that are slender and elegant, with floor lamp 1 positioned 0.5 meters behind adjustable chair 1, a neutral beige ergonomic chair made with breathable mesh, and floor lamp 2 similarly placed behind adjustable chair 2. Floor lamp 3 is next to a soft gray modular sofa made with plush fabric that is curvaceous and inviting, placed on top of a muted teal artistic rug made with woven wool that is abstract and textured. The wall mounted projector, a matte black compact device made with lightweight plastic, is mounted above the matte black chalkboard with a wooden frame that is frameless and smooth, opposite storage cabinet 1. Five decorative plants are placed throughout the room, including near the chalkboard and charging station, a matte silver multi-port device made with durable plastic. Five adjustable chairs are positioned at reading tables and near the sofa, while two frosted glass pendant lights made with brushed metal that are spherical and diffused hang directly above the reading tables. Four sound absorbing panels are mounted behind the bookshelves, completing the room's functional yet elegant layout. The resource room is connected to the outside via a sleek silver sliding door made with tempered glass that is frameless and minimalist.",
+        "humanized": null,
+        "sentence": "A contemporary resource room with elegant design elements features sleek white bookshelves, warm oak reading tables, a modular sofa, decorative plants, sound-absorbing panels, and modern amenities like a wall-mounted projector and charging station, all connected via a sleek silver sliding door.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    },
+    {
+      "instruction": "Remove the sound absorbing panel 1 behind bookshelf 1 to create a more open visual space.",
+      "prompts": {
+        "full": "The building features a single, contemporary resource room with a sophisticated layout and elegant design elements. The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance. In this room, looking from the entrance, four sleek white bookshelves made with polished wood that are minimalist and modern are placed adjacently, with bookshelf 1 near decorative plant 1, a vibrant green ceramic plant that is lush and sculptural. Bookshelf 4 is positioned 1 meter away from storage cabinet 1, a deep navy lacquered wood cabinet that is streamlined and spacious, which is placed opposite to storage cabinet 2, beside decorative plant 3. Two warm oak reading tables made with smooth laminate that are clean-lined and functional are centered between floor lamps 1 and 2, brushed brass lamps made with matte metal that are slender and elegant, with floor lamp 1 positioned 0.5 meters behind adjustable chair 1, a neutral beige ergonomic chair made with breathable mesh, and floor lamp 2 similarly placed behind adjustable chair 2. Floor lamp 3 is next to a soft gray modular sofa made with plush fabric that is curvaceous and inviting, placed on top of a muted teal artistic rug made with woven wool that is abstract and textured. The wall mounted projector, a matte black compact device made with lightweight plastic, is mounted above the glossy white magnetic whiteboard that is frameless and smooth, opposite storage cabinet 1. Five decorative plants are placed throughout the room, including near the whiteboard and charging station, a matte silver multi-port device made with durable plastic. Five adjustable chairs are positioned at reading tables and near the sofa, while two frosted glass pendant lights made with brushed metal that are spherical and diffused hang directly above the reading tables. Four sound absorbing panels are mounted behind the bookshelves, completing the room's functional yet elegant layout. The resource room is connected to the outside via a sleek silver sliding door made with tempered glass that is frameless and minimalist.",
+        "humanized": null,
+        "sentence": "A contemporary resource room with elegant design elements features sleek white bookshelves, warm oak reading tables, a modular sofa, decorative plants, adjustable chairs, pendant lights, a wall-mounted projector, and a glossy white magnetic whiteboard, all arranged in a sophisticated layout.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    }
+  ],
+  "conversations": {
+    "rooms_description": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 5.287818874989171,
+      "prompt_tokens": 284,
+      "completion_tokens": 50,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nYou are given some room types that can be found in schools.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"resource room\": [\"ethereal\", \"inviting\", \"sophisticated\", \"contemporary\", \"bohemian\", \"lavish\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"resource room\": \"The resource room <FILL_IN>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "```json\n{\"resource room\": \"The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance.\"}\n```"
+        }
+      ]
+    },
+    "connections_description": [
+      {
+        "model": "deepseek-chat",
+        "base_url": "https://api.deepseek.com/",
+        "max_tokens": 8192,
+        "temperature": 0.7,
+        "duration": 3.9351765839965083,
+        "prompt_tokens": 657,
+        "completion_tokens": 25,
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nYou are given some room types that can be found in schools.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"resource room\": [\"ethereal\", \"inviting\", \"sophisticated\", \"contemporary\", \"bohemian\", \"lavish\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"resource room\": \"The resource room <FILL_IN>\"}"
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": "```json\n{\"resource room\": \"The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance.\"}\n```"
+          },
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nYou are designing one that contains (1) \"resource room\" and (2) \"__outside__\".\n(1) \"resource room\" has the following description: _{description1}_\n(2) \"__outside__\" has the following description: _{description2}_\nThese two rooms are connected with a sliding door.\nUsing your imagination, generate a concise description of the sliding door's appearance (color, material, attributes; \"attributes\" refers to extra descriptive phrases that are solely about the object's appearance and are independent of other objects).\nA description **MUST** be able to resemble the following sentence: \"A/An `color` <<OBJECT_NAME>> made with `material` that is `attributes`.\"\n\n## Known information\n\n_{description1}_: The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance.\n\n_{description2}_: the space outside the final building, which could be indoor or outdoor\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"description\": \"<<FILL_IN>>\"}"
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": "```json\n{\"description\": \"A sleek silver sliding door made with tempered glass that is frameless and minimalist.\"}\n```"
+          }
+        ]
+      }
+    ],
+    "rooms_objects": {
+      "room_objects": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 8.424551208969206,
+          "prompt_tokens": 668,
+          "completion_tokens": 127,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nYou are given some room types that can be found in schools.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"resource room\": [\"ethereal\", \"inviting\", \"sophisticated\", \"contemporary\", \"bohemian\", \"lavish\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"resource room\": \"The resource room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"resource room\": \"The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nParticularly, you are working on a resource room with the following description: _{description}_\nNow, generate the objects (each with its quantity) that should exist in this room.\n\n## Guidance\n\n- Besides generating objects that can be found in a typical resource room, unleash your imagination and generate objects that are likely to be associated with the given description.\n- You **MUST** generate at least one lighting unit (i.e., an object made for illumination).\n- Do **NOT** generate door, doorframe, window, or stair.\n- Do **NOT** use plural form, even if the quantity of that object is more than one.\n- Do **NOT** use underscore in object name.\n- Make sure the quantity is an integer greater than 0.\n- Refrain from repeatedly generating identical or similar objects.\n\n## Known information\n\n_{description}_: The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"<<FILL_IN_OBJECT>>\": <<FILL_IN_QUANTITY>>}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"bookshelf\": 4,\n  \"reading table\": 2,\n  \"floor lamp\": 3,\n  \"modular sofa\": 1,\n  \"decorative plant\": 5,\n  \"artistic rug\": 1,\n  \"wall mounted projector\": 1,\n  \"storage cabinet\": 2,\n  \"adjustable chair\": 6,\n  \"pendant light\": 2,\n  \"whiteboard\": 1,\n  \"glass display case\": 1,\n  \"charging station\": 1,\n  \"sound absorbing panel\": 4\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_objects_description": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 33.99300625000615,
+          "prompt_tokens": 907,
+          "completion_tokens": 796,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nYou are given some room types that can be found in schools.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"resource room\": [\"ethereal\", \"inviting\", \"sophisticated\", \"contemporary\", \"bohemian\", \"lavish\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"resource room\": \"The resource room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"resource room\": \"The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nParticularly, you are working on a resource room with the following description: _{description}_\nThis room contains the following objects: _{objects}_\nNow, for each object, generate a concise description about the object's appearance (color, material, attributes; \"attributes\" refers to extra descriptive phrases that are solely about the object's appearance and are independent of other objects).\nA description **MUST** be able to resemble the following sentence: \"A/An `color` <<OBJECT_NAME>> made with `material` that is `attributes`.\"\n\n## Guidance\n\n- **All** objects **MUST** be used.\n- If you expect several objects to be identical, their descriptions **MUST** also be identical.\n- In the description, do **NOT** mention other objects. Also, do **NOT** include the object's position relative to other objects.\n\n## Known information\n\n_{description}_: The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance.\n\n_{objects}_: [\"bookshelf 1\", \"bookshelf 2\", \"bookshelf 3\", \"bookshelf 4\", \"reading table 1\", \"reading table 2\", \"floor lamp 1\", \"floor lamp 2\", \"floor lamp 3\", \"modular sofa\", \"decorative plant 1\", \"decorative plant 2\", \"decorative plant 3\", \"decorative plant 4\", \"decorative plant 5\", \"artistic rug\", \"wall mounted projector\", \"storage cabinet 1\", \"storage cabinet 2\", \"adjustable chair 1\", \"adjustable chair 2\", \"adjustable chair 3\", \"adjustable chair 4\", \"adjustable chair 5\", \"pendant light 1\", \"pendant light 2\", \"whiteboard\", \"charging station\", \"sound absorbing panel 1\", \"sound absorbing panel 2\", \"sound absorbing panel 3\", \"sound absorbing panel 4\"]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\nYou **MUST** include **all** provided object names **as is**.\n\n{\"<<USE_PROVIDED_OBJECT_NAME>>\": \"<<FILL_IN_DESCRIPTION>>\", ...}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"bookshelf 1\": \"A sleek white bookshelf made with polished wood that is minimalist and modern.\",\n  \"bookshelf 2\": \"A sleek white bookshelf made with polished wood that is minimalist and modern.\",\n  \"bookshelf 3\": \"A sleek white bookshelf made with polished wood that is minimalist and modern.\",\n  \"bookshelf 4\": \"A sleek white bookshelf made with polished wood that is minimalist and modern.\",\n  \"reading table 1\": \"A warm oak reading table made with smooth laminate that is clean-lined and functional.\",\n  \"reading table 2\": \"A warm oak reading table made with smooth laminate that is clean-lined and functional.\",\n  \"floor lamp 1\": \"A brushed brass floor lamp made with matte metal that is slender and elegant.\",\n  \"floor lamp 2\": \"A brushed brass floor lamp made with matte metal that is slender and elegant.\",\n  \"floor lamp 3\": \"A brushed brass floor lamp made with matte metal that is slender and elegant.\",\n  \"modular sofa\": \"A soft gray modular sofa made with plush fabric that is curvaceous and inviting.\",\n  \"decorative plant 1\": \"A vibrant green decorative plant made with ceramic that is lush and sculptural.\",\n  \"decorative plant 2\": \"A vibrant green decorative plant made with ceramic that is lush and sculptural.\",\n  \"decorative plant 3\": \"A vibrant green decorative plant made with ceramic that is lush and sculptural.\",\n  \"decorative plant 4\": \"A vibrant green decorative plant made with ceramic that is lush and sculptural.\",\n  \"decorative plant 5\": \"A vibrant green decorative plant made with ceramic that is lush and sculptural.\",\n  \"artistic rug\": \"A muted teal artistic rug made with woven wool that is abstract and textured.\",\n  \"wall mounted projector\": \"A matte black wall mounted projector made with lightweight plastic that is compact and sleek.\",\n  \"storage cabinet 1\": \"A deep navy storage cabinet made with lacquered wood that is streamlined and spacious.\",\n  \"storage cabinet 2\": \"A deep navy storage cabinet made with lacquered wood that is streamlined and spacious.\",\n  \"adjustable chair 1\": \"A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.\",\n  \"adjustable chair 2\": \"A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.\",\n  \"adjustable chair 3\": \"A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.\",\n  \"adjustable chair 4\": \"A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.\",\n  \"adjustable chair 5\": \"A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.\",\n  \"pendant light 1\": \"A frosted glass pendant light made with brushed metal that is spherical and diffused.\",\n  \"pendant light 2\": \"A frosted glass pendant light made with brushed metal that is spherical and diffused.\",\n  \"whiteboard\": \"A glossy white whiteboard made with magnetic steel that is frameless and smooth.\",\n  \"charging station\": \"A matte silver charging station made with durable plastic that is compact and multi-port.\",\n  \"sound absorbing panel 1\": \"A soft gray sound absorbing panel made with acoustic foam that is geometric and lightweight.\",\n  \"sound absorbing panel 2\": \"A soft gray sound absorbing panel made with acoustic foam that is geometric and lightweight.\",\n  \"sound absorbing panel 3\": \"A soft gray sound absorbing panel made with acoustic foam that is geometric and lightweight.\",\n  \"sound absorbing panel 4\": \"A soft gray sound absorbing panel made with acoustic foam that is geometric and lightweight.\"\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_objects_relations": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 24.07945129100699,
+          "prompt_tokens": 1529,
+          "completion_tokens": 557,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nYou are given some room types that can be found in schools.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"resource room\": [\"ethereal\", \"inviting\", \"sophisticated\", \"contemporary\", \"bohemian\", \"lavish\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"resource room\": \"The resource room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"resource room\": \"The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nParticularly, you are working on a resource room with the following description: _{description}_\nThis room contains the following objects (each coupled with a description): _{objects}_\nNow, be as creative as you can (but remain realistic and practical) and generate sufficient 3-tuples of [objectA, relation, objectB] (which encode different relations between pairs of objects).\n`objectA` and `objectB` are object names; `relation` is a phrase or an incomplete sentence (numerical values can be optionally included, such as a desired distance (meter) between two objects) that describes how `objectA` is physically related to `objectB` according to `relation`.\nIn other words, a 3-tuple should be able to resemble the following sentence: \"`objectA` is `relation` `objectB`.\"\nFor example, if a coffee cup is placed on top of a table, you could generate `[\"coffee cup\", \"on\", \"table\"]`.\n\n## Guidance\n\n- **All** objects **MUST** be used at least once.\n\n## Known information\n\n_{description}_: The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance.\n\n_{objects}_: {\"bookshelf 1\": \"A sleek white bookshelf made with polished wood that is minimalist and modern.\", \"bookshelf 2\": \"A sleek white bookshelf made with polished wood that is minimalist and modern.\", \"bookshelf 3\": \"A sleek white bookshelf made with polished wood that is minimalist and modern.\", \"bookshelf 4\": \"A sleek white bookshelf made with polished wood that is minimalist and modern.\", \"reading table 1\": \"A warm oak reading table made with smooth laminate that is clean-lined and functional.\", \"reading table 2\": \"A warm oak reading table made with smooth laminate that is clean-lined and functional.\", \"floor lamp 1\": \"A brushed brass floor lamp made with matte metal that is slender and elegant.\", \"floor lamp 2\": \"A brushed brass floor lamp made with matte metal that is slender and elegant.\", \"floor lamp 3\": \"A brushed brass floor lamp made with matte metal that is slender and elegant.\", \"modular sofa\": \"A soft gray modular sofa made with plush fabric that is curvaceous and inviting.\", \"decorative plant 1\": \"A vibrant green decorative plant made with ceramic that is lush and sculptural.\", \"decorative plant 2\": \"A vibrant green decorative plant made with ceramic that is lush and sculptural.\", \"decorative plant 3\": \"A vibrant green decorative plant made with ceramic that is lush and sculptural.\", \"decorative plant 4\": \"A vibrant green decorative plant made with ceramic that is lush and sculptural.\", \"decorative plant 5\": \"A vibrant green decorative plant made with ceramic that is lush and sculptural.\", \"artistic rug\": \"A muted teal artistic rug made with woven wool that is abstract and textured.\", \"wall mounted projector\": \"A matte black wall mounted projector made with lightweight plastic that is compact and sleek.\", \"storage cabinet 1\": \"A deep navy storage cabinet made with lacquered wood that is streamlined and spacious.\", \"storage cabinet 2\": \"A deep navy storage cabinet made with lacquered wood that is streamlined and spacious.\", \"adjustable chair 1\": \"A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.\", \"adjustable chair 2\": \"A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.\", \"adjustable chair 3\": \"A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.\", \"adjustable chair 4\": \"A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.\", \"adjustable chair 5\": \"A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.\", \"pendant light 1\": \"A frosted glass pendant light made with brushed metal that is spherical and diffused.\", \"pendant light 2\": \"A frosted glass pendant light made with brushed metal that is spherical and diffused.\", \"whiteboard\": \"A glossy white whiteboard made with magnetic steel that is frameless and smooth.\", \"charging station\": \"A matte silver charging station made with durable plastic that is compact and multi-port.\", \"sound absorbing panel 1\": \"A soft gray sound absorbing panel made with acoustic foam that is geometric and lightweight.\", \"sound absorbing panel 2\": \"A soft gray sound absorbing panel made with acoustic foam that is geometric and lightweight.\", \"sound absorbing panel 3\": \"A soft gray sound absorbing panel made with acoustic foam that is geometric and lightweight.\", \"sound absorbing panel 4\": \"A soft gray sound absorbing panel made with acoustic foam that is geometric and lightweight.\"}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\nYou **MUST** use **all** provided object names **as is**.\n\n{\n  \"relations\": [\n    [\"<<USE_PROVIDED_OBJECT_NAME>>\", \"<<FILL_IN_RELATION>>\", \"<<USE_PROVIDED_OBJECT_NAME>>\"],\n    ...\n  ]\n}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"relations\": [\n    [\"bookshelf 1\", \"placed adjacent to\", \"bookshelf 2\"],\n    [\"bookshelf 2\", \"placed adjacent to\", \"bookshelf 3\"],\n    [\"bookshelf 3\", \"placed adjacent to\", \"bookshelf 4\"],\n    [\"bookshelf 4\", \"positioned 1 meter away from\", \"storage cabinet 1\"],\n    [\"storage cabinet 1\", \"placed opposite to\", \"storage cabinet 2\"],\n    [\"reading table 1\", \"centered between\", \"floor lamp 1\"],\n    [\"reading table 2\", \"centered between\", \"floor lamp 2\"],\n    [\"floor lamp 1\", \"positioned 0.5 meters behind\", \"adjustable chair 1\"],\n    [\"floor lamp 2\", \"positioned 0.5 meters behind\", \"adjustable chair 2\"],\n    [\"floor lamp 3\", \"placed next to\", \"modular sofa\"],\n    [\"modular sofa\", \"placed on top of\", \"artistic rug\"],\n    [\"decorative plant 1\", \"positioned in the corner near\", \"bookshelf 1\"],\n    [\"decorative plant 2\", \"placed beside\", \"reading table 1\"],\n    [\"decorative plant 3\", \"positioned next to\", \"storage cabinet 2\"],\n    [\"decorative plant 4\", \"placed near\", \"whiteboard\"],\n    [\"decorative plant 5\", \"positioned beside\", \"charging station\"],\n    [\"wall mounted projector\", \"mounted above\", \"whiteboard\"],\n    [\"adjustable chair 3\", \"placed at\", \"reading table 1\"],\n    [\"adjustable chair 4\", \"placed at\", \"reading table 2\"],\n    [\"adjustable chair 5\", \"positioned near\", \"modular sofa\"],\n    [\"pendant light 1\", \"hung directly above\", \"reading table 1\"],\n    [\"pendant light 2\", \"hung directly above\", \"reading table 2\"],\n    [\"whiteboard\", \"mounted on the wall opposite to\", \"storage cabinet 1\"],\n    [\"charging station\", \"placed on the wall near\", \"adjustable chair 5\"],\n    [\"sound absorbing panel 1\", \"mounted on the wall behind\", \"bookshelf 1\"],\n    [\"sound absorbing panel 2\", \"mounted on the wall behind\", \"bookshelf 2\"],\n    [\"sound absorbing panel 3\", \"mounted on the wall behind\", \"bookshelf 3\"],\n    [\"sound absorbing panel 4\", \"mounted on the wall behind\", \"bookshelf 4\"]\n  ]\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_summary": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 18.414806041982956,
+          "prompt_tokens": 2064,
+          "completion_tokens": 382,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nYou are given some room types that can be found in schools.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"resource room\": [\"ethereal\", \"inviting\", \"sophisticated\", \"contemporary\", \"bohemian\", \"lavish\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"resource room\": \"The resource room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"resource room\": \"The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nParticularly, you are working on a resource room with the following description: _{description}_\nThis room contains the following objects (each coupled with a description): _{objects}_\nThese objects are related to one another: _{object-relations}_\nNow, using _{objects}_ and _{object-relations}_, generate a **one-paragraph** summary regarding the objects in this room as well as where they are exactly placed and how they are exactly related.\nYou **MUST** keep every object's description.\n\n## Guidance\n\n- **All** given objects must be used, but you can use them in any order you want.\n- If there is a collection of similar/identical objects, you **MUST explicitly** mention the **number** of objects (e.g., \"five books\" instead of \"a collection of books\").\n- Each element in _{object-relations}_ is a 3-tuple [objectA, relation, objectB] which encodes a relation between a pair of objects.\n`objectA` and `objectB` are object names; `relation` is a phrase or an incomplete sentence (numerical values can be optionally included) that describes how `objectA` is physically related to `objectB` according to `relation`.\n- You may use \"looking from ...\" to describe the room from a specific perspective, making the summary more vivid.\n\n## Known information\n\n_{description}_: The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance.\n\n_{objects}_: {\"bookshelf 1\": \"A sleek white bookshelf made with polished wood that is minimalist and modern.\", \"bookshelf 2\": \"A sleek white bookshelf made with polished wood that is minimalist and modern.\", \"bookshelf 3\": \"A sleek white bookshelf made with polished wood that is minimalist and modern.\", \"bookshelf 4\": \"A sleek white bookshelf made with polished wood that is minimalist and modern.\", \"reading table 1\": \"A warm oak reading table made with smooth laminate that is clean-lined and functional.\", \"reading table 2\": \"A warm oak reading table made with smooth laminate that is clean-lined and functional.\", \"floor lamp 1\": \"A brushed brass floor lamp made with matte metal that is slender and elegant.\", \"floor lamp 2\": \"A brushed brass floor lamp made with matte metal that is slender and elegant.\", \"floor lamp 3\": \"A brushed brass floor lamp made with matte metal that is slender and elegant.\", \"modular sofa\": \"A soft gray modular sofa made with plush fabric that is curvaceous and inviting.\", \"decorative plant 1\": \"A vibrant green decorative plant made with ceramic that is lush and sculptural.\", \"decorative plant 2\": \"A vibrant green decorative plant made with ceramic that is lush and sculptural.\", \"decorative plant 3\": \"A vibrant green decorative plant made with ceramic that is lush and sculptural.\", \"decorative plant 4\": \"A vibrant green decorative plant made with ceramic that is lush and sculptural.\", \"decorative plant 5\": \"A vibrant green decorative plant made with ceramic that is lush and sculptural.\", \"artistic rug\": \"A muted teal artistic rug made with woven wool that is abstract and textured.\", \"wall mounted projector\": \"A matte black wall mounted projector made with lightweight plastic that is compact and sleek.\", \"storage cabinet 1\": \"A deep navy storage cabinet made with lacquered wood that is streamlined and spacious.\", \"storage cabinet 2\": \"A deep navy storage cabinet made with lacquered wood that is streamlined and spacious.\", \"adjustable chair 1\": \"A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.\", \"adjustable chair 2\": \"A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.\", \"adjustable chair 3\": \"A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.\", \"adjustable chair 4\": \"A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.\", \"adjustable chair 5\": \"A neutral beige adjustable chair made with breathable mesh that is ergonomic and supportive.\", \"pendant light 1\": \"A frosted glass pendant light made with brushed metal that is spherical and diffused.\", \"pendant light 2\": \"A frosted glass pendant light made with brushed metal that is spherical and diffused.\", \"whiteboard\": \"A glossy white whiteboard made with magnetic steel that is frameless and smooth.\", \"charging station\": \"A matte silver charging station made with durable plastic that is compact and multi-port.\", \"sound absorbing panel 1\": \"A soft gray sound absorbing panel made with acoustic foam that is geometric and lightweight.\", \"sound absorbing panel 2\": \"A soft gray sound absorbing panel made with acoustic foam that is geometric and lightweight.\", \"sound absorbing panel 3\": \"A soft gray sound absorbing panel made with acoustic foam that is geometric and lightweight.\", \"sound absorbing panel 4\": \"A soft gray sound absorbing panel made with acoustic foam that is geometric and lightweight.\"}\n\n_{object-relations}_: [[\"bookshelf 1\", \"placed adjacent to\", \"bookshelf 2\"], [\"bookshelf 2\", \"placed adjacent to\", \"bookshelf 3\"], [\"bookshelf 3\", \"placed adjacent to\", \"bookshelf 4\"], [\"bookshelf 4\", \"positioned 1 meter away from\", \"storage cabinet 1\"], [\"storage cabinet 1\", \"placed opposite to\", \"storage cabinet 2\"], [\"reading table 1\", \"centered between\", \"floor lamp 1\"], [\"reading table 2\", \"centered between\", \"floor lamp 2\"], [\"floor lamp 1\", \"positioned 0.5 meters behind\", \"adjustable chair 1\"], [\"floor lamp 2\", \"positioned 0.5 meters behind\", \"adjustable chair 2\"], [\"floor lamp 3\", \"placed next to\", \"modular sofa\"], [\"modular sofa\", \"placed on top of\", \"artistic rug\"], [\"decorative plant 1\", \"positioned in the corner near\", \"bookshelf 1\"], [\"decorative plant 2\", \"placed beside\", \"reading table 1\"], [\"decorative plant 3\", \"positioned next to\", \"storage cabinet 2\"], [\"decorative plant 4\", \"placed near\", \"whiteboard\"], [\"decorative plant 5\", \"positioned beside\", \"charging station\"], [\"wall mounted projector\", \"mounted above\", \"whiteboard\"], [\"adjustable chair 3\", \"placed at\", \"reading table 1\"], [\"adjustable chair 4\", \"placed at\", \"reading table 2\"], [\"adjustable chair 5\", \"positioned near\", \"modular sofa\"], [\"pendant light 1\", \"hung directly above\", \"reading table 1\"], [\"pendant light 2\", \"hung directly above\", \"reading table 2\"], [\"whiteboard\", \"mounted on the wall opposite to\", \"storage cabinet 1\"], [\"charging station\", \"placed on the wall near\", \"adjustable chair 5\"], [\"sound absorbing panel 1\", \"mounted on the wall behind\", \"bookshelf 1\"], [\"sound absorbing panel 2\", \"mounted on the wall behind\", \"bookshelf 2\"], [\"sound absorbing panel 3\", \"mounted on the wall behind\", \"bookshelf 3\"], [\"sound absorbing panel 4\", \"mounted on the wall behind\", \"bookshelf 4\"]]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"summary\": \"In this room, <<FILL_IN>>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"summary\": \"In this room, looking from the entrance, four sleek white bookshelves made with polished wood that are minimalist and modern are placed adjacently, with bookshelf 1 near decorative plant 1, a vibrant green ceramic plant that is lush and sculptural, and sound absorbing panel 1, a soft gray geometric panel made with acoustic foam, mounted behind it. Bookshelf 4 is positioned 1 meter away from storage cabinet 1, a deep navy lacquered wood cabinet that is streamlined and spacious, which is placed opposite to storage cabinet 2, beside decorative plant 3. Two warm oak reading tables made with smooth laminate that are clean-lined and functional are centered between floor lamps 1 and 2, brushed brass lamps made with matte metal that are slender and elegant, with floor lamp 1 positioned 0.5 meters behind adjustable chair 1, a neutral beige ergonomic chair made with breathable mesh, and floor lamp 2 similarly placed behind adjustable chair 2. Floor lamp 3 is next to a soft gray modular sofa made with plush fabric that is curvaceous and inviting, placed on top of a muted teal artistic rug made with woven wool that is abstract and textured. The wall mounted projector, a matte black compact device made with lightweight plastic, is mounted above the glossy white magnetic whiteboard that is frameless and smooth, opposite storage cabinet 1. Five decorative plants are placed throughout the room, including near the whiteboard and charging station, a matte silver multi-port device made with durable plastic. Five adjustable chairs are positioned at reading tables and near the sofa, while two frosted glass pendant lights made with brushed metal that are spherical and diffused hang directly above the reading tables. Four sound absorbing panels are mounted behind the bookshelves, completing the room's functional yet elegant layout.\"}\n```"
+            }
+          ]
+        }
+      ]
+    },
+    "basic_summaries": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 5.654549584025517,
+      "prompt_tokens": 755,
+      "completion_tokens": 60,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nYou are designing one with 1 room(s) (each has its own summary): _{rooms}_\nSome of these rooms are connected (with or without a door): _{connections}_\nNow, generate two concise summaries in your own words.\nThe first one is a one-sentence overall description of the building's configuration (floor plan).\nThe second one consists of all connections in this building (i.e., all pairs of rooms that are connected, how they are connected, and the appearance of connection objects).\n\n## Guidance\n\n- In _{connections}_, region \"__outside__\" refers to the space outside the final building, which could be indoor or outdoor.\n- A connection type of \"open\" refers to the absence of a shared boundary between two rooms.\n\n## Known information\n\n_{rooms}_: {\"resource room\": \"The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance. In this room, looking from the entrance, four sleek white bookshelves made with polished wood that are minimalist and modern are placed adjacently, with bookshelf 1 near decorative plant 1, a vibrant green ceramic plant that is lush and sculptural, and sound absorbing panel 1, a soft gray geometric panel made with acoustic foam, mounted behind it. Bookshelf 4 is positioned 1 meter away from storage cabinet 1, a deep navy lacquered wood cabinet that is streamlined and spacious, which is placed opposite to storage cabinet 2, beside decorative plant 3. Two warm oak reading tables made with smooth laminate that are clean-lined and functional are centered between floor lamps 1 and 2, brushed brass lamps made with matte metal that are slender and elegant, with floor lamp 1 positioned 0.5 meters behind adjustable chair 1, a neutral beige ergonomic chair made with breathable mesh, and floor lamp 2 similarly placed behind adjustable chair 2. Floor lamp 3 is next to a soft gray modular sofa made with plush fabric that is curvaceous and inviting, placed on top of a muted teal artistic rug made with woven wool that is abstract and textured. The wall mounted projector, a matte black compact device made with lightweight plastic, is mounted above the glossy white magnetic whiteboard that is frameless and smooth, opposite storage cabinet 1. Five decorative plants are placed throughout the room, including near the whiteboard and charging station, a matte silver multi-port device made with durable plastic. Five adjustable chairs are positioned at reading tables and near the sofa, while two frosted glass pendant lights made with brushed metal that are spherical and diffused hang directly above the reading tables. Four sound absorbing panels are mounted behind the bookshelves, completing the room's functional yet elegant layout.\"}\n\n_{connections}_: [{\"region_a\": \"resource room\", \"region_b\": \"__outside__\", \"conn_type\": \"sliding door\", \"description\": \"A sleek silver sliding door made with tempered glass that is frameless and minimalist.\"}]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"overall_summary\": \"<<FILL_IN>>\", \"connections_summary\": \"<<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "{\n  \"overall_summary\": \"The building features a single, contemporary resource room with a sophisticated layout and elegant design elements.\",\n  \"connections_summary\": \"The resource room is connected to the outside via a sleek silver sliding door made with tempered glass that is frameless and minimalist.\"\n}"
+        }
+      ]
+    },
+    "humanized_prompt": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 12.12516383297043,
+      "prompt_tokens": 658,
+      "completion_tokens": 223,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional real estate agent who excels at introducing any type of real estate to your clients.\nYou are given a very comprehensive description of one of the latest schools in your area: _{description}_\nNow, rewrite the description into a one-paragraph natural speech (starting with \"A\"/\"An\") that is easy to understand and appealing to your clients.\n\n## Guidance\n\n- You **MUST** use all provided information from the description in your prompt.\n\n## Known information\n\n_{description}_: The building features a single, contemporary resource room with a sophisticated layout and elegant design elements. The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance. In this room, looking from the entrance, four sleek white bookshelves made with polished wood that are minimalist and modern are placed adjacently, with bookshelf 1 near decorative plant 1, a vibrant green ceramic plant that is lush and sculptural, and sound absorbing panel 1, a soft gray geometric panel made with acoustic foam, mounted behind it. Bookshelf 4 is positioned 1 meter away from storage cabinet 1, a deep navy lacquered wood cabinet that is streamlined and spacious, which is placed opposite to storage cabinet 2, beside decorative plant 3. Two warm oak reading tables made with smooth laminate that are clean-lined and functional are centered between floor lamps 1 and 2, brushed brass lamps made with matte metal that are slender and elegant, with floor lamp 1 positioned 0.5 meters behind adjustable chair 1, a neutral beige ergonomic chair made with breathable mesh, and floor lamp 2 similarly placed behind adjustable chair 2. Floor lamp 3 is next to a soft gray modular sofa made with plush fabric that is curvaceous and inviting, placed on top of a muted teal artistic rug made with woven wool that is abstract and textured. The wall mounted projector, a matte black compact device made with lightweight plastic, is mounted above the glossy white magnetic whiteboard that is frameless and smooth, opposite storage cabinet 1. Five decorative plants are placed throughout the room, including near the whiteboard and charging station, a matte silver multi-port device made with durable plastic. Five adjustable chairs are positioned at reading tables and near the sofa, while two frosted glass pendant lights made with brushed metal that are spherical and diffused hang directly above the reading tables. Four sound absorbing panels are mounted behind the bookshelves, completing the room's functional yet elegant layout. The resource room is connected to the outside via a sleek silver sliding door made with tempered glass that is frameless and minimalist.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"speech\": \"A/An <<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "```json\n{\"speech\": \"A contemporary resource room with an elegant and sophisticated layout awaits you, featuring an inviting ethereal palette on the walls and lavish bohemian-inspired flooring. Four sleek white bookshelves made of polished wood stand adjacent to each other, with the first near a vibrant green ceramic plant and a soft gray geometric sound-absorbing panel. The fourth bookshelf is a meter away from a deep navy lacquered wood storage cabinet, opposite another cabinet beside a decorative plant. Two warm oak reading tables, flanked by brushed brass floor lamps, sit between ergonomic beige mesh chairs. A plush gray modular sofa rests on a muted teal artistic rug, with a third floor lamp nearby. A matte black wall-mounted projector overlooks a glossy white magnetic whiteboard, while five decorative plants and a matte silver charging station add life and functionality. Five adjustable chairs and two frosted glass pendant lights complete the space, along with four sound-absorbing panels. The room is accessible via a sleek silver sliding door with tempered glass, blending minimalist design with practicality.\"}\n```"
+        }
+      ]
+    },
+    "sentence_prompt": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 4.204641208052635,
+      "prompt_tokens": 624,
+      "completion_tokens": 38,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional real estate agent who excels at introducing any type of real estate to your clients.\nYou are given a very comprehensive description of one of the latest schools in your area: _{description}_\nNow, summarize the description into one concise sentence (starting with \"A\"/\"An\").\n\n## Known information\n\n_{description}_: The building features a single, contemporary resource room with a sophisticated layout and elegant design elements. The resource room features a contemporary design with a sophisticated layout. Its walls are adorned in an inviting, ethereal palette, while the floor boasts lavish materials that add a touch of bohemian elegance. In this room, looking from the entrance, four sleek white bookshelves made with polished wood that are minimalist and modern are placed adjacently, with bookshelf 1 near decorative plant 1, a vibrant green ceramic plant that is lush and sculptural, and sound absorbing panel 1, a soft gray geometric panel made with acoustic foam, mounted behind it. Bookshelf 4 is positioned 1 meter away from storage cabinet 1, a deep navy lacquered wood cabinet that is streamlined and spacious, which is placed opposite to storage cabinet 2, beside decorative plant 3. Two warm oak reading tables made with smooth laminate that are clean-lined and functional are centered between floor lamps 1 and 2, brushed brass lamps made with matte metal that are slender and elegant, with floor lamp 1 positioned 0.5 meters behind adjustable chair 1, a neutral beige ergonomic chair made with breathable mesh, and floor lamp 2 similarly placed behind adjustable chair 2. Floor lamp 3 is next to a soft gray modular sofa made with plush fabric that is curvaceous and inviting, placed on top of a muted teal artistic rug made with woven wool that is abstract and textured. The wall mounted projector, a matte black compact device made with lightweight plastic, is mounted above the glossy white magnetic whiteboard that is frameless and smooth, opposite storage cabinet 1. Five decorative plants are placed throughout the room, including near the whiteboard and charging station, a matte silver multi-port device made with durable plastic. Five adjustable chairs are positioned at reading tables and near the sofa, while two frosted glass pendant lights made with brushed metal that are spherical and diffused hang directly above the reading tables. Four sound absorbing panels are mounted behind the bookshelves, completing the room's functional yet elegant layout. The resource room is connected to the outside via a sleek silver sliding door made with tempered glass that is frameless and minimalist.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"sentence\": \"A/An <<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "```json\n{\"sentence\": \"A contemporary resource room with a sophisticated layout, elegant design elements, and functional furnishings including bookshelves, reading tables, and decorative plants.\"}\n```"
+        }
+      ]
+    }
+  }
+}

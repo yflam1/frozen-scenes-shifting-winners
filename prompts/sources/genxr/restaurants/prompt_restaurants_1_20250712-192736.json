@@ -1,0 +1,576 @@
+{
+  "buildings": "restaurants",
+  "config": {
+    "llm": "v3",
+    "temperature": 0.7,
+    "max_n_per_object": 5,
+    "n_rooms": 1,
+    "n_prompts": 5,
+    "max_retries": 10,
+    "max_threads": 4,
+    "parent_dir": "genxr-dataset",
+    "verbose": true
+  },
+  "log_path": "genxr-dataset/restaurants/1/prompt_restaurants_1_20250712-192736.json",
+  "n_rooms": 1,
+  "rooms": {
+    "private dining room": {
+      "adjectives": [
+        "cramped",
+        "homey",
+        "vibrant",
+        "vintage",
+        "elegant",
+        "tidy"
+      ],
+      "description": "The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor.",
+      "objects_list": [
+        "dining table",
+        "upholstered chair 1",
+        "upholstered chair 2",
+        "upholstered chair 3",
+        "upholstered chair 4",
+        "upholstered chair 5",
+        "vintage chandelier",
+        "antique sideboard",
+        "ornamental mirror",
+        "wooden bookshelf",
+        "table lamp 1",
+        "table lamp 2",
+        "woven rug",
+        "framed artwork 1",
+        "framed artwork 2",
+        "framed artwork 3",
+        "crystal decanter",
+        "silver candlestick 1",
+        "silver candlestick 2",
+        "velvet curtain 1",
+        "velvet curtain 2",
+        "ceramic vase",
+        "brass coat rack"
+      ],
+      "objects_desc": {
+        "dining table": "A dark wooden dining table made with polished oak that is sturdy and elegantly carved.",
+        "upholstered chair 1": "A deep green upholstered chair made with velvet that is plush and tufted.",
+        "upholstered chair 2": "A deep green upholstered chair made with velvet that is plush and tufted.",
+        "upholstered chair 3": "A deep green upholstered chair made with velvet that is plush and tufted.",
+        "upholstered chair 4": "A deep green upholstered chair made with velvet that is plush and tufted.",
+        "upholstered chair 5": "A deep green upholstered chair made with velvet that is plush and tufted.",
+        "vintage chandelier": "A bronze vintage chandelier made with wrought iron and crystal that is ornate and softly glowing.",
+        "antique sideboard": "A mahogany antique sideboard made with aged wood that is intricately detailed with brass handles.",
+        "ornamental mirror": "A gilded ornamental mirror made with carved wood and gold leaf that is framed with floral motifs.",
+        "wooden bookshelf": "A rich brown wooden bookshelf made with reclaimed oak that is rustic yet refined.",
+        "table lamp 1": "A cream-colored table lamp made with ceramic that is hand-painted with delicate patterns.",
+        "table lamp 2": "A cream-colored table lamp made with ceramic that is hand-painted with delicate patterns.",
+        "woven rug": "A burgundy woven rug made with wool that is thick and patterned with geometric designs.",
+        "framed artwork 1": "A gold-framed artwork made with oil paint on canvas that is depicting a pastoral landscape.",
+        "framed artwork 2": "A gold-framed artwork made with oil paint on canvas that is depicting a pastoral landscape.",
+        "framed artwork 3": "A gold-framed artwork made with oil paint on canvas that is depicting a pastoral landscape.",
+        "crystal decanter": "A clear crystal decanter made with cut glass that is faceted and sparkling.",
+        "silver candlestick 1": "A polished silver candlestick made with sterling silver that is sleek and tapered.",
+        "silver candlestick 2": "A polished silver candlestick made with sterling silver that is sleek and tapered.",
+        "velvet curtain 1": "A navy blue velvet curtain made with heavy fabric that is lined and pleated.",
+        "velvet curtain 2": "A navy blue velvet curtain made with heavy fabric that is lined and pleated.",
+        "ceramic vase": "A white ceramic vase made with hand-glazed porcelain that is smooth and subtly textured.",
+        "brass coat rack": "A gleaming brass coat rack made with solid brass that is sturdy and antique-finished."
+      },
+      "object_relations": [
+        [
+          "dining table",
+          "centered on",
+          "woven rug"
+        ],
+        [
+          "upholstered chair 1",
+          "placed 0.5m from",
+          "dining table"
+        ],
+        [
+          "upholstered chair 2",
+          "placed 0.5m from",
+          "dining table"
+        ],
+        [
+          "upholstered chair 3",
+          "placed 0.5m from",
+          "dining table"
+        ],
+        [
+          "upholstered chair 4",
+          "placed 0.5m from",
+          "dining table"
+        ],
+        [
+          "upholstered chair 5",
+          "placed 0.5m from",
+          "dining table"
+        ],
+        [
+          "vintage chandelier",
+          "hanging 1.5m above",
+          "dining table"
+        ],
+        [
+          "antique sideboard",
+          "positioned against the wall, 1m to the left of",
+          "ornamental mirror"
+        ],
+        [
+          "ornamental mirror",
+          "mounted above",
+          "antique sideboard"
+        ],
+        [
+          "wooden bookshelf",
+          "placed against the wall, 2m to the right of",
+          "antique sideboard"
+        ],
+        [
+          "table lamp 1",
+          "placed on",
+          "antique sideboard"
+        ],
+        [
+          "table lamp 2",
+          "placed on",
+          "wooden bookshelf"
+        ],
+        [
+          "framed artwork 1",
+          "hung on the wall, 0.5m above",
+          "antique sideboard"
+        ],
+        [
+          "framed artwork 2",
+          "hung on the wall, 0.5m above",
+          "wooden bookshelf"
+        ],
+        [
+          "crystal decanter",
+          "displayed on",
+          "antique sideboard"
+        ],
+        [
+          "silver candlestick 1",
+          "placed on",
+          "dining table"
+        ],
+        [
+          "silver candlestick 2",
+          "placed on",
+          "dining table"
+        ],
+        [
+          "velvet curtain 1",
+          "draped over the window, adjacent to",
+          "wooden bookshelf"
+        ],
+        [
+          "velvet curtain 2",
+          "draped over the window, adjacent to",
+          "antique sideboard"
+        ],
+        [
+          "ceramic vase",
+          "placed on",
+          "dining table"
+        ],
+        [
+          "brass coat rack",
+          "positioned near the entrance, 1m from",
+          "velvet curtain 1"
+        ]
+      ],
+      "summary": "In this room, a dark wooden dining table made with polished oak that is sturdy and elegantly carved is centered on a burgundy woven rug made with wool that is thick and patterned with geometric designs. Five deep green upholstered chairs made with velvet that are plush and tufted are each placed 0.5m from the dining table. A bronze vintage chandelier made with wrought iron and crystal that is ornate and softly glowing hangs 1.5m above the dining table. A mahogany antique sideboard made with aged wood that is intricately detailed with brass handles is positioned against the wall, 1m to the left of a gilded ornamental mirror made with carved wood and gold leaf that is framed with floral motifs, which is mounted above the sideboard. A rich brown wooden bookshelf made with reclaimed oak that is rustic yet refined is placed against the wall, 2m to the right of the sideboard. A cream-colored table lamp made with ceramic that is hand-painted with delicate patterns is placed on the sideboard, while another identical lamp is placed on the bookshelf. Three gold-framed artworks made with oil paint on canvas that depict pastoral landscapes are hung on the wall, with one 0.5m above the sideboard and another 0.5m above the bookshelf. A clear crystal decanter made with cut glass that is faceted and sparkling is displayed on the sideboard, while two polished silver candlesticks made with sterling silver that are sleek and tapered are placed on the dining table alongside a white ceramic vase made with hand-glazed porcelain that is smooth and subtly textured. Two navy blue velvet curtains made with heavy fabric that are lined and pleated are draped over the windows, one adjacent to the bookshelf and the other adjacent to the sideboard. A gleaming brass coat rack made with solid brass that is sturdy and antique-finished is positioned near the entrance, 1m from the first velvet curtain."
+    }
+  },
+  "connections": [
+    {
+      "region_a": "private dining room",
+      "region_b": "__outside__",
+      "conn_type": "door",
+      "description": "A rich mahogany door made with solid wood that is intricately carved and polished to a warm, vintage sheen."
+    },
+    {
+      "region_a": "private dining room",
+      "region_b": "__outside__",
+      "conn_type": "window",
+      "description": "A bronze-framed window made with tempered glass that is sleek, slightly arched, and adorned with delicate floral etchings."
+    }
+  ],
+  "summaries": {
+    "overall": "The building features a single, elegantly designed private dining room with a vintage charm, connected to the outside via a door and a window.",
+    "connections": "The private dining room is connected to the outside by a rich mahogany door made with solid wood that is intricately carved and polished, and a bronze-framed window made with tempered glass that is sleek, slightly arched, and adorned with delicate floral etchings."
+  },
+  "prompts": {
+    "full": "The building features a single, elegantly designed private dining room with a vintage charm, connected to the outside via a door and a window. The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor. In this room, a dark wooden dining table made with polished oak that is sturdy and elegantly carved is centered on a burgundy woven rug made with wool that is thick and patterned with geometric designs. Five deep green upholstered chairs made with velvet that are plush and tufted are each placed 0.5m from the dining table. A bronze vintage chandelier made with wrought iron and crystal that is ornate and softly glowing hangs 1.5m above the dining table. A mahogany antique sideboard made with aged wood that is intricately detailed with brass handles is positioned against the wall, 1m to the left of a gilded ornamental mirror made with carved wood and gold leaf that is framed with floral motifs, which is mounted above the sideboard. A rich brown wooden bookshelf made with reclaimed oak that is rustic yet refined is placed against the wall, 2m to the right of the sideboard. A cream-colored table lamp made with ceramic that is hand-painted with delicate patterns is placed on the sideboard, while another identical lamp is placed on the bookshelf. Three gold-framed artworks made with oil paint on canvas that depict pastoral landscapes are hung on the wall, with one 0.5m above the sideboard and another 0.5m above the bookshelf. A clear crystal decanter made with cut glass that is faceted and sparkling is displayed on the sideboard, while two polished silver candlesticks made with sterling silver that are sleek and tapered are placed on the dining table alongside a white ceramic vase made with hand-glazed porcelain that is smooth and subtly textured. Two navy blue velvet curtains made with heavy fabric that are lined and pleated are draped over the windows, one adjacent to the bookshelf and the other adjacent to the sideboard. A gleaming brass coat rack made with solid brass that is sturdy and antique-finished is positioned near the entrance, 1m from the first velvet curtain. The private dining room is connected to the outside by a rich mahogany door made with solid wood that is intricately carved and polished, and a bronze-framed window made with tempered glass that is sleek, slightly arched, and adorned with delicate floral etchings.",
+    "humanized": "An elegantly designed private dining room with vintage charm awaits, featuring vibrant walls and a homey wooden floor. At its heart is a sturdy, polished oak dining table on a thick, geometric-patterned burgundy wool rug, surrounded by five plush, deep green velvet chairs. A softly glowing bronze chandelier hangs above, while a mahogany sideboard with brass handles sits beneath a gilded floral mirror. To the side, a rustic oak bookshelf holds hand-painted ceramic lamps, and pastoral oil paintings adorn the walls. Crystal decanters, silver candlesticks, and a hand-glazed porcelain vase add refined touches, while navy blue velvet curtains frame the bronze-framed, floral-etched window. Near the intricately carved mahogany entrance, a brass coat rack completes this cozy, elegant space.",
+    "sentence": "An elegantly designed private dining room with vintage charm, featuring a dark oak dining table, velvet chairs, a bronze chandelier, and mahogany furnishings, adorned with vibrant hues and decorative accents.",
+    "pct_change_humanized": -0.7142857142857143,
+    "pct_change_sentence": -0.927360774818402
+  },
+  "edits": [
+    {
+      "instruction": "Modify the dark wooden dining table to a glass-top table with a brushed steel frame.",
+      "prompts": {
+        "full": "The building features a single, elegantly designed private dining room with a vintage charm, connected to the outside via a door and a window. The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor. In this room, a glass-top dining table with a brushed steel frame is centered on a burgundy woven rug made with wool that is thick and patterned with geometric designs. Five deep green upholstered chairs made with velvet that are plush and tufted are each placed 0.5m from the dining table. A bronze vintage chandelier made with wrought iron and crystal that is ornate and softly glowing hangs 1.5m above the dining table. A mahogany antique sideboard made with aged wood that is intricately detailed with brass handles is positioned against the wall, 1m to the left of a gilded ornamental mirror made with carved wood and gold leaf that is framed with floral motifs, which is mounted above the sideboard. A rich brown wooden bookshelf made with reclaimed oak that is rustic yet refined is placed against the wall, 2m to the right of the sideboard. A cream-colored table lamp made with ceramic that is hand-painted with delicate patterns is placed on the sideboard, while another identical lamp is placed on the bookshelf. Three gold-framed artworks made with oil paint on canvas that depict pastoral landscapes are hung on the wall, with one 0.5m above the sideboard and another 0.5m above the bookshelf. A clear crystal decanter made with cut glass that is faceted and sparkling is displayed on the sideboard, while two polished silver candlesticks made with sterling silver that are sleek and tapered are placed on the dining table alongside a white ceramic vase made with hand-glazed porcelain that is smooth and subtly textured. Two navy blue velvet curtains made with heavy fabric that are lined and pleated are draped over the windows, one adjacent to the bookshelf and the other adjacent to the sideboard. A gleaming brass coat rack made with solid brass that is sturdy and antique-finished is positioned near the entrance, 1m from the first velvet curtain. The private dining room is connected to the outside by a rich mahogany door made with solid wood that is intricately carved and polished, and a bronze-framed window made with tempered glass that is sleek, slightly arched, and adorned with delicate floral etchings.",
+        "humanized": null,
+        "sentence": "An elegantly designed private dining room with vintage charm features vibrant walls, a homey wooden floor, a glass-top dining table on a burgundy wool rug, deep green velvet chairs, a bronze chandelier, a mahogany sideboard, a gilded mirror, a rustic oak bookshelf, hand-painted ceramic lamps, gold-framed pastoral artworks, a crystal decanter, silver candlesticks, a hand-glazed porcelain vase, navy blue velvet curtains, a brass coat rack, and a mahogany door with a bronze-framed window.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    },
+    {
+      "instruction": "Change the style of the private dining room to a modern minimalist design with monochromatic tones and sleek furniture.",
+      "prompts": {
+        "full": "The building features a single, elegantly designed private dining room with a modern minimalist design, connected to the outside via a door and a window. The private dining room is a cozy, elegant space with monochromatic tones. Its walls are adorned in neutral, tidy hues, complemented by a sleek wooden floor. In this room, a dark wooden dining table made with polished oak that is sturdy and minimally designed is centered on a gray woven rug made with wool that is thick and plain. Five black upholstered chairs made with leather that are sleek and simple are each placed 0.5m from the dining table. A silver modern chandelier made with metal and glass that is simple and softly glowing hangs 1.5m above the dining table. A black minimalist sideboard made with wood that is smooth and detailed with chrome handles is positioned against the wall, 1m to the left of a frameless mirror made with glass that is sleek and unadorned, which is mounted above the sideboard. A black wooden bookshelf made with oak that is simple and refined is placed against the wall, 2m to the right of the sideboard. A white table lamp made with ceramic that is plain and smooth is placed on the sideboard, while another identical lamp is placed on the bookshelf. Three black-framed artworks made with ink on paper that depict abstract shapes are hung on the wall, with one 0.5m above the sideboard and another 0.5m above the bookshelf. A clear glass decanter made with cut glass that is simple and unadorned is displayed on the sideboard, while two polished chrome candlesticks made with metal that are sleek and straight are placed on the dining table alongside a white ceramic vase made with porcelain that is smooth and plain. Two gray curtains made with heavy fabric that are lined and simple are draped over the windows, one adjacent to the bookshelf and the other adjacent to the sideboard. A chrome coat rack made with metal that is sturdy and simple is positioned near the entrance, 1m from the first curtain. The private dining room is connected to the outside by a rich mahogany door made with solid wood that is minimally carved and polished, and a silver-framed window made with tempered glass that is sleek, slightly arched, and unadorned.",
+        "humanized": null,
+        "sentence": "An elegantly designed private dining room with a modern minimalist aesthetic features a dark oak dining table, black leather chairs, a silver chandelier, a black sideboard with chrome handles, a black oak bookshelf, monochromatic artworks, gray curtains, and a mahogany door, all set against neutral walls and a sleek wooden floor.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    },
+    {
+      "instruction": "Rotate the mahogany antique sideboard 90 degrees so it is positioned perpendicular to the wall.",
+      "prompts": {
+        "full": "The building features a single, elegantly designed private dining room with a vintage charm, connected to the outside via a door and a window. The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor. In this room, a dark wooden dining table made with polished oak that is sturdy and elegantly carved is centered on a burgundy woven rug made with wool that is thick and patterned with geometric designs. Five deep green upholstered chairs made with velvet that are plush and tufted are each placed 0.5m from the dining table. A bronze vintage chandelier made with wrought iron and crystal that is ornate and softly glowing hangs 1.5m above the dining table. A mahogany antique sideboard made with aged wood that is intricately detailed with brass handles is positioned perpendicular to the wall, 1m to the left of a gilded ornamental mirror made with carved wood and gold leaf that is framed with floral motifs, which is mounted above the sideboard. A rich brown wooden bookshelf made with reclaimed oak that is rustic yet refined is placed against the wall, 2m to the right of the sideboard. A cream-colored table lamp made with ceramic that is hand-painted with delicate patterns is placed on the sideboard, while another identical lamp is placed on the bookshelf. Three gold-framed artworks made with oil paint on canvas that depict pastoral landscapes are hung on the wall, with one 0.5m above the sideboard and another 0.5m above the bookshelf. A clear crystal decanter made with cut glass that is faceted and sparkling is displayed on the sideboard, while two polished silver candlesticks made with sterling silver that are sleek and tapered are placed on the dining table alongside a white ceramic vase made with hand-glazed porcelain that is smooth and subtly textured. Two navy blue velvet curtains made with heavy fabric that are lined and pleated are draped over the windows, one adjacent to the bookshelf and the other adjacent to the sideboard. A gleaming brass coat rack made with solid brass that is sturdy and antique-finished is positioned near the entrance, 1m from the first velvet curtain. The private dining room is connected to the outside by a rich mahogany door made with solid wood that is intricately carved and polished, and a bronze-framed window made with tempered glass that is sleek, slightly arched, and adorned with delicate floral etchings.",
+        "humanized": null,
+        "sentence": "An elegantly designed private dining room with vintage charm features a dark oak dining table, velvet chairs, a bronze chandelier, an antique sideboard, a gilded mirror, a rustic bookshelf, and decorative accents like crystal decanters and silver candlesticks, all set against vibrant walls and a wooden floor.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    }
+  ],
+  "conversations": {
+    "rooms_description": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 5.026509499992244,
+      "prompt_tokens": 287,
+      "completion_tokens": 44,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are given some room types that can be found in restaurants.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"private dining room\": [\"cramped\", \"homey\", \"vibrant\", \"vintage\", \"elegant\", \"tidy\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"private dining room\": \"The private dining room <FILL_IN>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "```json\n{\"private dining room\": \"The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor.\"}\n```"
+        }
+      ]
+    },
+    "connections_description": [
+      {
+        "model": "deepseek-chat",
+        "base_url": "https://api.deepseek.com/",
+        "max_tokens": 8192,
+        "temperature": 0.7,
+        "duration": 4.537774541997351,
+        "prompt_tokens": 647,
+        "completion_tokens": 34,
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are given some room types that can be found in restaurants.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"private dining room\": [\"cramped\", \"homey\", \"vibrant\", \"vintage\", \"elegant\", \"tidy\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"private dining room\": \"The private dining room <FILL_IN>\"}"
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": "```json\n{\"private dining room\": \"The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor.\"}\n```"
+          },
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are designing one that contains (1) \"private dining room\" and (2) \"__outside__\".\n(1) \"private dining room\" has the following description: _{description1}_\n(2) \"__outside__\" has the following description: _{description2}_\nThese two rooms are connected with a door.\nUsing your imagination, generate a concise description of the door's appearance (color, material, attributes; \"attributes\" refers to extra descriptive phrases that are solely about the object's appearance and are independent of other objects).\nA description **MUST** be able to resemble the following sentence: \"A/An `color` <<OBJECT_NAME>> made with `material` that is `attributes`.\"\n\n## Known information\n\n_{description1}_: The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor.\n\n_{description2}_: the space outside the final building, which could be indoor or outdoor\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"description\": \"<<FILL_IN>>\"}"
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": "```json\n{\"description\": \"A rich mahogany door made with solid wood that is intricately carved and polished to a warm, vintage sheen.\"}\n```"
+          }
+        ]
+      },
+      {
+        "model": "deepseek-chat",
+        "base_url": "https://api.deepseek.com/",
+        "max_tokens": 8192,
+        "temperature": 0.7,
+        "duration": 4.579771707998589,
+        "prompt_tokens": 647,
+        "completion_tokens": 34,
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are given some room types that can be found in restaurants.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"private dining room\": [\"cramped\", \"homey\", \"vibrant\", \"vintage\", \"elegant\", \"tidy\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"private dining room\": \"The private dining room <FILL_IN>\"}"
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": "```json\n{\"private dining room\": \"The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor.\"}\n```"
+          },
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are designing one that contains (1) \"private dining room\" and (2) \"__outside__\".\n(1) \"private dining room\" has the following description: _{description1}_\n(2) \"__outside__\" has the following description: _{description2}_\nThese two rooms are connected with a window.\nUsing your imagination, generate a concise description of the window's appearance (color, material, attributes; \"attributes\" refers to extra descriptive phrases that are solely about the object's appearance and are independent of other objects).\nA description **MUST** be able to resemble the following sentence: \"A/An `color` <<OBJECT_NAME>> made with `material` that is `attributes`.\"\n\n## Known information\n\n_{description1}_: The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor.\n\n_{description2}_: the space outside the final building, which could be indoor or outdoor\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"description\": \"<<FILL_IN>>\"}"
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": "```json\n{\"description\": \"A bronze-framed window made with tempered glass that is sleek, slightly arched, and adorned with delicate floral etchings.\"}\n```"
+          }
+        ]
+      }
+    ],
+    "rooms_objects": {
+      "room_objects": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 8.70794183399994,
+          "prompt_tokens": 660,
+          "completion_tokens": 140,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are given some room types that can be found in restaurants.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"private dining room\": [\"cramped\", \"homey\", \"vibrant\", \"vintage\", \"elegant\", \"tidy\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"private dining room\": \"The private dining room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"private dining room\": \"The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nParticularly, you are working on a private dining room with the following description: _{description}_\nNow, generate the objects (each with its quantity) that should exist in this room.\n\n## Guidance\n\n- Besides generating objects that can be found in a typical private dining room, unleash your imagination and generate objects that are likely to be associated with the given description.\n- You **MUST** generate at least one lighting unit (i.e., an object made for illumination).\n- Do **NOT** generate door, doorframe, window, or stair.\n- Do **NOT** use plural form, even if the quantity of that object is more than one.\n- Do **NOT** use underscore in object name.\n- Make sure the quantity is an integer greater than 0.\n- Refrain from repeatedly generating identical or similar objects.\n\n## Known information\n\n_{description}_: The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"<<FILL_IN_OBJECT>>\": <<FILL_IN_QUANTITY>>}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"dining table\": 1,\n  \"upholstered chair\": 8,\n  \"vintage chandelier\": 1,\n  \"antique sideboard\": 1,\n  \"ornamental mirror\": 1,\n  \"wooden bookshelf\": 1,\n  \"table lamp\": 2,\n  \"woven rug\": 1,\n  \"framed artwork\": 3,\n  \"crystal decanter\": 1,\n  \"silver candlestick\": 2,\n  \"velvet curtain\": 2,\n  \"ceramic vase\": 1,\n  \"brass coat rack\": 1\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_objects_description": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 27.006194374989718,
+          "prompt_tokens": 852,
+          "completion_tokens": 620,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are given some room types that can be found in restaurants.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"private dining room\": [\"cramped\", \"homey\", \"vibrant\", \"vintage\", \"elegant\", \"tidy\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"private dining room\": \"The private dining room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"private dining room\": \"The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nParticularly, you are working on a private dining room with the following description: _{description}_\nThis room contains the following objects: _{objects}_\nNow, for each object, generate a concise description about the object's appearance (color, material, attributes; \"attributes\" refers to extra descriptive phrases that are solely about the object's appearance and are independent of other objects).\nA description **MUST** be able to resemble the following sentence: \"A/An `color` <<OBJECT_NAME>> made with `material` that is `attributes`.\"\n\n## Guidance\n\n- **All** objects **MUST** be used.\n- If you expect several objects to be identical, their descriptions **MUST** also be identical.\n- In the description, do **NOT** mention other objects. Also, do **NOT** include the object's position relative to other objects.\n\n## Known information\n\n_{description}_: The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor.\n\n_{objects}_: [\"dining table\", \"upholstered chair 1\", \"upholstered chair 2\", \"upholstered chair 3\", \"upholstered chair 4\", \"upholstered chair 5\", \"vintage chandelier\", \"antique sideboard\", \"ornamental mirror\", \"wooden bookshelf\", \"table lamp 1\", \"table lamp 2\", \"woven rug\", \"framed artwork 1\", \"framed artwork 2\", \"framed artwork 3\", \"crystal decanter\", \"silver candlestick 1\", \"silver candlestick 2\", \"velvet curtain 1\", \"velvet curtain 2\", \"ceramic vase\", \"brass coat rack\"]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\nYou **MUST** include **all** provided object names **as is**.\n\n{\"<<USE_PROVIDED_OBJECT_NAME>>\": \"<<FILL_IN_DESCRIPTION>>\", ...}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"dining table\": \"A dark wooden dining table made with polished oak that is sturdy and elegantly carved.\",\n  \"upholstered chair 1\": \"A deep green upholstered chair made with velvet that is plush and tufted.\",\n  \"upholstered chair 2\": \"A deep green upholstered chair made with velvet that is plush and tufted.\",\n  \"upholstered chair 3\": \"A deep green upholstered chair made with velvet that is plush and tufted.\",\n  \"upholstered chair 4\": \"A deep green upholstered chair made with velvet that is plush and tufted.\",\n  \"upholstered chair 5\": \"A deep green upholstered chair made with velvet that is plush and tufted.\",\n  \"vintage chandelier\": \"A bronze vintage chandelier made with wrought iron and crystal that is ornate and softly glowing.\",\n  \"antique sideboard\": \"A mahogany antique sideboard made with aged wood that is intricately detailed with brass handles.\",\n  \"ornamental mirror\": \"A gilded ornamental mirror made with carved wood and gold leaf that is framed with floral motifs.\",\n  \"wooden bookshelf\": \"A rich brown wooden bookshelf made with reclaimed oak that is rustic yet refined.\",\n  \"table lamp 1\": \"A cream-colored table lamp made with ceramic that is hand-painted with delicate patterns.\",\n  \"table lamp 2\": \"A cream-colored table lamp made with ceramic that is hand-painted with delicate patterns.\",\n  \"woven rug\": \"A burgundy woven rug made with wool that is thick and patterned with geometric designs.\",\n  \"framed artwork 1\": \"A gold-framed artwork made with oil paint on canvas that is depicting a pastoral landscape.\",\n  \"framed artwork 2\": \"A gold-framed artwork made with oil paint on canvas that is depicting a pastoral landscape.\",\n  \"framed artwork 3\": \"A gold-framed artwork made with oil paint on canvas that is depicting a pastoral landscape.\",\n  \"crystal decanter\": \"A clear crystal decanter made with cut glass that is faceted and sparkling.\",\n  \"silver candlestick 1\": \"A polished silver candlestick made with sterling silver that is sleek and tapered.\",\n  \"silver candlestick 2\": \"A polished silver candlestick made with sterling silver that is sleek and tapered.\",\n  \"velvet curtain 1\": \"A navy blue velvet curtain made with heavy fabric that is lined and pleated.\",\n  \"velvet curtain 2\": \"A navy blue velvet curtain made with heavy fabric that is lined and pleated.\",\n  \"ceramic vase\": \"A white ceramic vase made with hand-glazed porcelain that is smooth and subtly textured.\",\n  \"brass coat rack\": \"A gleaming brass coat rack made with solid brass that is sturdy and antique-finished.\"\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_objects_relations": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 22.223014207964297,
+          "prompt_tokens": 1353,
+          "completion_tokens": 504,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are given some room types that can be found in restaurants.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"private dining room\": [\"cramped\", \"homey\", \"vibrant\", \"vintage\", \"elegant\", \"tidy\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"private dining room\": \"The private dining room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"private dining room\": \"The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nParticularly, you are working on a private dining room with the following description: _{description}_\nThis room contains the following objects (each coupled with a description): _{objects}_\nNow, be as creative as you can (but remain realistic and practical) and generate sufficient 3-tuples of [objectA, relation, objectB] (which encode different relations between pairs of objects).\n`objectA` and `objectB` are object names; `relation` is a phrase or an incomplete sentence (numerical values can be optionally included, such as a desired distance (meter) between two objects) that describes how `objectA` is physically related to `objectB` according to `relation`.\nIn other words, a 3-tuple should be able to resemble the following sentence: \"`objectA` is `relation` `objectB`.\"\nFor example, if a coffee cup is placed on top of a table, you could generate `[\"coffee cup\", \"on\", \"table\"]`.\n\n## Guidance\n\n- **All** objects **MUST** be used at least once.\n\n## Known information\n\n_{description}_: The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor.\n\n_{objects}_: {\"dining table\": \"A dark wooden dining table made with polished oak that is sturdy and elegantly carved.\", \"upholstered chair 1\": \"A deep green upholstered chair made with velvet that is plush and tufted.\", \"upholstered chair 2\": \"A deep green upholstered chair made with velvet that is plush and tufted.\", \"upholstered chair 3\": \"A deep green upholstered chair made with velvet that is plush and tufted.\", \"upholstered chair 4\": \"A deep green upholstered chair made with velvet that is plush and tufted.\", \"upholstered chair 5\": \"A deep green upholstered chair made with velvet that is plush and tufted.\", \"vintage chandelier\": \"A bronze vintage chandelier made with wrought iron and crystal that is ornate and softly glowing.\", \"antique sideboard\": \"A mahogany antique sideboard made with aged wood that is intricately detailed with brass handles.\", \"ornamental mirror\": \"A gilded ornamental mirror made with carved wood and gold leaf that is framed with floral motifs.\", \"wooden bookshelf\": \"A rich brown wooden bookshelf made with reclaimed oak that is rustic yet refined.\", \"table lamp 1\": \"A cream-colored table lamp made with ceramic that is hand-painted with delicate patterns.\", \"table lamp 2\": \"A cream-colored table lamp made with ceramic that is hand-painted with delicate patterns.\", \"woven rug\": \"A burgundy woven rug made with wool that is thick and patterned with geometric designs.\", \"framed artwork 1\": \"A gold-framed artwork made with oil paint on canvas that is depicting a pastoral landscape.\", \"framed artwork 2\": \"A gold-framed artwork made with oil paint on canvas that is depicting a pastoral landscape.\", \"framed artwork 3\": \"A gold-framed artwork made with oil paint on canvas that is depicting a pastoral landscape.\", \"crystal decanter\": \"A clear crystal decanter made with cut glass that is faceted and sparkling.\", \"silver candlestick 1\": \"A polished silver candlestick made with sterling silver that is sleek and tapered.\", \"silver candlestick 2\": \"A polished silver candlestick made with sterling silver that is sleek and tapered.\", \"velvet curtain 1\": \"A navy blue velvet curtain made with heavy fabric that is lined and pleated.\", \"velvet curtain 2\": \"A navy blue velvet curtain made with heavy fabric that is lined and pleated.\", \"ceramic vase\": \"A white ceramic vase made with hand-glazed porcelain that is smooth and subtly textured.\", \"brass coat rack\": \"A gleaming brass coat rack made with solid brass that is sturdy and antique-finished.\"}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\nYou **MUST** use **all** provided object names **as is**.\n\n{\n  \"relations\": [\n    [\"<<USE_PROVIDED_OBJECT_NAME>>\", \"<<FILL_IN_RELATION>>\", \"<<USE_PROVIDED_OBJECT_NAME>>\"],\n    ...\n  ]\n}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"relations\": [\n    [\"dining table\", \"centered on\", \"woven rug\"],\n    [\"upholstered chair 1\", \"placed 0.5m from\", \"dining table\"],\n    [\"upholstered chair 2\", \"placed 0.5m from\", \"dining table\"],\n    [\"upholstered chair 3\", \"placed 0.5m from\", \"dining table\"],\n    [\"upholstered chair 4\", \"placed 0.5m from\", \"dining table\"],\n    [\"upholstered chair 5\", \"placed 0.5m from\", \"dining table\"],\n    [\"vintage chandelier\", \"hanging 1.5m above\", \"dining table\"],\n    [\"antique sideboard\", \"positioned against the wall, 1m to the left of\", \"ornamental mirror\"],\n    [\"ornamental mirror\", \"mounted above\", \"antique sideboard\"],\n    [\"wooden bookshelf\", \"placed against the wall, 2m to the right of\", \"antique sideboard\"],\n    [\"table lamp 1\", \"placed on\", \"antique sideboard\"],\n    [\"table lamp 2\", \"placed on\", \"wooden bookshelf\"],\n    [\"framed artwork 1\", \"hung on the wall, 0.5m above\", \"antique sideboard\"],\n    [\"framed artwork 2\", \"hung on the wall, 0.5m above\", \"wooden bookshelf\"],\n    [\"framed artwork 3\", \"hung on the wall between\", \"velvet curtain 1 and velvet curtain 2\"],\n    [\"crystal decanter\", \"displayed on\", \"antique sideboard\"],\n    [\"silver candlestick 1\", \"placed on\", \"dining table\"],\n    [\"silver candlestick 2\", \"placed on\", \"dining table\"],\n    [\"velvet curtain 1\", \"draped over the window, adjacent to\", \"wooden bookshelf\"],\n    [\"velvet curtain 2\", \"draped over the window, adjacent to\", \"antique sideboard\"],\n    [\"ceramic vase\", \"placed on\", \"dining table\"],\n    [\"brass coat rack\", \"positioned near the entrance, 1m from\", \"velvet curtain 1\"]\n  ]\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_summary": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 19.089324333006516,
+          "prompt_tokens": 1815,
+          "completion_tokens": 409,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are given some room types that can be found in restaurants.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"private dining room\": [\"cramped\", \"homey\", \"vibrant\", \"vintage\", \"elegant\", \"tidy\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"private dining room\": \"The private dining room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"private dining room\": \"The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nParticularly, you are working on a private dining room with the following description: _{description}_\nThis room contains the following objects (each coupled with a description): _{objects}_\nThese objects are related to one another: _{object-relations}_\nNow, using _{objects}_ and _{object-relations}_, generate a **one-paragraph** summary regarding the objects in this room as well as where they are exactly placed and how they are exactly related.\nYou **MUST** keep every object's description.\n\n## Guidance\n\n- **All** given objects must be used, but you can use them in any order you want.\n- If there is a collection of similar/identical objects, you **MUST explicitly** mention the **number** of objects (e.g., \"five books\" instead of \"a collection of books\").\n- Each element in _{object-relations}_ is a 3-tuple [objectA, relation, objectB] which encodes a relation between a pair of objects.\n`objectA` and `objectB` are object names; `relation` is a phrase or an incomplete sentence (numerical values can be optionally included) that describes how `objectA` is physically related to `objectB` according to `relation`.\n- You may use \"looking from ...\" to describe the room from a specific perspective, making the summary more vivid.\n\n## Known information\n\n_{description}_: The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor.\n\n_{objects}_: {\"dining table\": \"A dark wooden dining table made with polished oak that is sturdy and elegantly carved.\", \"upholstered chair 1\": \"A deep green upholstered chair made with velvet that is plush and tufted.\", \"upholstered chair 2\": \"A deep green upholstered chair made with velvet that is plush and tufted.\", \"upholstered chair 3\": \"A deep green upholstered chair made with velvet that is plush and tufted.\", \"upholstered chair 4\": \"A deep green upholstered chair made with velvet that is plush and tufted.\", \"upholstered chair 5\": \"A deep green upholstered chair made with velvet that is plush and tufted.\", \"vintage chandelier\": \"A bronze vintage chandelier made with wrought iron and crystal that is ornate and softly glowing.\", \"antique sideboard\": \"A mahogany antique sideboard made with aged wood that is intricately detailed with brass handles.\", \"ornamental mirror\": \"A gilded ornamental mirror made with carved wood and gold leaf that is framed with floral motifs.\", \"wooden bookshelf\": \"A rich brown wooden bookshelf made with reclaimed oak that is rustic yet refined.\", \"table lamp 1\": \"A cream-colored table lamp made with ceramic that is hand-painted with delicate patterns.\", \"table lamp 2\": \"A cream-colored table lamp made with ceramic that is hand-painted with delicate patterns.\", \"woven rug\": \"A burgundy woven rug made with wool that is thick and patterned with geometric designs.\", \"framed artwork 1\": \"A gold-framed artwork made with oil paint on canvas that is depicting a pastoral landscape.\", \"framed artwork 2\": \"A gold-framed artwork made with oil paint on canvas that is depicting a pastoral landscape.\", \"framed artwork 3\": \"A gold-framed artwork made with oil paint on canvas that is depicting a pastoral landscape.\", \"crystal decanter\": \"A clear crystal decanter made with cut glass that is faceted and sparkling.\", \"silver candlestick 1\": \"A polished silver candlestick made with sterling silver that is sleek and tapered.\", \"silver candlestick 2\": \"A polished silver candlestick made with sterling silver that is sleek and tapered.\", \"velvet curtain 1\": \"A navy blue velvet curtain made with heavy fabric that is lined and pleated.\", \"velvet curtain 2\": \"A navy blue velvet curtain made with heavy fabric that is lined and pleated.\", \"ceramic vase\": \"A white ceramic vase made with hand-glazed porcelain that is smooth and subtly textured.\", \"brass coat rack\": \"A gleaming brass coat rack made with solid brass that is sturdy and antique-finished.\"}\n\n_{object-relations}_: [[\"dining table\", \"centered on\", \"woven rug\"], [\"upholstered chair 1\", \"placed 0.5m from\", \"dining table\"], [\"upholstered chair 2\", \"placed 0.5m from\", \"dining table\"], [\"upholstered chair 3\", \"placed 0.5m from\", \"dining table\"], [\"upholstered chair 4\", \"placed 0.5m from\", \"dining table\"], [\"upholstered chair 5\", \"placed 0.5m from\", \"dining table\"], [\"vintage chandelier\", \"hanging 1.5m above\", \"dining table\"], [\"antique sideboard\", \"positioned against the wall, 1m to the left of\", \"ornamental mirror\"], [\"ornamental mirror\", \"mounted above\", \"antique sideboard\"], [\"wooden bookshelf\", \"placed against the wall, 2m to the right of\", \"antique sideboard\"], [\"table lamp 1\", \"placed on\", \"antique sideboard\"], [\"table lamp 2\", \"placed on\", \"wooden bookshelf\"], [\"framed artwork 1\", \"hung on the wall, 0.5m above\", \"antique sideboard\"], [\"framed artwork 2\", \"hung on the wall, 0.5m above\", \"wooden bookshelf\"], [\"crystal decanter\", \"displayed on\", \"antique sideboard\"], [\"silver candlestick 1\", \"placed on\", \"dining table\"], [\"silver candlestick 2\", \"placed on\", \"dining table\"], [\"velvet curtain 1\", \"draped over the window, adjacent to\", \"wooden bookshelf\"], [\"velvet curtain 2\", \"draped over the window, adjacent to\", \"antique sideboard\"], [\"ceramic vase\", \"placed on\", \"dining table\"], [\"brass coat rack\", \"positioned near the entrance, 1m from\", \"velvet curtain 1\"]]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"summary\": \"In this room, <<FILL_IN>>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"summary\": \"In this room, a dark wooden dining table made with polished oak that is sturdy and elegantly carved is centered on a burgundy woven rug made with wool that is thick and patterned with geometric designs. Five deep green upholstered chairs made with velvet that are plush and tufted are each placed 0.5m from the dining table. A bronze vintage chandelier made with wrought iron and crystal that is ornate and softly glowing hangs 1.5m above the dining table. A mahogany antique sideboard made with aged wood that is intricately detailed with brass handles is positioned against the wall, 1m to the left of a gilded ornamental mirror made with carved wood and gold leaf that is framed with floral motifs, which is mounted above the sideboard. A rich brown wooden bookshelf made with reclaimed oak that is rustic yet refined is placed against the wall, 2m to the right of the sideboard. A cream-colored table lamp made with ceramic that is hand-painted with delicate patterns is placed on the sideboard, while another identical lamp is placed on the bookshelf. Three gold-framed artworks made with oil paint on canvas that depict pastoral landscapes are hung on the wall, with one 0.5m above the sideboard and another 0.5m above the bookshelf. A clear crystal decanter made with cut glass that is faceted and sparkling is displayed on the sideboard, while two polished silver candlesticks made with sterling silver that are sleek and tapered are placed on the dining table alongside a white ceramic vase made with hand-glazed porcelain that is smooth and subtly textured. Two navy blue velvet curtains made with heavy fabric that are lined and pleated are draped over the windows, one adjacent to the bookshelf and the other adjacent to the sideboard. A gleaming brass coat rack made with solid brass that is sturdy and antique-finished is positioned near the entrance, 1m from the first velvet curtain.\"}\n```"
+            }
+          ]
+        }
+      ]
+    },
+    "basic_summaries": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 7.247849290957674,
+      "prompt_tokens": 838,
+      "completion_tokens": 99,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are designing one with 1 room(s) (each has its own summary): _{rooms}_\nSome of these rooms are connected (with or without a door): _{connections}_\nNow, generate two concise summaries in your own words.\nThe first one is a one-sentence overall description of the building's configuration (floor plan).\nThe second one consists of all connections in this building (i.e., all pairs of rooms that are connected, how they are connected, and the appearance of connection objects).\n\n## Guidance\n\n- In _{connections}_, region \"__outside__\" refers to the space outside the final building, which could be indoor or outdoor.\n- A connection type of \"open\" refers to the absence of a shared boundary between two rooms.\n\n## Known information\n\n_{rooms}_: {\"private dining room\": \"The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor. In this room, a dark wooden dining table made with polished oak that is sturdy and elegantly carved is centered on a burgundy woven rug made with wool that is thick and patterned with geometric designs. Five deep green upholstered chairs made with velvet that are plush and tufted are each placed 0.5m from the dining table. A bronze vintage chandelier made with wrought iron and crystal that is ornate and softly glowing hangs 1.5m above the dining table. A mahogany antique sideboard made with aged wood that is intricately detailed with brass handles is positioned against the wall, 1m to the left of a gilded ornamental mirror made with carved wood and gold leaf that is framed with floral motifs, which is mounted above the sideboard. A rich brown wooden bookshelf made with reclaimed oak that is rustic yet refined is placed against the wall, 2m to the right of the sideboard. A cream-colored table lamp made with ceramic that is hand-painted with delicate patterns is placed on the sideboard, while another identical lamp is placed on the bookshelf. Three gold-framed artworks made with oil paint on canvas that depict pastoral landscapes are hung on the wall, with one 0.5m above the sideboard and another 0.5m above the bookshelf. A clear crystal decanter made with cut glass that is faceted and sparkling is displayed on the sideboard, while two polished silver candlesticks made with sterling silver that are sleek and tapered are placed on the dining table alongside a white ceramic vase made with hand-glazed porcelain that is smooth and subtly textured. Two navy blue velvet curtains made with heavy fabric that are lined and pleated are draped over the windows, one adjacent to the bookshelf and the other adjacent to the sideboard. A gleaming brass coat rack made with solid brass that is sturdy and antique-finished is positioned near the entrance, 1m from the first velvet curtain.\"}\n\n_{connections}_: [{\"region_a\": \"private dining room\", \"region_b\": \"__outside__\", \"conn_type\": \"door\", \"description\": \"A rich mahogany door made with solid wood that is intricately carved and polished to a warm, vintage sheen.\"}, {\"region_a\": \"private dining room\", \"region_b\": \"__outside__\", \"conn_type\": \"window\", \"description\": \"A bronze-framed window made with tempered glass that is sleek, slightly arched, and adorned with delicate floral etchings.\"}]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"overall_summary\": \"<<FILL_IN>>\", \"connections_summary\": \"<<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "{\n  \"overall_summary\": \"The building features a single, elegantly designed private dining room with a vintage charm, connected to the outside via a door and a window.\",\n  \"connections_summary\": \"The private dining room is connected to the outside by a rich mahogany door made with solid wood that is intricately carved and polished, and a bronze-framed window made with tempered glass that is sleek, slightly arched, and adorned with delicate floral etchings.\"\n}"
+        }
+      ]
+    },
+    "humanized_prompt": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 10.513290249975398,
+      "prompt_tokens": 717,
+      "completion_tokens": 179,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional real estate agent who excels at introducing any type of real estate to your clients.\nYou are given a very comprehensive description of one of the latest restaurants in your area: _{description}_\nNow, rewrite the description into a one-paragraph natural speech (starting with \"A\"/\"An\") that is easy to understand and appealing to your clients.\n\n## Guidance\n\n- You **MUST** use all provided information from the description in your prompt.\n\n## Known information\n\n_{description}_: The building features a single, elegantly designed private dining room with a vintage charm, connected to the outside via a door and a window. The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor. In this room, a dark wooden dining table made with polished oak that is sturdy and elegantly carved is centered on a burgundy woven rug made with wool that is thick and patterned with geometric designs. Five deep green upholstered chairs made with velvet that are plush and tufted are each placed 0.5m from the dining table. A bronze vintage chandelier made with wrought iron and crystal that is ornate and softly glowing hangs 1.5m above the dining table. A mahogany antique sideboard made with aged wood that is intricately detailed with brass handles is positioned against the wall, 1m to the left of a gilded ornamental mirror made with carved wood and gold leaf that is framed with floral motifs, which is mounted above the sideboard. A rich brown wooden bookshelf made with reclaimed oak that is rustic yet refined is placed against the wall, 2m to the right of the sideboard. A cream-colored table lamp made with ceramic that is hand-painted with delicate patterns is placed on the sideboard, while another identical lamp is placed on the bookshelf. Three gold-framed artworks made with oil paint on canvas that depict pastoral landscapes are hung on the wall, with one 0.5m above the sideboard and another 0.5m above the bookshelf. A clear crystal decanter made with cut glass that is faceted and sparkling is displayed on the sideboard, while two polished silver candlesticks made with sterling silver that are sleek and tapered are placed on the dining table alongside a white ceramic vase made with hand-glazed porcelain that is smooth and subtly textured. Two navy blue velvet curtains made with heavy fabric that are lined and pleated are draped over the windows, one adjacent to the bookshelf and the other adjacent to the sideboard. A gleaming brass coat rack made with solid brass that is sturdy and antique-finished is positioned near the entrance, 1m from the first velvet curtain. The private dining room is connected to the outside by a rich mahogany door made with solid wood that is intricately carved and polished, and a bronze-framed window made with tempered glass that is sleek, slightly arched, and adorned with delicate floral etchings.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"speech\": \"A/An <<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "```json\n{\"speech\": \"An elegantly designed private dining room with vintage charm awaits, featuring vibrant walls and a homey wooden floor. At its heart is a sturdy, polished oak dining table on a thick, geometric-patterned burgundy wool rug, surrounded by five plush, deep green velvet chairs. A softly glowing bronze chandelier hangs above, while a mahogany sideboard with brass handles sits beneath a gilded floral mirror. To the side, a rustic oak bookshelf holds hand-painted ceramic lamps, and pastoral oil paintings adorn the walls. Crystal decanters, silver candlesticks, and a hand-glazed porcelain vase add refined touches, while navy blue velvet curtains frame the bronze-framed, floral-etched window. Near the intricately carved mahogany entrance, a brass coat rack completes this cozy, elegant space.\"}\n```"
+        }
+      ]
+    },
+    "sentence_prompt": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 5.8502179170027375,
+      "prompt_tokens": 683,
+      "completion_tokens": 51,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional real estate agent who excels at introducing any type of real estate to your clients.\nYou are given a very comprehensive description of one of the latest restaurants in your area: _{description}_\nNow, summarize the description into one concise sentence (starting with \"A\"/\"An\").\n\n## Known information\n\n_{description}_: The building features a single, elegantly designed private dining room with a vintage charm, connected to the outside via a door and a window. The private dining room is a cozy, elegant space with a vintage charm. Its walls are adorned in vibrant, tidy hues, complemented by a homey wooden floor. In this room, a dark wooden dining table made with polished oak that is sturdy and elegantly carved is centered on a burgundy woven rug made with wool that is thick and patterned with geometric designs. Five deep green upholstered chairs made with velvet that are plush and tufted are each placed 0.5m from the dining table. A bronze vintage chandelier made with wrought iron and crystal that is ornate and softly glowing hangs 1.5m above the dining table. A mahogany antique sideboard made with aged wood that is intricately detailed with brass handles is positioned against the wall, 1m to the left of a gilded ornamental mirror made with carved wood and gold leaf that is framed with floral motifs, which is mounted above the sideboard. A rich brown wooden bookshelf made with reclaimed oak that is rustic yet refined is placed against the wall, 2m to the right of the sideboard. A cream-colored table lamp made with ceramic that is hand-painted with delicate patterns is placed on the sideboard, while another identical lamp is placed on the bookshelf. Three gold-framed artworks made with oil paint on canvas that depict pastoral landscapes are hung on the wall, with one 0.5m above the sideboard and another 0.5m above the bookshelf. A clear crystal decanter made with cut glass that is faceted and sparkling is displayed on the sideboard, while two polished silver candlesticks made with sterling silver that are sleek and tapered are placed on the dining table alongside a white ceramic vase made with hand-glazed porcelain that is smooth and subtly textured. Two navy blue velvet curtains made with heavy fabric that are lined and pleated are draped over the windows, one adjacent to the bookshelf and the other adjacent to the sideboard. A gleaming brass coat rack made with solid brass that is sturdy and antique-finished is positioned near the entrance, 1m from the first velvet curtain. The private dining room is connected to the outside by a rich mahogany door made with solid wood that is intricately carved and polished, and a bronze-framed window made with tempered glass that is sleek, slightly arched, and adorned with delicate floral etchings.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"sentence\": \"A/An <<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "```json\n{\"sentence\": \"An elegantly designed private dining room with vintage charm, featuring a dark oak dining table, velvet chairs, a bronze chandelier, and mahogany furnishings, adorned with vibrant hues and decorative accents.\"}\n```"
+        }
+      ]
+    }
+  }
+}

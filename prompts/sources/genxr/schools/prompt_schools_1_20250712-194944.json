@@ -1,0 +1,623 @@
+{
+  "buildings": "schools",
+  "config": {
+    "llm": "v3",
+    "temperature": 0.7,
+    "max_n_per_object": 5,
+    "n_rooms": 1,
+    "n_prompts": 5,
+    "max_retries": 10,
+    "max_threads": 4,
+    "parent_dir": "genxr-dataset",
+    "verbose": true
+  },
+  "log_path": "genxr-dataset/schools/1/prompt_schools_1_20250712-194944.json",
+  "n_rooms": 1,
+  "rooms": {
+    "art room": {
+      "adjectives": [
+        "monochromatic",
+        "shady",
+        "balanced",
+        "muted",
+        "refined",
+        "bright",
+        "intimate",
+        "sleek",
+        "ornate",
+        "artistic",
+        "spartan",
+        "nostalgic",
+        "moody",
+        "pristine"
+      ],
+      "description": "The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression.",
+      "objects_list": [
+        "adjustable easel 1",
+        "adjustable easel 2",
+        "adjustable easel 3",
+        "adjustable easel 4",
+        "adjustable easel 5",
+        "rolling storage cart 1",
+        "rolling storage cart 2",
+        "rolling storage cart 3",
+        "track lighting fixture 1",
+        "track lighting fixture 2",
+        "track lighting fixture 3",
+        "track lighting fixture 4",
+        "large drafting table 1",
+        "large drafting table 2",
+        "ceramic kiln",
+        "metal stool",
+        "wall mounted drying rack 1",
+        "wall mounted drying rack 2",
+        "glass palette 1",
+        "glass palette 2",
+        "steel utility sink",
+        "freestanding sculpture stand 1",
+        "freestanding sculpture stand 2",
+        "freestanding sculpture stand 3",
+        "freestanding sculpture stand 4",
+        "freestanding sculpture stand 5",
+        "digital projector",
+        "acrylic paint organizer",
+        "canvas storage rack",
+        "brass floor lamp 1",
+        "brass floor lamp 2",
+        "wooden model stand 1",
+        "wooden model stand 2",
+        "wooden model stand 3"
+      ],
+      "objects_desc": {
+        "adjustable easel 1": "A wooden adjustable easel made with polished beech wood that is sturdy and smooth.",
+        "adjustable easel 2": "A wooden adjustable easel made with polished beech wood that is sturdy and smooth.",
+        "adjustable easel 3": "A wooden adjustable easel made with polished beech wood that is sturdy and smooth.",
+        "adjustable easel 4": "A wooden adjustable easel made with polished beech wood that is sturdy and smooth.",
+        "adjustable easel 5": "A wooden adjustable easel made with polished beech wood that is sturdy and smooth.",
+        "rolling storage cart 1": "A white rolling storage cart made with powder-coated metal that is sleek and lightweight.",
+        "rolling storage cart 2": "A white rolling storage cart made with powder-coated metal that is sleek and lightweight.",
+        "rolling storage cart 3": "A white rolling storage cart made with powder-coated metal that is sleek and lightweight.",
+        "track lighting fixture 1": "A black track lighting fixture made with brushed aluminum that is modern and minimalistic.",
+        "track lighting fixture 2": "A black track lighting fixture made with brushed aluminum that is modern and minimalistic.",
+        "track lighting fixture 3": "A black track lighting fixture made with brushed aluminum that is modern and minimalistic.",
+        "track lighting fixture 4": "A black track lighting fixture made with brushed aluminum that is modern and minimalistic.",
+        "large drafting table 1": "A gray large drafting table made with tempered glass that is spacious and smooth.",
+        "large drafting table 2": "A gray large drafting table made with tempered glass that is spacious and smooth.",
+        "ceramic kiln": "A matte black ceramic kiln made with industrial-grade steel that is robust and heat-resistant.",
+        "metal stool": "A silver metal stool made with stainless steel that is sleek and ergonomic.",
+        "wall mounted drying rack 1": "A white wall mounted drying rack made with powder-coated wire that is functional and space-saving.",
+        "wall mounted drying rack 2": "A white wall mounted drying rack made with powder-coated wire that is functional and space-saving.",
+        "glass palette 1": "A clear glass palette made with tempered glass that is smooth and easy to clean.",
+        "glass palette 2": "A clear glass palette made with tempered glass that is smooth and easy to clean.",
+        "steel utility sink": "A stainless steel utility sink made with heavy-duty steel that is durable and deep.",
+        "freestanding sculpture stand 1": "A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.",
+        "freestanding sculpture stand 2": "A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.",
+        "freestanding sculpture stand 3": "A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.",
+        "freestanding sculpture stand 4": "A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.",
+        "freestanding sculpture stand 5": "A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.",
+        "digital projector": "A matte black digital projector made with high-grade plastic that is compact and lightweight.",
+        "acrylic paint organizer": "A white acrylic paint organizer made with molded plastic that is modular and stackable.",
+        "canvas storage rack": "A wooden canvas storage rack made with unfinished pine that is spacious and rustic.",
+        "brass floor lamp 1": "A brass floor lamp made with polished brass that is elegant and adjustable.",
+        "brass floor lamp 2": "A brass floor lamp made with polished brass that is elegant and adjustable.",
+        "wooden model stand 1": "A beige wooden model stand made with birch plywood that is lightweight and smooth.",
+        "wooden model stand 2": "A beige wooden model stand made with birch plywood that is lightweight and smooth.",
+        "wooden model stand 3": "A beige wooden model stand made with birch plywood that is lightweight and smooth."
+      },
+      "object_relations": [
+        [
+          "adjustable easel 1",
+          "placed 1 meter away from",
+          "large drafting table 1"
+        ],
+        [
+          "adjustable easel 2",
+          "positioned near",
+          "rolling storage cart 1"
+        ],
+        [
+          "adjustable easel 3",
+          "adjacent to",
+          "wall mounted drying rack 1"
+        ],
+        [
+          "adjustable easel 4",
+          "facing",
+          "track lighting fixture 1"
+        ],
+        [
+          "adjustable easel 5",
+          "next to",
+          "freestanding sculpture stand 1"
+        ],
+        [
+          "rolling storage cart 1",
+          "under",
+          "track lighting fixture 2"
+        ],
+        [
+          "rolling storage cart 2",
+          "beside",
+          "steel utility sink"
+        ],
+        [
+          "rolling storage cart 3",
+          "near",
+          "ceramic kiln"
+        ],
+        [
+          "track lighting fixture 1",
+          "illuminating",
+          "large drafting table 1"
+        ],
+        [
+          "track lighting fixture 2",
+          "directed towards",
+          "canvas storage rack"
+        ],
+        [
+          "track lighting fixture 3",
+          "above",
+          "acrylic paint organizer"
+        ],
+        [
+          "track lighting fixture 4",
+          "shining on",
+          "wooden model stand 1"
+        ],
+        [
+          "large drafting table 2",
+          "accompanied by",
+          "metal stool"
+        ],
+        [
+          "ceramic kiln",
+          "positioned 2 meters away from",
+          "freestanding sculpture stand 2"
+        ],
+        [
+          "metal stool",
+          "placed under",
+          "large drafting table 2"
+        ],
+        [
+          "wall mounted drying rack 1",
+          "on the wall near",
+          "adjustable easel 3"
+        ],
+        [
+          "wall mounted drying rack 2",
+          "mounted beside",
+          "digital projector"
+        ],
+        [
+          "glass palette 1",
+          "placed next to",
+          "brass floor lamp 1"
+        ],
+        [
+          "glass palette 2",
+          "on",
+          "rolling storage cart 2"
+        ],
+        [
+          "steel utility sink",
+          "against the wall near",
+          "rolling storage cart 2"
+        ],
+        [
+          "freestanding sculpture stand 1",
+          "next to",
+          "adjustable easel 5"
+        ],
+        [
+          "freestanding sculpture stand 2",
+          "near",
+          "ceramic kiln"
+        ],
+        [
+          "freestanding sculpture stand 3",
+          "positioned beside",
+          "wooden model stand 2"
+        ],
+        [
+          "freestanding sculpture stand 4",
+          "adjacent to",
+          "brass floor lamp 2"
+        ],
+        [
+          "freestanding sculpture stand 5",
+          "facing",
+          "track lighting fixture 3"
+        ],
+        [
+          "digital projector",
+          "mounted on the ceiling above",
+          "large drafting table 2"
+        ],
+        [
+          "acrylic paint organizer",
+          "on",
+          "rolling storage cart 3"
+        ],
+        [
+          "canvas storage rack",
+          "against the wall near",
+          "track lighting fixture 2"
+        ],
+        [
+          "brass floor lamp 1",
+          "next to",
+          "glass palette 1"
+        ],
+        [
+          "brass floor lamp 2",
+          "illuminating",
+          "freestanding sculpture stand 4"
+        ],
+        [
+          "wooden model stand 1",
+          "under",
+          "track lighting fixture 4"
+        ],
+        [
+          "wooden model stand 2",
+          "near",
+          "freestanding sculpture stand 3"
+        ],
+        [
+          "wooden model stand 3",
+          "beside",
+          "wall mounted drying rack 2"
+        ]
+      ],
+      "summary": "In this room, looking from the entrance, five wooden adjustable easels made with polished beech wood that are sturdy and smooth are arranged: adjustable easel 1 is placed 1 meter away from large drafting table 1, a gray tempered glass table that is spacious and smooth; adjustable easel 2 is positioned near rolling storage cart 1, a white powder-coated metal cart that is sleek and lightweight; adjustable easel 3 is adjacent to wall mounted drying rack 1, a white powder-coated wire rack that is functional and space-saving; adjustable easel 4 faces track lighting fixture 1, a black brushed aluminum fixture that is modern and minimalistic; and adjustable easel 5 is next to freestanding sculpture stand 1, a solid oak stand that is sturdy and versatile. Three white rolling storage carts are placed throughout: cart 1 is under track lighting fixture 2, cart 2 is beside the stainless steel utility sink that is durable and deep, and cart 3 is near the matte black ceramic kiln made with industrial-grade steel that is robust and heat-resistant. Four black track lighting fixtures illuminate key areas: fixture 1 shines on large drafting table 1, fixture 2 is directed towards the wooden canvas storage rack made with unfinished pine that is spacious and rustic, fixture 3 is above the white acrylic paint organizer made with molded plastic that is modular and stackable, and fixture 4 shines on wooden model stand 1, a beige birch plywood stand that is lightweight and smooth. Two large drafting tables are present: table 2 is accompanied by a silver metal stool made with stainless steel that is sleek and ergonomic, placed under it. Two wall mounted drying racks are mounted: rack 1 is near adjustable easel 3, and rack 2 is beside the matte black digital projector made with high-grade plastic that is compact and lightweight, which is mounted on the ceiling above large drafting table 2. Two clear glass palettes made with tempered glass that are smooth and easy to clean are placed: palette 1 is next to brass floor lamp 1, a polished brass lamp that is elegant and adjustable, and palette 2 is on rolling storage cart 2. Five freestanding sculpture stands are positioned: stand 2 is near the ceramic kiln, stand 3 is beside wooden model stand 2, stand 4 is adjacent to brass floor lamp 2, and stand 5 faces track lighting fixture 3. The wooden model stands are placed: stand 2 is near freestanding sculpture stand 3, and stand 3 is beside wall mounted drying rack 2. The brass floor lamps provide additional lighting: lamp 1 is next to glass palette 1, and lamp 2 illuminates freestanding sculpture stand 4."
+    }
+  },
+  "connections": [
+    {
+      "region_a": "art room",
+      "region_b": "__outside__",
+      "conn_type": "sliding door",
+      "description": "A frosted glass sliding door made with sleek aluminum framing that is minimalist and seamlessly integrated into the pristine white walls."
+    }
+  ],
+  "summaries": {
+    "overall": "The building features a single, well-equipped art room designed with a sleek, modern aesthetic and functional layout for artistic activities.",
+    "connections": "The art room is connected to the outside via a frosted glass sliding door with sleek aluminum framing, seamlessly integrated into the pristine white walls."
+  },
+  "prompts": {
+    "full": "The building features a single, well-equipped art room designed with a sleek, modern aesthetic and functional layout for artistic activities. The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression. In this room, looking from the entrance, five wooden adjustable easels made with polished beech wood that are sturdy and smooth are arranged: adjustable easel 1 is placed 1 meter away from large drafting table 1, a gray tempered glass table that is spacious and smooth; adjustable easel 2 is positioned near rolling storage cart 1, a white powder-coated metal cart that is sleek and lightweight; adjustable easel 3 is adjacent to wall mounted drying rack 1, a white powder-coated wire rack that is functional and space-saving; adjustable easel 4 faces track lighting fixture 1, a black brushed aluminum fixture that is modern and minimalistic; and adjustable easel 5 is next to freestanding sculpture stand 1, a solid oak stand that is sturdy and versatile. Three white rolling storage carts are placed throughout: cart 1 is under track lighting fixture 2, cart 2 is beside the stainless steel utility sink that is durable and deep, and cart 3 is near the matte black ceramic kiln made with industrial-grade steel that is robust and heat-resistant. Four black track lighting fixtures illuminate key areas: fixture 1 shines on large drafting table 1, fixture 2 is directed towards the wooden canvas storage rack made with unfinished pine that is spacious and rustic, fixture 3 is above the white acrylic paint organizer made with molded plastic that is modular and stackable, and fixture 4 shines on wooden model stand 1, a beige birch plywood stand that is lightweight and smooth. Two large drafting tables are present: table 2 is accompanied by a silver metal stool made with stainless steel that is sleek and ergonomic, placed under it. Two wall mounted drying racks are mounted: rack 1 is near adjustable easel 3, and rack 2 is beside the matte black digital projector made with high-grade plastic that is compact and lightweight, which is mounted on the ceiling above large drafting table 2. Two clear glass palettes made with tempered glass that are smooth and easy to clean are placed: palette 1 is next to brass floor lamp 1, a polished brass lamp that is elegant and adjustable, and palette 2 is on rolling storage cart 2. Five freestanding sculpture stands are positioned: stand 2 is near the ceramic kiln, stand 3 is beside wooden model stand 2, stand 4 is adjacent to brass floor lamp 2, and stand 5 faces track lighting fixture 3. The wooden model stands are placed: stand 2 is near freestanding sculpture stand 3, and stand 3 is beside wall mounted drying rack 2. The brass floor lamps provide additional lighting: lamp 1 is next to glass palette 1, and lamp 2 illuminates freestanding sculpture stand 4. The art room is connected to the outside via a frosted glass sliding door with sleek aluminum framing, seamlessly integrated into the pristine white walls.",
+    "humanized": "An art room designed with a sleek, modern aesthetic and functional layout, featuring pristine white walls and a monochromatic polished concrete floor for a bright yet intimate atmosphere. It includes five adjustable beech wood easels, each strategically placed: one near a gray tempered glass drafting table, another by a white powder-coated metal cart, one adjacent to a space-saving wall-mounted drying rack, one facing a black brushed aluminum track light, and the last next to a versatile oak sculpture stand. Three white rolling carts are positioned under lighting, by a durable stainless steel sink, and near a robust matte black ceramic kiln. Four black track lights illuminate key areas like drafting tables, a rustic pine canvas rack, a modular acrylic paint organizer, and a smooth birch plywood model stand. Two large drafting tables, one with a sleek stainless steel stool, and two wall-mounted drying racks complement the space. Clear glass palettes, elegant brass floor lamps, and five freestanding sculpture stands add functionality and style. The room connects to the outside via a frosted glass sliding door with sleek aluminum framing, seamlessly blending into the pristine walls.",
+    "sentence": "A modern, well-equipped art room with sleek design features, including adjustable easels, drafting tables, track lighting, and versatile storage solutions, all set in a bright, monochromatic space.",
+    "pct_change_humanized": -0.6428571428571428,
+    "pct_change_sentence": -0.9478764478764479
+  },
+  "edits": [
+    {
+      "instruction": "Add a new white marble side table next to brass floor lamp 1.",
+      "prompts": {
+        "full": "The building features a single, well-equipped art room designed with a sleek, modern aesthetic and functional layout for artistic activities. The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression. In this room, looking from the entrance, five wooden adjustable easels made with polished beech wood that are sturdy and smooth are arranged: adjustable easel 1 is placed 1 meter away from large drafting table 1, a gray tempered glass table that is spacious and smooth; adjustable easel 2 is positioned near rolling storage cart 1, a white powder-coated metal cart that is sleek and lightweight; adjustable easel 3 is adjacent to wall mounted drying rack 1, a white powder-coated wire rack that is functional and space-saving; adjustable easel 4 faces track lighting fixture 1, a black brushed aluminum fixture that is modern and minimalistic; and adjustable easel 5 is next to freestanding sculpture stand 1, a solid oak stand that is sturdy and versatile. Three white rolling storage carts are placed throughout: cart 1 is under track lighting fixture 2, cart 2 is beside the stainless steel utility sink that is durable and deep, and cart 3 is near the matte black ceramic kiln made with industrial-grade steel that is robust and heat-resistant. Four black track lighting fixtures illuminate key areas: fixture 1 shines on large drafting table 1, fixture 2 is directed towards the wooden canvas storage rack made with unfinished pine that is spacious and rustic, fixture 3 is above the white acrylic paint organizer made with molded plastic that is modular and stackable, and fixture 4 shines on wooden model stand 1, a beige birch plywood stand that is lightweight and smooth. Two large drafting tables are present: table 2 is accompanied by a silver metal stool made with stainless steel that is sleek and ergonomic, placed under it. Two wall mounted drying racks are mounted: rack 1 is near adjustable easel 3, and rack 2 is beside the matte black digital projector made with high-grade plastic that is compact and lightweight, which is mounted on the ceiling above large drafting table 2. Two clear glass palettes made with tempered glass that are smooth and easy to clean are placed: palette 1 is next to brass floor lamp 1, a polished brass lamp that is elegant and adjustable, and palette 2 is on rolling storage cart 2. A white marble side table is placed next to brass floor lamp 1. Five freestanding sculpture stands are positioned: stand 2 is near the ceramic kiln, stand 3 is beside wooden model stand 2, stand 4 is adjacent to brass floor lamp 2, and stand 5 faces track lighting fixture 3. The wooden model stands are placed: stand 2 is near freestanding sculpture stand 3, and stand 3 is beside wall mounted drying rack 2. The brass floor lamps provide additional lighting: lamp 1 is next to glass palette 1, and lamp 2 illuminates freestanding sculpture stand 4. The art room is connected to the outside via a frosted glass sliding door with sleek aluminum framing, seamlessly integrated into the pristine white walls.",
+        "humanized": null,
+        "sentence": "A modern, well-equipped art room features adjustable easels, drafting tables, storage carts, drying racks, track lighting, sculpture stands, and various artistic tools, all arranged in a sleek, functional layout with pristine white walls and polished concrete floors.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    },
+    {
+      "instruction": "Remove the matte black ceramic kiln from the art room.",
+      "prompts": {
+        "full": "The building features a single, well-equipped art room designed with a sleek, modern aesthetic and functional layout for artistic activities. The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression. In this room, looking from the entrance, five wooden adjustable easels made with polished beech wood that are sturdy and smooth are arranged: adjustable easel 1 is placed 1 meter away from large drafting table 1, a gray tempered glass table that is spacious and smooth; adjustable easel 2 is positioned near rolling storage cart 1, a white powder-coated metal cart that is sleek and lightweight; adjustable easel 3 is adjacent to wall mounted drying rack 1, a white powder-coated wire rack that is functional and space-saving; adjustable easel 4 faces track lighting fixture 1, a black brushed aluminum fixture that is modern and minimalistic; and adjustable easel 5 is next to freestanding sculpture stand 1, a solid oak stand that is sturdy and versatile. Three white rolling storage carts are placed throughout: cart 1 is under track lighting fixture 2, cart 2 is beside the stainless steel utility sink that is durable and deep, and cart 3 is near the stainless steel utility sink that is durable and deep. Four black track lighting fixtures illuminate key areas: fixture 1 shines on large drafting table 1, fixture 2 is directed towards the wooden canvas storage rack made with unfinished pine that is spacious and rustic, fixture 3 is above the white acrylic paint organizer made with molded plastic that is modular and stackable, and fixture 4 shines on wooden model stand 1, a beige birch plywood stand that is lightweight and smooth. Two large drafting tables are present: table 2 is accompanied by a silver metal stool made with stainless steel that is sleek and ergonomic, placed under it. Two wall mounted drying racks are mounted: rack 1 is near adjustable easel 3, and rack 2 is beside the matte black digital projector made with high-grade plastic that is compact and lightweight, which is mounted on the ceiling above large drafting table 2. Two clear glass palettes made with tempered glass that are smooth and easy to clean are placed: palette 1 is next to brass floor lamp 1, a polished brass lamp that is elegant and adjustable, and palette 2 is on rolling storage cart 2. Five freestanding sculpture stands are positioned: stand 2 is near the stainless steel utility sink, stand 3 is beside wooden model stand 2, stand 4 is adjacent to brass floor lamp 2, and stand 5 faces track lighting fixture 3. The wooden model stands are placed: stand 2 is near freestanding sculpture stand 3, and stand 3 is beside wall mounted drying rack 2. The brass floor lamps provide additional lighting: lamp 1 is next to glass palette 1, and lamp 2 illuminates freestanding sculpture stand 4. The art room is connected to the outside via a frosted glass sliding door with sleek aluminum framing, seamlessly integrated into the pristine white walls.",
+        "humanized": null,
+        "sentence": "A modern, well-equipped art room features adjustable easels, drafting tables, storage carts, track lighting, drying racks, sculpture stands, and brass floor lamps, all arranged in a sleek, functional layout with pristine white walls and polished concrete floors.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    },
+    {
+      "instruction": "Modify the appearance of rolling storage cart 1 to be matte black instead of white powder-coated.",
+      "prompts": {
+        "full": "The building features a single, well-equipped art room designed with a sleek, modern aesthetic and functional layout for artistic activities. The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression. In this room, looking from the entrance, five wooden adjustable easels made with polished beech wood that are sturdy and smooth are arranged: adjustable easel 1 is placed 1 meter away from large drafting table 1, a gray tempered glass table that is spacious and smooth; adjustable easel 2 is positioned near rolling storage cart 1, a matte black powder-coated metal cart that is sleek and lightweight; adjustable easel 3 is adjacent to wall mounted drying rack 1, a white powder-coated wire rack that is functional and space-saving; adjustable easel 4 faces track lighting fixture 1, a black brushed aluminum fixture that is modern and minimalistic; and adjustable easel 5 is next to freestanding sculpture stand 1, a solid oak stand that is sturdy and versatile. Three white rolling storage carts are placed throughout: cart 1 is under track lighting fixture 2, cart 2 is beside the stainless steel utility sink that is durable and deep, and cart 3 is near the matte black ceramic kiln made with industrial-grade steel that is robust and heat-resistant. Four black track lighting fixtures illuminate key areas: fixture 1 shines on large drafting table 1, fixture 2 is directed towards the wooden canvas storage rack made with unfinished pine that is spacious and rustic, fixture 3 is above the white acrylic paint organizer made with molded plastic that is modular and stackable, and fixture 4 shines on wooden model stand 1, a beige birch plywood stand that is lightweight and smooth. Two large drafting tables are present: table 2 is accompanied by a silver metal stool made with stainless steel that is sleek and ergonomic, placed under it. Two wall mounted drying racks are mounted: rack 1 is near adjustable easel 3, and rack 2 is beside the matte black digital projector made with high-grade plastic that is compact and lightweight, which is mounted on the ceiling above large drafting table 2. Two clear glass palettes made with tempered glass that are smooth and easy to clean are placed: palette 1 is next to brass floor lamp 1, a polished brass lamp that is elegant and adjustable, and palette 2 is on rolling storage cart 2. Five freestanding sculpture stands are positioned: stand 2 is near the ceramic kiln, stand 3 is beside wooden model stand 2, stand 4 is adjacent to brass floor lamp 2, and stand 5 faces track lighting fixture 3. The wooden model stands are placed: stand 2 is near freestanding sculpture stand 3, and stand 3 is beside wall mounted drying rack 2. The brass floor lamps provide additional lighting: lamp 1 is next to glass palette 1, and lamp 2 illuminates freestanding sculpture stand 4. The art room is connected to the outside via a frosted glass sliding door with sleek aluminum framing, seamlessly integrated into the pristine white walls.",
+        "humanized": null,
+        "sentence": "A modern, well-equipped art room features five adjustable easels, three rolling storage carts, four track lighting fixtures, two large drafting tables, two wall-mounted drying racks, two glass palettes, five freestanding sculpture stands, two brass floor lamps, and a frosted glass sliding door, all arranged for optimal artistic activity in a sleek, functional space.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    }
+  ],
+  "conversations": {
+    "rooms_description": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 4.349975541990716,
+      "prompt_tokens": 314,
+      "completion_tokens": 41,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nYou are given some room types that can be found in schools.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"art room\": [\"monochromatic\", \"shady\", \"balanced\", \"muted\", \"refined\", \"bright\", \"intimate\", \"sleek\", \"ornate\", \"artistic\", \"spartan\", \"nostalgic\", \"moody\", \"pristine\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"art room\": \"The art room <FILL_IN>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "```json\n{\"art room\": \"The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression.\"}\n```"
+        }
+      ]
+    },
+    "connections_description": [
+      {
+        "model": "deepseek-chat",
+        "base_url": "https://api.deepseek.com/",
+        "max_tokens": 8192,
+        "temperature": 0.7,
+        "duration": 8.082152666000184,
+        "prompt_tokens": 669,
+        "completion_tokens": 32,
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nYou are given some room types that can be found in schools.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"art room\": [\"monochromatic\", \"shady\", \"balanced\", \"muted\", \"refined\", \"bright\", \"intimate\", \"sleek\", \"ornate\", \"artistic\", \"spartan\", \"nostalgic\", \"moody\", \"pristine\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"art room\": \"The art room <FILL_IN>\"}"
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": "```json\n{\"art room\": \"The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression.\"}\n```"
+          },
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nYou are designing one that contains (1) \"art room\" and (2) \"__outside__\".\n(1) \"art room\" has the following description: _{description1}_\n(2) \"__outside__\" has the following description: _{description2}_\nThese two rooms are connected with a sliding door.\nUsing your imagination, generate a concise description of the sliding door's appearance (color, material, attributes; \"attributes\" refers to extra descriptive phrases that are solely about the object's appearance and are independent of other objects).\nA description **MUST** be able to resemble the following sentence: \"A/An `color` <<OBJECT_NAME>> made with `material` that is `attributes`.\"\n\n## Known information\n\n_{description1}_: The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression.\n\n_{description2}_: the space outside the final building, which could be indoor or outdoor\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"description\": \"<<FILL_IN>>\"}"
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": "```json\n{\"description\": \"A frosted glass sliding door made with sleek aluminum framing that is minimalist and seamlessly integrated into the pristine white walls.\"}\n```"
+          }
+        ]
+      }
+    ],
+    "rooms_objects": {
+      "room_objects": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 9.107379167049658,
+          "prompt_tokens": 680,
+          "completion_tokens": 147,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nYou are given some room types that can be found in schools.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"art room\": [\"monochromatic\", \"shady\", \"balanced\", \"muted\", \"refined\", \"bright\", \"intimate\", \"sleek\", \"ornate\", \"artistic\", \"spartan\", \"nostalgic\", \"moody\", \"pristine\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"art room\": \"The art room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"art room\": \"The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nParticularly, you are working on a art room with the following description: _{description}_\nNow, generate the objects (each with its quantity) that should exist in this room.\n\n## Guidance\n\n- Besides generating objects that can be found in a typical art room, unleash your imagination and generate objects that are likely to be associated with the given description.\n- You **MUST** generate at least one lighting unit (i.e., an object made for illumination).\n- Do **NOT** generate door, doorframe, window, or stair.\n- Do **NOT** use plural form, even if the quantity of that object is more than one.\n- Do **NOT** use underscore in object name.\n- Make sure the quantity is an integer greater than 0.\n- Refrain from repeatedly generating identical or similar objects.\n\n## Known information\n\n_{description}_: The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"<<FILL_IN_OBJECT>>\": <<FILL_IN_QUANTITY>>}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"adjustable easel\": 12,\n  \"rolling storage cart\": 3,\n  \"track lighting fixture\": 4,\n  \"large drafting table\": 2,\n  \"ceramic kiln\": 1,\n  \"metal stool\": 15,\n  \"wall mounted drying rack\": 2,\n  \"glass palette\": 8,\n  \"steel utility sink\": 1,\n  \"freestanding sculpture stand\": 5,\n  \"digital projector\": 1,\n  \"acrylic paint organizer\": 1,\n  \"canvas storage rack\": 1,\n  \"brass floor lamp\": 2,\n  \"wooden model stand\": 3\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_objects_description": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 38.45492824999383,
+          "prompt_tokens": 960,
+          "completion_tokens": 878,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nYou are given some room types that can be found in schools.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"art room\": [\"monochromatic\", \"shady\", \"balanced\", \"muted\", \"refined\", \"bright\", \"intimate\", \"sleek\", \"ornate\", \"artistic\", \"spartan\", \"nostalgic\", \"moody\", \"pristine\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"art room\": \"The art room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"art room\": \"The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nParticularly, you are working on a art room with the following description: _{description}_\nThis room contains the following objects: _{objects}_\nNow, for each object, generate a concise description about the object's appearance (color, material, attributes; \"attributes\" refers to extra descriptive phrases that are solely about the object's appearance and are independent of other objects).\nA description **MUST** be able to resemble the following sentence: \"A/An `color` <<OBJECT_NAME>> made with `material` that is `attributes`.\"\n\n## Guidance\n\n- **All** objects **MUST** be used.\n- If you expect several objects to be identical, their descriptions **MUST** also be identical.\n- In the description, do **NOT** mention other objects. Also, do **NOT** include the object's position relative to other objects.\n\n## Known information\n\n_{description}_: The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression.\n\n_{objects}_: [\"adjustable easel 1\", \"adjustable easel 2\", \"adjustable easel 3\", \"adjustable easel 4\", \"adjustable easel 5\", \"rolling storage cart 1\", \"rolling storage cart 2\", \"rolling storage cart 3\", \"track lighting fixture 1\", \"track lighting fixture 2\", \"track lighting fixture 3\", \"track lighting fixture 4\", \"large drafting table 1\", \"large drafting table 2\", \"ceramic kiln\", \"metal stool\", \"wall mounted drying rack 1\", \"wall mounted drying rack 2\", \"glass palette 1\", \"glass palette 2\", \"steel utility sink\", \"freestanding sculpture stand 1\", \"freestanding sculpture stand 2\", \"freestanding sculpture stand 3\", \"freestanding sculpture stand 4\", \"freestanding sculpture stand 5\", \"digital projector\", \"acrylic paint organizer\", \"canvas storage rack\", \"brass floor lamp 1\", \"brass floor lamp 2\", \"wooden model stand 1\", \"wooden model stand 2\", \"wooden model stand 3\"]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\nYou **MUST** include **all** provided object names **as is**.\n\n{\"<<USE_PROVIDED_OBJECT_NAME>>\": \"<<FILL_IN_DESCRIPTION>>\", ...}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"adjustable easel 1\": \"A wooden adjustable easel made with polished beech wood that is sturdy and smooth.\",\n  \"adjustable easel 2\": \"A wooden adjustable easel made with polished beech wood that is sturdy and smooth.\",\n  \"adjustable easel 3\": \"A wooden adjustable easel made with polished beech wood that is sturdy and smooth.\",\n  \"adjustable easel 4\": \"A wooden adjustable easel made with polished beech wood that is sturdy and smooth.\",\n  \"adjustable easel 5\": \"A wooden adjustable easel made with polished beech wood that is sturdy and smooth.\",\n  \"rolling storage cart 1\": \"A white rolling storage cart made with powder-coated metal that is sleek and lightweight.\",\n  \"rolling storage cart 2\": \"A white rolling storage cart made with powder-coated metal that is sleek and lightweight.\",\n  \"rolling storage cart 3\": \"A white rolling storage cart made with powder-coated metal that is sleek and lightweight.\",\n  \"track lighting fixture 1\": \"A black track lighting fixture made with brushed aluminum that is modern and minimalistic.\",\n  \"track lighting fixture 2\": \"A black track lighting fixture made with brushed aluminum that is modern and minimalistic.\",\n  \"track lighting fixture 3\": \"A black track lighting fixture made with brushed aluminum that is modern and minimalistic.\",\n  \"track lighting fixture 4\": \"A black track lighting fixture made with brushed aluminum that is modern and minimalistic.\",\n  \"large drafting table 1\": \"A gray large drafting table made with tempered glass that is spacious and smooth.\",\n  \"large drafting table 2\": \"A gray large drafting table made with tempered glass that is spacious and smooth.\",\n  \"ceramic kiln\": \"A matte black ceramic kiln made with industrial-grade steel that is robust and heat-resistant.\",\n  \"metal stool\": \"A silver metal stool made with stainless steel that is sleek and ergonomic.\",\n  \"wall mounted drying rack 1\": \"A white wall mounted drying rack made with powder-coated wire that is functional and space-saving.\",\n  \"wall mounted drying rack 2\": \"A white wall mounted drying rack made with powder-coated wire that is functional and space-saving.\",\n  \"glass palette 1\": \"A clear glass palette made with tempered glass that is smooth and easy to clean.\",\n  \"glass palette 2\": \"A clear glass palette made with tempered glass that is smooth and easy to clean.\",\n  \"steel utility sink\": \"A stainless steel utility sink made with heavy-duty steel that is durable and deep.\",\n  \"freestanding sculpture stand 1\": \"A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.\",\n  \"freestanding sculpture stand 2\": \"A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.\",\n  \"freestanding sculpture stand 3\": \"A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.\",\n  \"freestanding sculpture stand 4\": \"A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.\",\n  \"freestanding sculpture stand 5\": \"A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.\",\n  \"digital projector\": \"A matte black digital projector made with high-grade plastic that is compact and lightweight.\",\n  \"acrylic paint organizer\": \"A white acrylic paint organizer made with molded plastic that is modular and stackable.\",\n  \"canvas storage rack\": \"A wooden canvas storage rack made with unfinished pine that is spacious and rustic.\",\n  \"brass floor lamp 1\": \"A brass floor lamp made with polished brass that is elegant and adjustable.\",\n  \"brass floor lamp 2\": \"A brass floor lamp made with polished brass that is elegant and adjustable.\",\n  \"wooden model stand 1\": \"A beige wooden model stand made with birch plywood that is lightweight and smooth.\",\n  \"wooden model stand 2\": \"A beige wooden model stand made with birch plywood that is lightweight and smooth.\",\n  \"wooden model stand 3\": \"A beige wooden model stand made with birch plywood that is lightweight and smooth.\"\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_objects_relations": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 29.63718920800602,
+          "prompt_tokens": 1621,
+          "completion_tokens": 694,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nYou are given some room types that can be found in schools.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"art room\": [\"monochromatic\", \"shady\", \"balanced\", \"muted\", \"refined\", \"bright\", \"intimate\", \"sleek\", \"ornate\", \"artistic\", \"spartan\", \"nostalgic\", \"moody\", \"pristine\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"art room\": \"The art room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"art room\": \"The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nParticularly, you are working on a art room with the following description: _{description}_\nThis room contains the following objects (each coupled with a description): _{objects}_\nNow, be as creative as you can (but remain realistic and practical) and generate sufficient 3-tuples of [objectA, relation, objectB] (which encode different relations between pairs of objects).\n`objectA` and `objectB` are object names; `relation` is a phrase or an incomplete sentence (numerical values can be optionally included, such as a desired distance (meter) between two objects) that describes how `objectA` is physically related to `objectB` according to `relation`.\nIn other words, a 3-tuple should be able to resemble the following sentence: \"`objectA` is `relation` `objectB`.\"\nFor example, if a coffee cup is placed on top of a table, you could generate `[\"coffee cup\", \"on\", \"table\"]`.\n\n## Guidance\n\n- **All** objects **MUST** be used at least once.\n\n## Known information\n\n_{description}_: The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression.\n\n_{objects}_: {\"adjustable easel 1\": \"A wooden adjustable easel made with polished beech wood that is sturdy and smooth.\", \"adjustable easel 2\": \"A wooden adjustable easel made with polished beech wood that is sturdy and smooth.\", \"adjustable easel 3\": \"A wooden adjustable easel made with polished beech wood that is sturdy and smooth.\", \"adjustable easel 4\": \"A wooden adjustable easel made with polished beech wood that is sturdy and smooth.\", \"adjustable easel 5\": \"A wooden adjustable easel made with polished beech wood that is sturdy and smooth.\", \"rolling storage cart 1\": \"A white rolling storage cart made with powder-coated metal that is sleek and lightweight.\", \"rolling storage cart 2\": \"A white rolling storage cart made with powder-coated metal that is sleek and lightweight.\", \"rolling storage cart 3\": \"A white rolling storage cart made with powder-coated metal that is sleek and lightweight.\", \"track lighting fixture 1\": \"A black track lighting fixture made with brushed aluminum that is modern and minimalistic.\", \"track lighting fixture 2\": \"A black track lighting fixture made with brushed aluminum that is modern and minimalistic.\", \"track lighting fixture 3\": \"A black track lighting fixture made with brushed aluminum that is modern and minimalistic.\", \"track lighting fixture 4\": \"A black track lighting fixture made with brushed aluminum that is modern and minimalistic.\", \"large drafting table 1\": \"A gray large drafting table made with tempered glass that is spacious and smooth.\", \"large drafting table 2\": \"A gray large drafting table made with tempered glass that is spacious and smooth.\", \"ceramic kiln\": \"A matte black ceramic kiln made with industrial-grade steel that is robust and heat-resistant.\", \"metal stool\": \"A silver metal stool made with stainless steel that is sleek and ergonomic.\", \"wall mounted drying rack 1\": \"A white wall mounted drying rack made with powder-coated wire that is functional and space-saving.\", \"wall mounted drying rack 2\": \"A white wall mounted drying rack made with powder-coated wire that is functional and space-saving.\", \"glass palette 1\": \"A clear glass palette made with tempered glass that is smooth and easy to clean.\", \"glass palette 2\": \"A clear glass palette made with tempered glass that is smooth and easy to clean.\", \"steel utility sink\": \"A stainless steel utility sink made with heavy-duty steel that is durable and deep.\", \"freestanding sculpture stand 1\": \"A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.\", \"freestanding sculpture stand 2\": \"A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.\", \"freestanding sculpture stand 3\": \"A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.\", \"freestanding sculpture stand 4\": \"A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.\", \"freestanding sculpture stand 5\": \"A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.\", \"digital projector\": \"A matte black digital projector made with high-grade plastic that is compact and lightweight.\", \"acrylic paint organizer\": \"A white acrylic paint organizer made with molded plastic that is modular and stackable.\", \"canvas storage rack\": \"A wooden canvas storage rack made with unfinished pine that is spacious and rustic.\", \"brass floor lamp 1\": \"A brass floor lamp made with polished brass that is elegant and adjustable.\", \"brass floor lamp 2\": \"A brass floor lamp made with polished brass that is elegant and adjustable.\", \"wooden model stand 1\": \"A beige wooden model stand made with birch plywood that is lightweight and smooth.\", \"wooden model stand 2\": \"A beige wooden model stand made with birch plywood that is lightweight and smooth.\", \"wooden model stand 3\": \"A beige wooden model stand made with birch plywood that is lightweight and smooth.\"}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\nYou **MUST** use **all** provided object names **as is**.\n\n{\n  \"relations\": [\n    [\"<<USE_PROVIDED_OBJECT_NAME>>\", \"<<FILL_IN_RELATION>>\", \"<<USE_PROVIDED_OBJECT_NAME>>\"],\n    ...\n  ]\n}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"relations\": [\n    [\"adjustable easel 1\", \"placed 1 meter away from\", \"large drafting table 1\"],\n    [\"adjustable easel 2\", \"positioned near\", \"rolling storage cart 1\"],\n    [\"adjustable easel 3\", \"adjacent to\", \"wall mounted drying rack 1\"],\n    [\"adjustable easel 4\", \"facing\", \"track lighting fixture 1\"],\n    [\"adjustable easel 5\", \"next to\", \"freestanding sculpture stand 1\"],\n    [\"rolling storage cart 1\", \"under\", \"track lighting fixture 2\"],\n    [\"rolling storage cart 2\", \"beside\", \"steel utility sink\"],\n    [\"rolling storage cart 3\", \"near\", \"ceramic kiln\"],\n    [\"track lighting fixture 1\", \"illuminating\", \"large drafting table 1\"],\n    [\"track lighting fixture 2\", \"directed towards\", \"canvas storage rack\"],\n    [\"track lighting fixture 3\", \"above\", \"acrylic paint organizer\"],\n    [\"track lighting fixture 4\", \"shining on\", \"wooden model stand 1\"],\n    [\"large drafting table 1\", \"with\", \"glass palette 1 on top\"],\n    [\"large drafting table 2\", \"accompanied by\", \"metal stool\"],\n    [\"ceramic kiln\", \"positioned 2 meters away from\", \"freestanding sculpture stand 2\"],\n    [\"metal stool\", \"placed under\", \"large drafting table 2\"],\n    [\"wall mounted drying rack 1\", \"on the wall near\", \"adjustable easel 3\"],\n    [\"wall mounted drying rack 2\", \"mounted beside\", \"digital projector\"],\n    [\"glass palette 1\", \"placed next to\", \"brass floor lamp 1\"],\n    [\"glass palette 2\", \"on\", \"rolling storage cart 2\"],\n    [\"steel utility sink\", \"against the wall near\", \"rolling storage cart 2\"],\n    [\"freestanding sculpture stand 1\", \"next to\", \"adjustable easel 5\"],\n    [\"freestanding sculpture stand 2\", \"near\", \"ceramic kiln\"],\n    [\"freestanding sculpture stand 3\", \"positioned beside\", \"wooden model stand 2\"],\n    [\"freestanding sculpture stand 4\", \"adjacent to\", \"brass floor lamp 2\"],\n    [\"freestanding sculpture stand 5\", \"facing\", \"track lighting fixture 3\"],\n    [\"digital projector\", \"mounted on the ceiling above\", \"large drafting table 2\"],\n    [\"acrylic paint organizer\", \"on\", \"rolling storage cart 3\"],\n    [\"canvas storage rack\", \"against the wall near\", \"track lighting fixture 2\"],\n    [\"brass floor lamp 1\", \"next to\", \"glass palette 1\"],\n    [\"brass floor lamp 2\", \"illuminating\", \"freestanding sculpture stand 4\"],\n    [\"wooden model stand 1\", \"under\", \"track lighting fixture 4\"],\n    [\"wooden model stand 2\", \"near\", \"freestanding sculpture stand 3\"],\n    [\"wooden model stand 3\", \"beside\", \"wall mounted drying rack 2\"]\n  ]\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_summary": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 25.753752082993742,
+          "prompt_tokens": 2269,
+          "completion_tokens": 578,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nYou are given some room types that can be found in schools.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"art room\": [\"monochromatic\", \"shady\", \"balanced\", \"muted\", \"refined\", \"bright\", \"intimate\", \"sleek\", \"ornate\", \"artistic\", \"spartan\", \"nostalgic\", \"moody\", \"pristine\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"art room\": \"The art room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"art room\": \"The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nParticularly, you are working on a art room with the following description: _{description}_\nThis room contains the following objects (each coupled with a description): _{objects}_\nThese objects are related to one another: _{object-relations}_\nNow, using _{objects}_ and _{object-relations}_, generate a **one-paragraph** summary regarding the objects in this room as well as where they are exactly placed and how they are exactly related.\nYou **MUST** keep every object's description.\n\n## Guidance\n\n- **All** given objects must be used, but you can use them in any order you want.\n- If there is a collection of similar/identical objects, you **MUST explicitly** mention the **number** of objects (e.g., \"five books\" instead of \"a collection of books\").\n- Each element in _{object-relations}_ is a 3-tuple [objectA, relation, objectB] which encodes a relation between a pair of objects.\n`objectA` and `objectB` are object names; `relation` is a phrase or an incomplete sentence (numerical values can be optionally included) that describes how `objectA` is physically related to `objectB` according to `relation`.\n- You may use \"looking from ...\" to describe the room from a specific perspective, making the summary more vivid.\n\n## Known information\n\n_{description}_: The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression.\n\n_{objects}_: {\"adjustable easel 1\": \"A wooden adjustable easel made with polished beech wood that is sturdy and smooth.\", \"adjustable easel 2\": \"A wooden adjustable easel made with polished beech wood that is sturdy and smooth.\", \"adjustable easel 3\": \"A wooden adjustable easel made with polished beech wood that is sturdy and smooth.\", \"adjustable easel 4\": \"A wooden adjustable easel made with polished beech wood that is sturdy and smooth.\", \"adjustable easel 5\": \"A wooden adjustable easel made with polished beech wood that is sturdy and smooth.\", \"rolling storage cart 1\": \"A white rolling storage cart made with powder-coated metal that is sleek and lightweight.\", \"rolling storage cart 2\": \"A white rolling storage cart made with powder-coated metal that is sleek and lightweight.\", \"rolling storage cart 3\": \"A white rolling storage cart made with powder-coated metal that is sleek and lightweight.\", \"track lighting fixture 1\": \"A black track lighting fixture made with brushed aluminum that is modern and minimalistic.\", \"track lighting fixture 2\": \"A black track lighting fixture made with brushed aluminum that is modern and minimalistic.\", \"track lighting fixture 3\": \"A black track lighting fixture made with brushed aluminum that is modern and minimalistic.\", \"track lighting fixture 4\": \"A black track lighting fixture made with brushed aluminum that is modern and minimalistic.\", \"large drafting table 1\": \"A gray large drafting table made with tempered glass that is spacious and smooth.\", \"large drafting table 2\": \"A gray large drafting table made with tempered glass that is spacious and smooth.\", \"ceramic kiln\": \"A matte black ceramic kiln made with industrial-grade steel that is robust and heat-resistant.\", \"metal stool\": \"A silver metal stool made with stainless steel that is sleek and ergonomic.\", \"wall mounted drying rack 1\": \"A white wall mounted drying rack made with powder-coated wire that is functional and space-saving.\", \"wall mounted drying rack 2\": \"A white wall mounted drying rack made with powder-coated wire that is functional and space-saving.\", \"glass palette 1\": \"A clear glass palette made with tempered glass that is smooth and easy to clean.\", \"glass palette 2\": \"A clear glass palette made with tempered glass that is smooth and easy to clean.\", \"steel utility sink\": \"A stainless steel utility sink made with heavy-duty steel that is durable and deep.\", \"freestanding sculpture stand 1\": \"A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.\", \"freestanding sculpture stand 2\": \"A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.\", \"freestanding sculpture stand 3\": \"A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.\", \"freestanding sculpture stand 4\": \"A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.\", \"freestanding sculpture stand 5\": \"A wooden freestanding sculpture stand made with solid oak that is sturdy and versatile.\", \"digital projector\": \"A matte black digital projector made with high-grade plastic that is compact and lightweight.\", \"acrylic paint organizer\": \"A white acrylic paint organizer made with molded plastic that is modular and stackable.\", \"canvas storage rack\": \"A wooden canvas storage rack made with unfinished pine that is spacious and rustic.\", \"brass floor lamp 1\": \"A brass floor lamp made with polished brass that is elegant and adjustable.\", \"brass floor lamp 2\": \"A brass floor lamp made with polished brass that is elegant and adjustable.\", \"wooden model stand 1\": \"A beige wooden model stand made with birch plywood that is lightweight and smooth.\", \"wooden model stand 2\": \"A beige wooden model stand made with birch plywood that is lightweight and smooth.\", \"wooden model stand 3\": \"A beige wooden model stand made with birch plywood that is lightweight and smooth.\"}\n\n_{object-relations}_: [[\"adjustable easel 1\", \"placed 1 meter away from\", \"large drafting table 1\"], [\"adjustable easel 2\", \"positioned near\", \"rolling storage cart 1\"], [\"adjustable easel 3\", \"adjacent to\", \"wall mounted drying rack 1\"], [\"adjustable easel 4\", \"facing\", \"track lighting fixture 1\"], [\"adjustable easel 5\", \"next to\", \"freestanding sculpture stand 1\"], [\"rolling storage cart 1\", \"under\", \"track lighting fixture 2\"], [\"rolling storage cart 2\", \"beside\", \"steel utility sink\"], [\"rolling storage cart 3\", \"near\", \"ceramic kiln\"], [\"track lighting fixture 1\", \"illuminating\", \"large drafting table 1\"], [\"track lighting fixture 2\", \"directed towards\", \"canvas storage rack\"], [\"track lighting fixture 3\", \"above\", \"acrylic paint organizer\"], [\"track lighting fixture 4\", \"shining on\", \"wooden model stand 1\"], [\"large drafting table 2\", \"accompanied by\", \"metal stool\"], [\"ceramic kiln\", \"positioned 2 meters away from\", \"freestanding sculpture stand 2\"], [\"metal stool\", \"placed under\", \"large drafting table 2\"], [\"wall mounted drying rack 1\", \"on the wall near\", \"adjustable easel 3\"], [\"wall mounted drying rack 2\", \"mounted beside\", \"digital projector\"], [\"glass palette 1\", \"placed next to\", \"brass floor lamp 1\"], [\"glass palette 2\", \"on\", \"rolling storage cart 2\"], [\"steel utility sink\", \"against the wall near\", \"rolling storage cart 2\"], [\"freestanding sculpture stand 1\", \"next to\", \"adjustable easel 5\"], [\"freestanding sculpture stand 2\", \"near\", \"ceramic kiln\"], [\"freestanding sculpture stand 3\", \"positioned beside\", \"wooden model stand 2\"], [\"freestanding sculpture stand 4\", \"adjacent to\", \"brass floor lamp 2\"], [\"freestanding sculpture stand 5\", \"facing\", \"track lighting fixture 3\"], [\"digital projector\", \"mounted on the ceiling above\", \"large drafting table 2\"], [\"acrylic paint organizer\", \"on\", \"rolling storage cart 3\"], [\"canvas storage rack\", \"against the wall near\", \"track lighting fixture 2\"], [\"brass floor lamp 1\", \"next to\", \"glass palette 1\"], [\"brass floor lamp 2\", \"illuminating\", \"freestanding sculpture stand 4\"], [\"wooden model stand 1\", \"under\", \"track lighting fixture 4\"], [\"wooden model stand 2\", \"near\", \"freestanding sculpture stand 3\"], [\"wooden model stand 3\", \"beside\", \"wall mounted drying rack 2\"]]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"summary\": \"In this room, <<FILL_IN>>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"summary\": \"In this room, looking from the entrance, five wooden adjustable easels made with polished beech wood that are sturdy and smooth are arranged: adjustable easel 1 is placed 1 meter away from large drafting table 1, a gray tempered glass table that is spacious and smooth; adjustable easel 2 is positioned near rolling storage cart 1, a white powder-coated metal cart that is sleek and lightweight; adjustable easel 3 is adjacent to wall mounted drying rack 1, a white powder-coated wire rack that is functional and space-saving; adjustable easel 4 faces track lighting fixture 1, a black brushed aluminum fixture that is modern and minimalistic; and adjustable easel 5 is next to freestanding sculpture stand 1, a solid oak stand that is sturdy and versatile. Three white rolling storage carts are placed throughout: cart 1 is under track lighting fixture 2, cart 2 is beside the stainless steel utility sink that is durable and deep, and cart 3 is near the matte black ceramic kiln made with industrial-grade steel that is robust and heat-resistant. Four black track lighting fixtures illuminate key areas: fixture 1 shines on large drafting table 1, fixture 2 is directed towards the wooden canvas storage rack made with unfinished pine that is spacious and rustic, fixture 3 is above the white acrylic paint organizer made with molded plastic that is modular and stackable, and fixture 4 shines on wooden model stand 1, a beige birch plywood stand that is lightweight and smooth. Two large drafting tables are present: table 2 is accompanied by a silver metal stool made with stainless steel that is sleek and ergonomic, placed under it. Two wall mounted drying racks are mounted: rack 1 is near adjustable easel 3, and rack 2 is beside the matte black digital projector made with high-grade plastic that is compact and lightweight, which is mounted on the ceiling above large drafting table 2. Two clear glass palettes made with tempered glass that are smooth and easy to clean are placed: palette 1 is next to brass floor lamp 1, a polished brass lamp that is elegant and adjustable, and palette 2 is on rolling storage cart 2. Five freestanding sculpture stands are positioned: stand 2 is near the ceramic kiln, stand 3 is beside wooden model stand 2, stand 4 is adjacent to brass floor lamp 2, and stand 5 faces track lighting fixture 3. The wooden model stands are placed: stand 2 is near freestanding sculpture stand 3, and stand 3 is beside wall mounted drying rack 2. The brass floor lamps provide additional lighting: lamp 1 is next to glass palette 1, and lamp 2 illuminates freestanding sculpture stand 4.\"}\n```"
+            }
+          ]
+        }
+      ]
+    },
+    "basic_summaries": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 5.433173750003334,
+      "prompt_tokens": 949,
+      "completion_tokens": 69,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of schools.\nYou are designing one with 1 room(s) (each has its own summary): _{rooms}_\nSome of these rooms are connected (with or without a door): _{connections}_\nNow, generate two concise summaries in your own words.\nThe first one is a one-sentence overall description of the building's configuration (floor plan).\nThe second one consists of all connections in this building (i.e., all pairs of rooms that are connected, how they are connected, and the appearance of connection objects).\n\n## Guidance\n\n- In _{connections}_, region \"__outside__\" refers to the space outside the final building, which could be indoor or outdoor.\n- A connection type of \"open\" refers to the absence of a shared boundary between two rooms.\n\n## Known information\n\n_{rooms}_: {\"art room\": \"The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression. In this room, looking from the entrance, five wooden adjustable easels made with polished beech wood that are sturdy and smooth are arranged: adjustable easel 1 is placed 1 meter away from large drafting table 1, a gray tempered glass table that is spacious and smooth; adjustable easel 2 is positioned near rolling storage cart 1, a white powder-coated metal cart that is sleek and lightweight; adjustable easel 3 is adjacent to wall mounted drying rack 1, a white powder-coated wire rack that is functional and space-saving; adjustable easel 4 faces track lighting fixture 1, a black brushed aluminum fixture that is modern and minimalistic; and adjustable easel 5 is next to freestanding sculpture stand 1, a solid oak stand that is sturdy and versatile. Three white rolling storage carts are placed throughout: cart 1 is under track lighting fixture 2, cart 2 is beside the stainless steel utility sink that is durable and deep, and cart 3 is near the matte black ceramic kiln made with industrial-grade steel that is robust and heat-resistant. Four black track lighting fixtures illuminate key areas: fixture 1 shines on large drafting table 1, fixture 2 is directed towards the wooden canvas storage rack made with unfinished pine that is spacious and rustic, fixture 3 is above the white acrylic paint organizer made with molded plastic that is modular and stackable, and fixture 4 shines on wooden model stand 1, a beige birch plywood stand that is lightweight and smooth. Two large drafting tables are present: table 2 is accompanied by a silver metal stool made with stainless steel that is sleek and ergonomic, placed under it. Two wall mounted drying racks are mounted: rack 1 is near adjustable easel 3, and rack 2 is beside the matte black digital projector made with high-grade plastic that is compact and lightweight, which is mounted on the ceiling above large drafting table 2. Two clear glass palettes made with tempered glass that are smooth and easy to clean are placed: palette 1 is next to brass floor lamp 1, a polished brass lamp that is elegant and adjustable, and palette 2 is on rolling storage cart 2. Five freestanding sculpture stands are positioned: stand 2 is near the ceramic kiln, stand 3 is beside wooden model stand 2, stand 4 is adjacent to brass floor lamp 2, and stand 5 faces track lighting fixture 3. The wooden model stands are placed: stand 2 is near freestanding sculpture stand 3, and stand 3 is beside wall mounted drying rack 2. The brass floor lamps provide additional lighting: lamp 1 is next to glass palette 1, and lamp 2 illuminates freestanding sculpture stand 4.\"}\n\n_{connections}_: [{\"region_a\": \"art room\", \"region_b\": \"__outside__\", \"conn_type\": \"sliding door\", \"description\": \"A frosted glass sliding door made with sleek aluminum framing that is minimalist and seamlessly integrated into the pristine white walls.\"}]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"overall_summary\": \"<<FILL_IN>>\", \"connections_summary\": \"<<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "{\n  \"overall_summary\": \"The building features a single, well-equipped art room designed with a sleek, modern aesthetic and functional layout for artistic activities.\",\n  \"connections_summary\": \"The art room is connected to the outside via a frosted glass sliding door with sleek aluminum framing, seamlessly integrated into the pristine white walls.\"\n}"
+        }
+      ]
+    },
+    "humanized_prompt": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 15.272152374964207,
+      "prompt_tokens": 854,
+      "completion_tokens": 234,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional real estate agent who excels at introducing any type of real estate to your clients.\nYou are given a very comprehensive description of one of the latest schools in your area: _{description}_\nNow, rewrite the description into a one-paragraph natural speech (starting with \"A\"/\"An\") that is easy to understand and appealing to your clients.\n\n## Guidance\n\n- You **MUST** use all provided information from the description in your prompt.\n\n## Known information\n\n_{description}_: The building features a single, well-equipped art room designed with a sleek, modern aesthetic and functional layout for artistic activities. The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression. In this room, looking from the entrance, five wooden adjustable easels made with polished beech wood that are sturdy and smooth are arranged: adjustable easel 1 is placed 1 meter away from large drafting table 1, a gray tempered glass table that is spacious and smooth; adjustable easel 2 is positioned near rolling storage cart 1, a white powder-coated metal cart that is sleek and lightweight; adjustable easel 3 is adjacent to wall mounted drying rack 1, a white powder-coated wire rack that is functional and space-saving; adjustable easel 4 faces track lighting fixture 1, a black brushed aluminum fixture that is modern and minimalistic; and adjustable easel 5 is next to freestanding sculpture stand 1, a solid oak stand that is sturdy and versatile. Three white rolling storage carts are placed throughout: cart 1 is under track lighting fixture 2, cart 2 is beside the stainless steel utility sink that is durable and deep, and cart 3 is near the matte black ceramic kiln made with industrial-grade steel that is robust and heat-resistant. Four black track lighting fixtures illuminate key areas: fixture 1 shines on large drafting table 1, fixture 2 is directed towards the wooden canvas storage rack made with unfinished pine that is spacious and rustic, fixture 3 is above the white acrylic paint organizer made with molded plastic that is modular and stackable, and fixture 4 shines on wooden model stand 1, a beige birch plywood stand that is lightweight and smooth. Two large drafting tables are present: table 2 is accompanied by a silver metal stool made with stainless steel that is sleek and ergonomic, placed under it. Two wall mounted drying racks are mounted: rack 1 is near adjustable easel 3, and rack 2 is beside the matte black digital projector made with high-grade plastic that is compact and lightweight, which is mounted on the ceiling above large drafting table 2. Two clear glass palettes made with tempered glass that are smooth and easy to clean are placed: palette 1 is next to brass floor lamp 1, a polished brass lamp that is elegant and adjustable, and palette 2 is on rolling storage cart 2. Five freestanding sculpture stands are positioned: stand 2 is near the ceramic kiln, stand 3 is beside wooden model stand 2, stand 4 is adjacent to brass floor lamp 2, and stand 5 faces track lighting fixture 3. The wooden model stands are placed: stand 2 is near freestanding sculpture stand 3, and stand 3 is beside wall mounted drying rack 2. The brass floor lamps provide additional lighting: lamp 1 is next to glass palette 1, and lamp 2 illuminates freestanding sculpture stand 4. The art room is connected to the outside via a frosted glass sliding door with sleek aluminum framing, seamlessly integrated into the pristine white walls.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"speech\": \"A/An <<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "```json\n{\"speech\": \"An art room designed with a sleek, modern aesthetic and functional layout, featuring pristine white walls and a monochromatic polished concrete floor for a bright yet intimate atmosphere. It includes five adjustable beech wood easels, each strategically placed: one near a gray tempered glass drafting table, another by a white powder-coated metal cart, one adjacent to a space-saving wall-mounted drying rack, one facing a black brushed aluminum track light, and the last next to a versatile oak sculpture stand. Three white rolling carts are positioned under lighting, by a durable stainless steel sink, and near a robust matte black ceramic kiln. Four black track lights illuminate key areas like drafting tables, a rustic pine canvas rack, a modular acrylic paint organizer, and a smooth birch plywood model stand. Two large drafting tables, one with a sleek stainless steel stool, and two wall-mounted drying racks complement the space. Clear glass palettes, elegant brass floor lamps, and five freestanding sculpture stands add functionality and style. The room connects to the outside via a frosted glass sliding door with sleek aluminum framing, seamlessly blending into the pristine walls.\"}\n```"
+        }
+      ]
+    },
+    "sentence_prompt": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 5.7498541660024785,
+      "prompt_tokens": 820,
+      "completion_tokens": 44,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional real estate agent who excels at introducing any type of real estate to your clients.\nYou are given a very comprehensive description of one of the latest schools in your area: _{description}_\nNow, summarize the description into one concise sentence (starting with \"A\"/\"An\").\n\n## Known information\n\n_{description}_: The building features a single, well-equipped art room designed with a sleek, modern aesthetic and functional layout for artistic activities. The art room is a sleek, balanced space with pristine white walls and a monochromatic polished concrete floor, creating a bright yet intimate atmosphere for artistic expression. In this room, looking from the entrance, five wooden adjustable easels made with polished beech wood that are sturdy and smooth are arranged: adjustable easel 1 is placed 1 meter away from large drafting table 1, a gray tempered glass table that is spacious and smooth; adjustable easel 2 is positioned near rolling storage cart 1, a white powder-coated metal cart that is sleek and lightweight; adjustable easel 3 is adjacent to wall mounted drying rack 1, a white powder-coated wire rack that is functional and space-saving; adjustable easel 4 faces track lighting fixture 1, a black brushed aluminum fixture that is modern and minimalistic; and adjustable easel 5 is next to freestanding sculpture stand 1, a solid oak stand that is sturdy and versatile. Three white rolling storage carts are placed throughout: cart 1 is under track lighting fixture 2, cart 2 is beside the stainless steel utility sink that is durable and deep, and cart 3 is near the matte black ceramic kiln made with industrial-grade steel that is robust and heat-resistant. Four black track lighting fixtures illuminate key areas: fixture 1 shines on large drafting table 1, fixture 2 is directed towards the wooden canvas storage rack made with unfinished pine that is spacious and rustic, fixture 3 is above the white acrylic paint organizer made with molded plastic that is modular and stackable, and fixture 4 shines on wooden model stand 1, a beige birch plywood stand that is lightweight and smooth. Two large drafting tables are present: table 2 is accompanied by a silver metal stool made with stainless steel that is sleek and ergonomic, placed under it. Two wall mounted drying racks are mounted: rack 1 is near adjustable easel 3, and rack 2 is beside the matte black digital projector made with high-grade plastic that is compact and lightweight, which is mounted on the ceiling above large drafting table 2. Two clear glass palettes made with tempered glass that are smooth and easy to clean are placed: palette 1 is next to brass floor lamp 1, a polished brass lamp that is elegant and adjustable, and palette 2 is on rolling storage cart 2. Five freestanding sculpture stands are positioned: stand 2 is near the ceramic kiln, stand 3 is beside wooden model stand 2, stand 4 is adjacent to brass floor lamp 2, and stand 5 faces track lighting fixture 3. The wooden model stands are placed: stand 2 is near freestanding sculpture stand 3, and stand 3 is beside wall mounted drying rack 2. The brass floor lamps provide additional lighting: lamp 1 is next to glass palette 1, and lamp 2 illuminates freestanding sculpture stand 4. The art room is connected to the outside via a frosted glass sliding door with sleek aluminum framing, seamlessly integrated into the pristine white walls.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"sentence\": \"A/An <<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "{\"sentence\": \"A modern, well-equipped art room with sleek design features, including adjustable easels, drafting tables, track lighting, and versatile storage solutions, all set in a bright, monochromatic space.\"}"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "fsw-project-page",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Project page for Frozen Scenes, Shifting Winners: Configuration Fragility in Text-to-3D Evaluation.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "build:check": "node scripts/check-build-artifacts.mjs",
+    "build:verify": "npm run build && npm run build:check",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "bulma": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0",
+    "vite": "^8.0.0",
+    "vite-plugin-javascript-obfuscator": "^3.1.0"
+  }
+}

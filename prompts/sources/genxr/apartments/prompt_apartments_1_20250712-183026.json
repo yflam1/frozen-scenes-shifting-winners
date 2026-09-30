@@ -1,0 +1,541 @@
+{
+  "buildings": "apartments",
+  "config": {
+    "llm": "v3",
+    "temperature": 0.7,
+    "max_n_per_object": 5,
+    "n_rooms": 1,
+    "n_prompts": 5,
+    "max_retries": 10,
+    "max_threads": 4,
+    "parent_dir": "genxr-dataset",
+    "verbose": true
+  },
+  "log_path": "genxr-dataset/apartments/1/prompt_apartments_1_20250712-183026.json",
+  "n_rooms": 1,
+  "rooms": {
+    "craft room": {
+      "adjectives": [
+        "spacious",
+        "compact",
+        "understated",
+        "earthy",
+        "welcoming",
+        "peaceful",
+        "polished"
+      ],
+      "description": "The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere.",
+      "objects_list": [
+        "adjustable chair 1",
+        "adjustable chair 2",
+        "wall shelf 1",
+        "wall shelf 2",
+        "wall shelf 3",
+        "woven basket 1",
+        "woven basket 2",
+        "woven basket 3",
+        "woven basket 4",
+        "desk lamp",
+        "pegboard",
+        "rolling cart",
+        "ceramic vase",
+        "yarn holder",
+        "potted plant 1",
+        "potted plant 2",
+        "floor cushion 1",
+        "floor cushion 2",
+        "fabric bin 1",
+        "fabric bin 2",
+        "fabric bin 3",
+        "hanging pendant light",
+        "paintbrush stand",
+        "scissors rack"
+      ],
+      "objects_desc": {
+        "adjustable chair 1": "A beige adjustable chair made with sturdy metal and soft fabric that is ergonomic and sleek.",
+        "adjustable chair 2": "A beige adjustable chair made with sturdy metal and soft fabric that is ergonomic and sleek.",
+        "wall shelf 1": "A light oak wall shelf made with solid wood that is minimalist and smooth.",
+        "wall shelf 2": "A light oak wall shelf made with solid wood that is minimalist and smooth.",
+        "wall shelf 3": "A light oak wall shelf made with solid wood that is minimalist and smooth.",
+        "woven basket 1": "A tan woven basket made with natural fibers that is textured and sturdy.",
+        "woven basket 2": "A tan woven basket made with natural fibers that is textured and sturdy.",
+        "woven basket 3": "A tan woven basket made with natural fibers that is textured and sturdy.",
+        "woven basket 4": "A tan woven basket made with natural fibers that is textured and sturdy.",
+        "desk lamp": "A brushed brass desk lamp made with metal and linen that is adjustable and modern.",
+        "pegboard": "A white pegboard made with durable plastic that is perforated and lightweight.",
+        "rolling cart": "A sage green rolling cart made with powder-coated metal that is compact and mobile.",
+        "ceramic vase": "A matte gray ceramic vase made with hand-glazed clay that is smooth and cylindrical.",
+        "yarn holder": "A natural bamboo yarn holder made with polished wood that is slotted and functional.",
+        "potted plant 1": "A terracotta potted plant made with clay and soil that is earthy and rustic.",
+        "potted plant 2": "A terracotta potted plant made with clay and soil that is earthy and rustic.",
+        "floor cushion 1": "A mustard yellow floor cushion made with linen fabric that is plush and square.",
+        "floor cushion 2": "A mustard yellow floor cushion made with linen fabric that is plush and square.",
+        "fabric bin 1": "A muted teal fabric bin made with canvas that is collapsible and roomy.",
+        "fabric bin 2": "A muted teal fabric bin made with canvas that is collapsible and roomy.",
+        "fabric bin 3": "A muted teal fabric bin made with canvas that is collapsible and roomy.",
+        "hanging pendant light": "A matte black hanging pendant light made with metal and glass that is spherical and dimmable.",
+        "paintbrush stand": "A dark walnut paintbrush stand made with solid wood that is slotted and compact.",
+        "scissors rack": "A brushed nickel scissors rack made with metal that is magnetic and wall-mounted."
+      },
+      "object_relations": [
+        [
+          "adjustable chair 1",
+          "positioned 0.5 meters away from",
+          "rolling cart"
+        ],
+        [
+          "adjustable chair 2",
+          "placed next to",
+          "desk lamp"
+        ],
+        [
+          "wall shelf 1",
+          "mounted above",
+          "woven basket 1"
+        ],
+        [
+          "wall shelf 2",
+          "installed beside",
+          "pegboard"
+        ],
+        [
+          "wall shelf 3",
+          "hanging over",
+          "potted plant 1"
+        ],
+        [
+          "woven basket 2",
+          "placed under",
+          "wall shelf 1"
+        ],
+        [
+          "woven basket 3",
+          "stacked next to",
+          "fabric bin 1"
+        ],
+        [
+          "woven basket 4",
+          "positioned near",
+          "floor cushion 1"
+        ],
+        [
+          "desk lamp",
+          "placed on top of",
+          "rolling cart"
+        ],
+        [
+          "pegboard",
+          "mounted on the wall adjacent to",
+          "scissors rack"
+        ],
+        [
+          "rolling cart",
+          "positioned 0.3 meters from",
+          "yarn holder"
+        ],
+        [
+          "ceramic vase",
+          "placed on",
+          "wall shelf 2"
+        ],
+        [
+          "yarn holder",
+          "situated next to",
+          "paintbrush stand"
+        ],
+        [
+          "potted plant 2",
+          "placed on",
+          "wall shelf 3"
+        ],
+        [
+          "floor cushion 1",
+          "arranged beside",
+          "floor cushion 2"
+        ],
+        [
+          "floor cushion 2",
+          "positioned near",
+          "fabric bin 2"
+        ],
+        [
+          "fabric bin 1",
+          "stacked on top of",
+          "fabric bin 3"
+        ],
+        [
+          "fabric bin 2",
+          "placed under",
+          "wall shelf 2"
+        ],
+        [
+          "fabric bin 3",
+          "positioned next to",
+          "woven basket 4"
+        ],
+        [
+          "hanging pendant light",
+          "suspended above",
+          "rolling cart"
+        ],
+        [
+          "paintbrush stand",
+          "placed on",
+          "wall shelf 1"
+        ],
+        [
+          "scissors rack",
+          "mounted beside",
+          "pegboard"
+        ]
+      ],
+      "summary": "In this room, looking from the entrance, two beige adjustable chairs made with sturdy metal and soft fabric are placed—one positioned 0.5 meters away from a sage green rolling cart, and the other next to a brushed brass desk lamp. Three light oak wall shelves, minimalist and smooth, are mounted: one above a tan woven basket, another beside a white pegboard, and the third hanging over a terracotta potted plant. Four tan woven baskets, textured and sturdy, are arranged—one under the first wall shelf, another stacked next to a muted teal fabric bin, a third near a mustard yellow floor cushion, and the fourth positioned next to another fabric bin. The desk lamp sits atop the rolling cart, which is 0.3 meters from a natural bamboo yarn holder. The pegboard is adjacent to a brushed nickel scissors rack, while a matte gray ceramic vase rests on the second wall shelf. Two terracotta potted plants, earthy and rustic, are placed—one on the third wall shelf and another nearby. Two mustard yellow floor cushions, plush and square, are arranged beside each other, with one near a fabric bin. Three muted teal fabric bins, collapsible and roomy, are stacked—one on top of another, one under the second wall shelf, and the third next to a woven basket. A matte black hanging pendant light is suspended above the rolling cart, while a dark walnut paintbrush stand sits on the first wall shelf, and the scissors rack is mounted beside the pegboard."
+    }
+  },
+  "connections": [
+    {
+      "region_a": "craft room",
+      "region_b": "__outside__",
+      "conn_type": "door",
+      "description": "A warm brown door made with solid oak that is smooth-textured and subtly carved with geometric patterns."
+    }
+  ],
+  "summaries": {
+    "overall": "The apartment features a single compact craft room with an understated, earthy design and a polished wooden floor.",
+    "connections": "The craft room is connected to the outside via a warm brown solid oak door with subtle geometric carvings."
+  },
+  "prompts": {
+    "full": "The apartment features a single compact craft room with an understated, earthy design and a polished wooden floor. The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere. In this room, looking from the entrance, two beige adjustable chairs made with sturdy metal and soft fabric are placed—one positioned 0.5 meters away from a sage green rolling cart, and the other next to a brushed brass desk lamp. Three light oak wall shelves, minimalist and smooth, are mounted: one above a tan woven basket, another beside a white pegboard, and the third hanging over a terracotta potted plant. Four tan woven baskets, textured and sturdy, are arranged—one under the first wall shelf, another stacked next to a muted teal fabric bin, a third near a mustard yellow floor cushion, and the fourth positioned next to another fabric bin. The desk lamp sits atop the rolling cart, which is 0.3 meters from a natural bamboo yarn holder. The pegboard is adjacent to a brushed nickel scissors rack, while a matte gray ceramic vase rests on the second wall shelf. Two terracotta potted plants, earthy and rustic, are placed—one on the third wall shelf and another nearby. Two mustard yellow floor cushions, plush and square, are arranged beside each other, with one near a fabric bin. Three muted teal fabric bins, collapsible and roomy, are stacked—one on top of another, one under the second wall shelf, and the third next to a woven basket. A matte black hanging pendant light is suspended above the rolling cart, while a dark walnut paintbrush stand sits on the first wall shelf, and the scissors rack is mounted beside the pegboard. The craft room is connected to the outside via a warm brown solid oak door with subtle geometric carvings.",
+    "humanized": "A compact craft room with an understated, earthy design and a polished wooden floor creates a peaceful and welcoming atmosphere. Two beige adjustable chairs with sturdy metal frames and soft fabric are placed—one near a sage green rolling cart and the other beside a brushed brass desk lamp. Three light oak wall shelves are mounted: one above a tan woven basket, another next to a white pegboard, and the third over a terracotta potted plant. Four tan woven baskets are arranged—one under the first shelf, another stacked by a muted teal fabric bin, a third near a mustard yellow floor cushion, and the fourth next to another bin. The desk lamp sits on the rolling cart, close to a natural bamboo yarn holder. The pegboard is adjacent to a brushed nickel scissors rack, while a matte gray ceramic vase rests on the second shelf. Two terracotta potted plants add rustic charm—one on the third shelf and another nearby. Two plush mustard yellow floor cushions sit together, with one near a fabric bin. Three muted teal fabric bins are stacked—one under the second shelf and others nearby. A matte black pendant light hangs above the rolling cart, while a dark walnut paintbrush stand sits on the first shelf. The room connects to the outside via a warm brown solid oak door with subtle geometric carvings.",
+    "sentence": "A compact craft room with an earthy design, polished wooden floor, and thoughtfully arranged furniture and decor for a peaceful atmosphere.",
+    "pct_change_humanized": -0.2774193548387097,
+    "pct_change_sentence": -0.932258064516129
+  },
+  "edits": [
+    {
+      "instruction": "Change the style of the craft room to a modern industrial design with exposed brick walls and concrete flooring.",
+      "prompts": {
+        "full": "The apartment features a single compact craft room with a modern industrial design, featuring exposed brick walls and concrete flooring. The craft room is compact with an industrial design, featuring exposed brick walls and concrete flooring, creating a peaceful and welcoming atmosphere. In this room, looking from the entrance, two beige adjustable chairs made with sturdy metal and soft fabric are placed—one positioned 0.5 meters away from a sage green rolling cart, and the other next to a brushed brass desk lamp. Three light oak wall shelves, minimalist and smooth, are mounted: one above a tan woven basket, another beside a white pegboard, and the third hanging over a terracotta potted plant. Four tan woven baskets, textured and sturdy, are arranged—one under the first wall shelf, another stacked next to a muted teal fabric bin, a third near a mustard yellow floor cushion, and the fourth positioned next to another fabric bin. The desk lamp sits atop the rolling cart, which is 0.3 meters from a natural bamboo yarn holder. The pegboard is adjacent to a brushed nickel scissors rack, while a matte gray ceramic vase rests on the second wall shelf. Two terracotta potted plants, earthy and rustic, are placed—one on the third wall shelf and another nearby. Two mustard yellow floor cushions, plush and square, are arranged beside each other, with one near a fabric bin. Three muted teal fabric bins, collapsible and roomy, are stacked—one on top of another, one under the second wall shelf, and the third next to a woven basket. A matte black hanging pendant light is suspended above the rolling cart, while a dark walnut paintbrush stand sits on the first wall shelf, and the scissors rack is mounted beside the pegboard. The craft room is connected to the outside via a warm brown solid oak door with subtle geometric carvings.",
+        "humanized": null,
+        "sentence": "A compact craft room with an industrial design features exposed brick walls, concrete flooring, beige adjustable chairs, light oak wall shelves, tan woven baskets, terracotta potted plants, mustard yellow floor cushions, muted teal fabric bins, and various functional accessories like a rolling cart, desk lamp, and pegboard, all creating a peaceful and welcoming atmosphere.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    },
+    {
+      "instruction": "Modify the beige adjustable chairs to deep navy blue leather chairs with the same sturdy metal frame.",
+      "prompts": {
+        "full": "The apartment features a single compact craft room with an understated, earthy design and a polished wooden floor. The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere. In this room, looking from the entrance, two deep navy blue leather adjustable chairs made with sturdy metal are placed—one positioned 0.5 meters away from a sage green rolling cart, and the other next to a brushed brass desk lamp. Three light oak wall shelves, minimalist and smooth, are mounted: one above a tan woven basket, another beside a white pegboard, and the third hanging over a terracotta potted plant. Four tan woven baskets, textured and sturdy, are arranged—one under the first wall shelf, another stacked next to a muted teal fabric bin, a third near a mustard yellow floor cushion, and the fourth positioned next to another fabric bin. The desk lamp sits atop the rolling cart, which is 0.3 meters from a natural bamboo yarn holder. The pegboard is adjacent to a brushed nickel scissors rack, while a matte gray ceramic vase rests on the second wall shelf. Two terracotta potted plants, earthy and rustic, are placed—one on the third wall shelf and another nearby. Two mustard yellow floor cushions, plush and square, are arranged beside each other, with one near a fabric bin. Three muted teal fabric bins, collapsible and roomy, are stacked—one on top of another, one under the second wall shelf, and the third next to a woven basket. A matte black hanging pendant light is suspended above the rolling cart, while a dark walnut paintbrush stand sits on the first wall shelf, and the scissors rack is mounted beside the pegboard. The craft room is connected to the outside via a warm brown solid oak door with subtle geometric carvings.",
+        "humanized": null,
+        "sentence": "A compact craft room with an understated, earthy design features polished wooden floors, navy blue leather chairs, light oak wall shelves, woven baskets, terracotta plants, fabric bins, and a brushed brass desk lamp, all arranged in a peaceful and welcoming atmosphere.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    },
+    {
+      "instruction": "Remove the terracotta potted plant from the third wall shelf.",
+      "prompts": {
+        "full": "The apartment features a single compact craft room with an understated, earthy design and a polished wooden floor. The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere. In this room, looking from the entrance, two beige adjustable chairs made with sturdy metal and soft fabric are placed—one positioned 0.5 meters away from a sage green rolling cart, and the other next to a brushed brass desk lamp. Three light oak wall shelves, minimalist and smooth, are mounted: one above a tan woven basket, another beside a white pegboard, and the third hanging over a terracotta potted plant. Four tan woven baskets, textured and sturdy, are arranged—one under the first wall shelf, another stacked next to a muted teal fabric bin, a third near a mustard yellow floor cushion, and the fourth positioned next to another fabric bin. The desk lamp sits atop the rolling cart, which is 0.3 meters from a natural bamboo yarn holder. The pegboard is adjacent to a brushed nickel scissors rack, while a matte gray ceramic vase rests on the second wall shelf. Two terracotta potted plants, earthy and rustic, are placed—one nearby. Two mustard yellow floor cushions, plush and square, are arranged beside each other, with one near a fabric bin. Three muted teal fabric bins, collapsible and roomy, are stacked—one on top of another, one under the second wall shelf, and the third next to a woven basket. A matte black hanging pendant light is suspended above the rolling cart, while a dark walnut paintbrush stand sits on the first wall shelf, and the scissors rack is mounted beside the pegboard. The craft room is connected to the outside via a warm brown solid oak door with subtle geometric carvings.",
+        "humanized": null,
+        "sentence": "A compact craft room with an understated, earthy design features polished wooden floors, adjustable beige chairs, light oak wall shelves, tan woven baskets, terracotta potted plants, mustard yellow floor cushions, muted teal fabric bins, and a sage green rolling cart, all under a matte black hanging pendant light, connected to the outside via a warm brown solid oak door.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    }
+  ],
+  "conversations": {
+    "rooms_description": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 4.324583708017599,
+      "prompt_tokens": 284,
+      "completion_tokens": 40,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of apartments.\nYou are given some room types that can be found in apartments.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"craft room\": [\"spacious\", \"compact\", \"understated\", \"earthy\", \"welcoming\", \"peaceful\", \"polished\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"craft room\": \"The craft room <FILL_IN>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "```json\n{\"craft room\": \"The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere.\"}\n```"
+        }
+      ]
+    },
+    "connections_description": [
+      {
+        "model": "deepseek-chat",
+        "base_url": "https://api.deepseek.com/",
+        "max_tokens": 8192,
+        "temperature": 0.7,
+        "duration": 4.176633166964166,
+        "prompt_tokens": 635,
+        "completion_tokens": 29,
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of apartments.\nYou are given some room types that can be found in apartments.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"craft room\": [\"spacious\", \"compact\", \"understated\", \"earthy\", \"welcoming\", \"peaceful\", \"polished\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"craft room\": \"The craft room <FILL_IN>\"}"
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": "```json\n{\"craft room\": \"The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere.\"}\n```"
+          },
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of apartments.\nYou are designing one that contains (1) \"craft room\" and (2) \"__outside__\".\n(1) \"craft room\" has the following description: _{description1}_\n(2) \"__outside__\" has the following description: _{description2}_\nThese two rooms are connected with a door.\nUsing your imagination, generate a concise description of the door's appearance (color, material, attributes; \"attributes\" refers to extra descriptive phrases that are solely about the object's appearance and are independent of other objects).\nA description **MUST** be able to resemble the following sentence: \"A/An `color` <<OBJECT_NAME>> made with `material` that is `attributes`.\"\n\n## Known information\n\n_{description1}_: The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere.\n\n_{description2}_: the space outside the final building, which could be indoor or outdoor\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"description\": \"<<FILL_IN>>\"}"
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": "```json\n{\"description\": \"A warm brown door made with solid oak that is smooth-textured and subtly carved with geometric patterns.\"}\n```"
+          }
+        ]
+      }
+    ],
+    "rooms_objects": {
+      "room_objects": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 10.149349667015485,
+          "prompt_tokens": 648,
+          "completion_tokens": 137,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of apartments.\nYou are given some room types that can be found in apartments.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"craft room\": [\"spacious\", \"compact\", \"understated\", \"earthy\", \"welcoming\", \"peaceful\", \"polished\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"craft room\": \"The craft room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"craft room\": \"The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of apartments.\nParticularly, you are working on a craft room with the following description: _{description}_\nNow, generate the objects (each with its quantity) that should exist in this room.\n\n## Guidance\n\n- Besides generating objects that can be found in a typical craft room, unleash your imagination and generate objects that are likely to be associated with the given description.\n- You **MUST** generate at least one lighting unit (i.e., an object made for illumination).\n- Do **NOT** generate door, doorframe, window, or stair.\n- Do **NOT** use plural form, even if the quantity of that object is more than one.\n- Do **NOT** use underscore in object name.\n- Make sure the quantity is an integer greater than 0.\n- Refrain from repeatedly generating identical or similar objects.\n\n## Known information\n\n_{description}_: The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"<<FILL_IN_OBJECT>>\": <<FILL_IN_QUANTITY>>}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"craft table\": 1,\n  \"adjustable chair\": 2,\n  \"wall shelf\": 3,\n  \"woven basket\": 4,\n  \"desk lamp\": 1,\n  \"pegboard\": 1,\n  \"rolling cart\": 1,\n  \"ceramic vase\": 1,\n  \"yarn holder\": 1,\n  \"potted plant\": 2,\n  \"floor cushion\": 2,\n  \"fabric bin\": 3,\n  \"hanging pendant light\": 1,\n  \"paintbrush stand\": 1,\n  \"scissors rack\": 1\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_objects_description": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 25.359314208035357,
+          "prompt_tokens": 824,
+          "completion_tokens": 590,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of apartments.\nYou are given some room types that can be found in apartments.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"craft room\": [\"spacious\", \"compact\", \"understated\", \"earthy\", \"welcoming\", \"peaceful\", \"polished\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"craft room\": \"The craft room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"craft room\": \"The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of apartments.\nParticularly, you are working on a craft room with the following description: _{description}_\nThis room contains the following objects: _{objects}_\nNow, for each object, generate a concise description about the object's appearance (color, material, attributes; \"attributes\" refers to extra descriptive phrases that are solely about the object's appearance and are independent of other objects).\nA description **MUST** be able to resemble the following sentence: \"A/An `color` <<OBJECT_NAME>> made with `material` that is `attributes`.\"\n\n## Guidance\n\n- **All** objects **MUST** be used.\n- If you expect several objects to be identical, their descriptions **MUST** also be identical.\n- In the description, do **NOT** mention other objects. Also, do **NOT** include the object's position relative to other objects.\n\n## Known information\n\n_{description}_: The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere.\n\n_{objects}_: [\"adjustable chair 1\", \"adjustable chair 2\", \"wall shelf 1\", \"wall shelf 2\", \"wall shelf 3\", \"woven basket 1\", \"woven basket 2\", \"woven basket 3\", \"woven basket 4\", \"desk lamp\", \"pegboard\", \"rolling cart\", \"ceramic vase\", \"yarn holder\", \"potted plant 1\", \"potted plant 2\", \"floor cushion 1\", \"floor cushion 2\", \"fabric bin 1\", \"fabric bin 2\", \"fabric bin 3\", \"hanging pendant light\", \"paintbrush stand\", \"scissors rack\"]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\nYou **MUST** include **all** provided object names **as is**.\n\n{\"<<USE_PROVIDED_OBJECT_NAME>>\": \"<<FILL_IN_DESCRIPTION>>\", ...}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"adjustable chair 1\": \"A beige adjustable chair made with sturdy metal and soft fabric that is ergonomic and sleek.\",\n  \"adjustable chair 2\": \"A beige adjustable chair made with sturdy metal and soft fabric that is ergonomic and sleek.\",\n  \"wall shelf 1\": \"A light oak wall shelf made with solid wood that is minimalist and smooth.\",\n  \"wall shelf 2\": \"A light oak wall shelf made with solid wood that is minimalist and smooth.\",\n  \"wall shelf 3\": \"A light oak wall shelf made with solid wood that is minimalist and smooth.\",\n  \"woven basket 1\": \"A tan woven basket made with natural fibers that is textured and sturdy.\",\n  \"woven basket 2\": \"A tan woven basket made with natural fibers that is textured and sturdy.\",\n  \"woven basket 3\": \"A tan woven basket made with natural fibers that is textured and sturdy.\",\n  \"woven basket 4\": \"A tan woven basket made with natural fibers that is textured and sturdy.\",\n  \"desk lamp\": \"A brushed brass desk lamp made with metal and linen that is adjustable and modern.\",\n  \"pegboard\": \"A white pegboard made with durable plastic that is perforated and lightweight.\",\n  \"rolling cart\": \"A sage green rolling cart made with powder-coated metal that is compact and mobile.\",\n  \"ceramic vase\": \"A matte gray ceramic vase made with hand-glazed clay that is smooth and cylindrical.\",\n  \"yarn holder\": \"A natural bamboo yarn holder made with polished wood that is slotted and functional.\",\n  \"potted plant 1\": \"A terracotta potted plant made with clay and soil that is earthy and rustic.\",\n  \"potted plant 2\": \"A terracotta potted plant made with clay and soil that is earthy and rustic.\",\n  \"floor cushion 1\": \"A mustard yellow floor cushion made with linen fabric that is plush and square.\",\n  \"floor cushion 2\": \"A mustard yellow floor cushion made with linen fabric that is plush and square.\",\n  \"fabric bin 1\": \"A muted teal fabric bin made with canvas that is collapsible and roomy.\",\n  \"fabric bin 2\": \"A muted teal fabric bin made with canvas that is collapsible and roomy.\",\n  \"fabric bin 3\": \"A muted teal fabric bin made with canvas that is collapsible and roomy.\",\n  \"hanging pendant light\": \"A matte black hanging pendant light made with metal and glass that is spherical and dimmable.\",\n  \"paintbrush stand\": \"A dark walnut paintbrush stand made with solid wood that is slotted and compact.\",\n  \"scissors rack\": \"A brushed nickel scissors rack made with metal that is magnetic and wall-mounted.\"\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_objects_relations": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 18.782110541011207,
+          "prompt_tokens": 1311,
+          "completion_tokens": 415,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of apartments.\nYou are given some room types that can be found in apartments.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"craft room\": [\"spacious\", \"compact\", \"understated\", \"earthy\", \"welcoming\", \"peaceful\", \"polished\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"craft room\": \"The craft room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"craft room\": \"The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of apartments.\nParticularly, you are working on a craft room with the following description: _{description}_\nThis room contains the following objects (each coupled with a description): _{objects}_\nNow, be as creative as you can (but remain realistic and practical) and generate sufficient 3-tuples of [objectA, relation, objectB] (which encode different relations between pairs of objects).\n`objectA` and `objectB` are object names; `relation` is a phrase or an incomplete sentence (numerical values can be optionally included, such as a desired distance (meter) between two objects) that describes how `objectA` is physically related to `objectB` according to `relation`.\nIn other words, a 3-tuple should be able to resemble the following sentence: \"`objectA` is `relation` `objectB`.\"\nFor example, if a coffee cup is placed on top of a table, you could generate `[\"coffee cup\", \"on\", \"table\"]`.\n\n## Guidance\n\n- **All** objects **MUST** be used at least once.\n\n## Known information\n\n_{description}_: The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere.\n\n_{objects}_: {\"adjustable chair 1\": \"A beige adjustable chair made with sturdy metal and soft fabric that is ergonomic and sleek.\", \"adjustable chair 2\": \"A beige adjustable chair made with sturdy metal and soft fabric that is ergonomic and sleek.\", \"wall shelf 1\": \"A light oak wall shelf made with solid wood that is minimalist and smooth.\", \"wall shelf 2\": \"A light oak wall shelf made with solid wood that is minimalist and smooth.\", \"wall shelf 3\": \"A light oak wall shelf made with solid wood that is minimalist and smooth.\", \"woven basket 1\": \"A tan woven basket made with natural fibers that is textured and sturdy.\", \"woven basket 2\": \"A tan woven basket made with natural fibers that is textured and sturdy.\", \"woven basket 3\": \"A tan woven basket made with natural fibers that is textured and sturdy.\", \"woven basket 4\": \"A tan woven basket made with natural fibers that is textured and sturdy.\", \"desk lamp\": \"A brushed brass desk lamp made with metal and linen that is adjustable and modern.\", \"pegboard\": \"A white pegboard made with durable plastic that is perforated and lightweight.\", \"rolling cart\": \"A sage green rolling cart made with powder-coated metal that is compact and mobile.\", \"ceramic vase\": \"A matte gray ceramic vase made with hand-glazed clay that is smooth and cylindrical.\", \"yarn holder\": \"A natural bamboo yarn holder made with polished wood that is slotted and functional.\", \"potted plant 1\": \"A terracotta potted plant made with clay and soil that is earthy and rustic.\", \"potted plant 2\": \"A terracotta potted plant made with clay and soil that is earthy and rustic.\", \"floor cushion 1\": \"A mustard yellow floor cushion made with linen fabric that is plush and square.\", \"floor cushion 2\": \"A mustard yellow floor cushion made with linen fabric that is plush and square.\", \"fabric bin 1\": \"A muted teal fabric bin made with canvas that is collapsible and roomy.\", \"fabric bin 2\": \"A muted teal fabric bin made with canvas that is collapsible and roomy.\", \"fabric bin 3\": \"A muted teal fabric bin made with canvas that is collapsible and roomy.\", \"hanging pendant light\": \"A matte black hanging pendant light made with metal and glass that is spherical and dimmable.\", \"paintbrush stand\": \"A dark walnut paintbrush stand made with solid wood that is slotted and compact.\", \"scissors rack\": \"A brushed nickel scissors rack made with metal that is magnetic and wall-mounted.\"}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\nYou **MUST** use **all** provided object names **as is**.\n\n{\n  \"relations\": [\n    [\"<<USE_PROVIDED_OBJECT_NAME>>\", \"<<FILL_IN_RELATION>>\", \"<<USE_PROVIDED_OBJECT_NAME>>\"],\n    ...\n  ]\n}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"relations\": [\n    [\"adjustable chair 1\", \"positioned 0.5 meters away from\", \"rolling cart\"],\n    [\"adjustable chair 2\", \"placed next to\", \"desk lamp\"],\n    [\"wall shelf 1\", \"mounted above\", \"woven basket 1\"],\n    [\"wall shelf 2\", \"installed beside\", \"pegboard\"],\n    [\"wall shelf 3\", \"hanging over\", \"potted plant 1\"],\n    [\"woven basket 2\", \"placed under\", \"wall shelf 1\"],\n    [\"woven basket 3\", \"stacked next to\", \"fabric bin 1\"],\n    [\"woven basket 4\", \"positioned near\", \"floor cushion 1\"],\n    [\"desk lamp\", \"placed on top of\", \"rolling cart\"],\n    [\"pegboard\", \"mounted on the wall adjacent to\", \"scissors rack\"],\n    [\"rolling cart\", \"positioned 0.3 meters from\", \"yarn holder\"],\n    [\"ceramic vase\", \"placed on\", \"wall shelf 2\"],\n    [\"yarn holder\", \"situated next to\", \"paintbrush stand\"],\n    [\"potted plant 2\", \"placed on\", \"wall shelf 3\"],\n    [\"floor cushion 1\", \"arranged beside\", \"floor cushion 2\"],\n    [\"floor cushion 2\", \"positioned near\", \"fabric bin 2\"],\n    [\"fabric bin 1\", \"stacked on top of\", \"fabric bin 3\"],\n    [\"fabric bin 2\", \"placed under\", \"wall shelf 2\"],\n    [\"fabric bin 3\", \"positioned next to\", \"woven basket 4\"],\n    [\"hanging pendant light\", \"suspended above\", \"rolling cart\"],\n    [\"paintbrush stand\", \"placed on\", \"wall shelf 1\"],\n    [\"scissors rack\", \"mounted beside\", \"pegboard\"]\n  ]\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_summary": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 15.773916999984067,
+          "prompt_tokens": 1710,
+          "completion_tokens": 324,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of apartments.\nYou are given some room types that can be found in apartments.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"craft room\": [\"spacious\", \"compact\", \"understated\", \"earthy\", \"welcoming\", \"peaceful\", \"polished\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"craft room\": \"The craft room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"craft room\": \"The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of apartments.\nParticularly, you are working on a craft room with the following description: _{description}_\nThis room contains the following objects (each coupled with a description): _{objects}_\nThese objects are related to one another: _{object-relations}_\nNow, using _{objects}_ and _{object-relations}_, generate a **one-paragraph** summary regarding the objects in this room as well as where they are exactly placed and how they are exactly related.\nYou **MUST** keep every object's description.\n\n## Guidance\n\n- **All** given objects must be used, but you can use them in any order you want.\n- If there is a collection of similar/identical objects, you **MUST explicitly** mention the **number** of objects (e.g., \"five books\" instead of \"a collection of books\").\n- Each element in _{object-relations}_ is a 3-tuple [objectA, relation, objectB] which encodes a relation between a pair of objects.\n`objectA` and `objectB` are object names; `relation` is a phrase or an incomplete sentence (numerical values can be optionally included) that describes how `objectA` is physically related to `objectB` according to `relation`.\n- You may use \"looking from ...\" to describe the room from a specific perspective, making the summary more vivid.\n\n## Known information\n\n_{description}_: The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere.\n\n_{objects}_: {\"adjustable chair 1\": \"A beige adjustable chair made with sturdy metal and soft fabric that is ergonomic and sleek.\", \"adjustable chair 2\": \"A beige adjustable chair made with sturdy metal and soft fabric that is ergonomic and sleek.\", \"wall shelf 1\": \"A light oak wall shelf made with solid wood that is minimalist and smooth.\", \"wall shelf 2\": \"A light oak wall shelf made with solid wood that is minimalist and smooth.\", \"wall shelf 3\": \"A light oak wall shelf made with solid wood that is minimalist and smooth.\", \"woven basket 1\": \"A tan woven basket made with natural fibers that is textured and sturdy.\", \"woven basket 2\": \"A tan woven basket made with natural fibers that is textured and sturdy.\", \"woven basket 3\": \"A tan woven basket made with natural fibers that is textured and sturdy.\", \"woven basket 4\": \"A tan woven basket made with natural fibers that is textured and sturdy.\", \"desk lamp\": \"A brushed brass desk lamp made with metal and linen that is adjustable and modern.\", \"pegboard\": \"A white pegboard made with durable plastic that is perforated and lightweight.\", \"rolling cart\": \"A sage green rolling cart made with powder-coated metal that is compact and mobile.\", \"ceramic vase\": \"A matte gray ceramic vase made with hand-glazed clay that is smooth and cylindrical.\", \"yarn holder\": \"A natural bamboo yarn holder made with polished wood that is slotted and functional.\", \"potted plant 1\": \"A terracotta potted plant made with clay and soil that is earthy and rustic.\", \"potted plant 2\": \"A terracotta potted plant made with clay and soil that is earthy and rustic.\", \"floor cushion 1\": \"A mustard yellow floor cushion made with linen fabric that is plush and square.\", \"floor cushion 2\": \"A mustard yellow floor cushion made with linen fabric that is plush and square.\", \"fabric bin 1\": \"A muted teal fabric bin made with canvas that is collapsible and roomy.\", \"fabric bin 2\": \"A muted teal fabric bin made with canvas that is collapsible and roomy.\", \"fabric bin 3\": \"A muted teal fabric bin made with canvas that is collapsible and roomy.\", \"hanging pendant light\": \"A matte black hanging pendant light made with metal and glass that is spherical and dimmable.\", \"paintbrush stand\": \"A dark walnut paintbrush stand made with solid wood that is slotted and compact.\", \"scissors rack\": \"A brushed nickel scissors rack made with metal that is magnetic and wall-mounted.\"}\n\n_{object-relations}_: [[\"adjustable chair 1\", \"positioned 0.5 meters away from\", \"rolling cart\"], [\"adjustable chair 2\", \"placed next to\", \"desk lamp\"], [\"wall shelf 1\", \"mounted above\", \"woven basket 1\"], [\"wall shelf 2\", \"installed beside\", \"pegboard\"], [\"wall shelf 3\", \"hanging over\", \"potted plant 1\"], [\"woven basket 2\", \"placed under\", \"wall shelf 1\"], [\"woven basket 3\", \"stacked next to\", \"fabric bin 1\"], [\"woven basket 4\", \"positioned near\", \"floor cushion 1\"], [\"desk lamp\", \"placed on top of\", \"rolling cart\"], [\"pegboard\", \"mounted on the wall adjacent to\", \"scissors rack\"], [\"rolling cart\", \"positioned 0.3 meters from\", \"yarn holder\"], [\"ceramic vase\", \"placed on\", \"wall shelf 2\"], [\"yarn holder\", \"situated next to\", \"paintbrush stand\"], [\"potted plant 2\", \"placed on\", \"wall shelf 3\"], [\"floor cushion 1\", \"arranged beside\", \"floor cushion 2\"], [\"floor cushion 2\", \"positioned near\", \"fabric bin 2\"], [\"fabric bin 1\", \"stacked on top of\", \"fabric bin 3\"], [\"fabric bin 2\", \"placed under\", \"wall shelf 2\"], [\"fabric bin 3\", \"positioned next to\", \"woven basket 4\"], [\"hanging pendant light\", \"suspended above\", \"rolling cart\"], [\"paintbrush stand\", \"placed on\", \"wall shelf 1\"], [\"scissors rack\", \"mounted beside\", \"pegboard\"]]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"summary\": \"In this room, <<FILL_IN>>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"summary\": \"In this room, looking from the entrance, two beige adjustable chairs made with sturdy metal and soft fabric are placed—one positioned 0.5 meters away from a sage green rolling cart, and the other next to a brushed brass desk lamp. Three light oak wall shelves, minimalist and smooth, are mounted: one above a tan woven basket, another beside a white pegboard, and the third hanging over a terracotta potted plant. Four tan woven baskets, textured and sturdy, are arranged—one under the first wall shelf, another stacked next to a muted teal fabric bin, a third near a mustard yellow floor cushion, and the fourth positioned next to another fabric bin. The desk lamp sits atop the rolling cart, which is 0.3 meters from a natural bamboo yarn holder. The pegboard is adjacent to a brushed nickel scissors rack, while a matte gray ceramic vase rests on the second wall shelf. Two terracotta potted plants, earthy and rustic, are placed—one on the third wall shelf and another nearby. Two mustard yellow floor cushions, plush and square, are arranged beside each other, with one near a fabric bin. Three muted teal fabric bins, collapsible and roomy, are stacked—one on top of another, one under the second wall shelf, and the third next to a woven basket. A matte black hanging pendant light is suspended above the rolling cart, while a dark walnut paintbrush stand sits on the first wall shelf, and the scissors rack is mounted beside the pegboard.\"}\n```"
+            }
+          ]
+        }
+      ]
+    },
+    "basic_summaries": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 5.141790041991044,
+      "prompt_tokens": 689,
+      "completion_tokens": 56,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of apartments.\nYou are designing one with 1 room(s) (each has its own summary): _{rooms}_\nSome of these rooms are connected (with or without a door): _{connections}_\nNow, generate two concise summaries in your own words.\nThe first one is a one-sentence overall description of the building's configuration (floor plan).\nThe second one consists of all connections in this building (i.e., all pairs of rooms that are connected, how they are connected, and the appearance of connection objects).\n\n## Guidance\n\n- In _{connections}_, region \"__outside__\" refers to the space outside the final building, which could be indoor or outdoor.\n- A connection type of \"open\" refers to the absence of a shared boundary between two rooms.\n\n## Known information\n\n_{rooms}_: {\"craft room\": \"The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere. In this room, looking from the entrance, two beige adjustable chairs made with sturdy metal and soft fabric are placed—one positioned 0.5 meters away from a sage green rolling cart, and the other next to a brushed brass desk lamp. Three light oak wall shelves, minimalist and smooth, are mounted: one above a tan woven basket, another beside a white pegboard, and the third hanging over a terracotta potted plant. Four tan woven baskets, textured and sturdy, are arranged—one under the first wall shelf, another stacked next to a muted teal fabric bin, a third near a mustard yellow floor cushion, and the fourth positioned next to another fabric bin. The desk lamp sits atop the rolling cart, which is 0.3 meters from a natural bamboo yarn holder. The pegboard is adjacent to a brushed nickel scissors rack, while a matte gray ceramic vase rests on the second wall shelf. Two terracotta potted plants, earthy and rustic, are placed—one on the third wall shelf and another nearby. Two mustard yellow floor cushions, plush and square, are arranged beside each other, with one near a fabric bin. Three muted teal fabric bins, collapsible and roomy, are stacked—one on top of another, one under the second wall shelf, and the third next to a woven basket. A matte black hanging pendant light is suspended above the rolling cart, while a dark walnut paintbrush stand sits on the first wall shelf, and the scissors rack is mounted beside the pegboard.\"}\n\n_{connections}_: [{\"region_a\": \"craft room\", \"region_b\": \"__outside__\", \"conn_type\": \"door\", \"description\": \"A warm brown door made with solid oak that is smooth-textured and subtly carved with geometric patterns.\"}]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"overall_summary\": \"<<FILL_IN>>\", \"connections_summary\": \"<<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "{\"overall_summary\": \"The apartment features a single compact craft room with an understated, earthy design and a polished wooden floor.\", \"connections_summary\": \"The craft room is connected to the outside via a warm brown solid oak door with subtle geometric carvings.\"}"
+        }
+      ]
+    },
+    "humanized_prompt": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 13.876510666974355,
+      "prompt_tokens": 589,
+      "completion_tokens": 281,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional real estate agent who excels at introducing any type of real estate to your clients.\nYou are given a very comprehensive description of one of the latest apartments in your area: _{description}_\nNow, rewrite the description into a one-paragraph natural speech (starting with \"A\"/\"An\") that is easy to understand and appealing to your clients.\n\n## Guidance\n\n- You **MUST** use all provided information from the description in your prompt.\n\n## Known information\n\n_{description}_: The apartment features a single compact craft room with an understated, earthy design and a polished wooden floor. The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere. In this room, looking from the entrance, two beige adjustable chairs made with sturdy metal and soft fabric are placed—one positioned 0.5 meters away from a sage green rolling cart, and the other next to a brushed brass desk lamp. Three light oak wall shelves, minimalist and smooth, are mounted: one above a tan woven basket, another beside a white pegboard, and the third hanging over a terracotta potted plant. Four tan woven baskets, textured and sturdy, are arranged—one under the first wall shelf, another stacked next to a muted teal fabric bin, a third near a mustard yellow floor cushion, and the fourth positioned next to another fabric bin. The desk lamp sits atop the rolling cart, which is 0.3 meters from a natural bamboo yarn holder. The pegboard is adjacent to a brushed nickel scissors rack, while a matte gray ceramic vase rests on the second wall shelf. Two terracotta potted plants, earthy and rustic, are placed—one on the third wall shelf and another nearby. Two mustard yellow floor cushions, plush and square, are arranged beside each other, with one near a fabric bin. Three muted teal fabric bins, collapsible and roomy, are stacked—one on top of another, one under the second wall shelf, and the third next to a woven basket. A matte black hanging pendant light is suspended above the rolling cart, while a dark walnut paintbrush stand sits on the first wall shelf, and the scissors rack is mounted beside the pegboard. The craft room is connected to the outside via a warm brown solid oak door with subtle geometric carvings.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"speech\": \"A/An <<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "```json\n{\"speech\": \"A compact craft room with an understated, earthy design and a polished wooden floor creates a peaceful and welcoming atmosphere. Two beige adjustable chairs with sturdy metal frames and soft fabric are placed—one near a sage green rolling cart and the other beside a brushed brass desk lamp. Three light oak wall shelves are mounted: one above a tan woven basket, another next to a white pegboard, and the third over a terracotta potted plant. Four tan woven baskets are arranged—one under the first shelf, another stacked by a muted teal fabric bin, a third near a mustard yellow floor cushion, and the fourth next to another bin. The desk lamp sits on the rolling cart, close to a natural bamboo yarn holder. The pegboard is adjacent to a brushed nickel scissors rack, while a matte gray ceramic vase rests on the second shelf. Two terracotta potted plants add rustic charm—one on the third shelf and another nearby. Two plush mustard yellow floor cushions sit together, with one near a fabric bin. Three muted teal fabric bins are stacked—one under the second shelf and others nearby. A matte black pendant light hangs above the rolling cart, while a dark walnut paintbrush stand sits on the first shelf. The room connects to the outside via a warm brown solid oak door with subtle geometric carvings.\"}\n```"
+        }
+      ]
+    },
+    "sentence_prompt": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 3.733088416978717,
+      "prompt_tokens": 555,
+      "completion_tokens": 34,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional real estate agent who excels at introducing any type of real estate to your clients.\nYou are given a very comprehensive description of one of the latest apartments in your area: _{description}_\nNow, summarize the description into one concise sentence (starting with \"A\"/\"An\").\n\n## Known information\n\n_{description}_: The apartment features a single compact craft room with an understated, earthy design and a polished wooden floor. The craft room is compact with an understated design, featuring earthy tones on the walls and a polished wooden floor, creating a peaceful and welcoming atmosphere. In this room, looking from the entrance, two beige adjustable chairs made with sturdy metal and soft fabric are placed—one positioned 0.5 meters away from a sage green rolling cart, and the other next to a brushed brass desk lamp. Three light oak wall shelves, minimalist and smooth, are mounted: one above a tan woven basket, another beside a white pegboard, and the third hanging over a terracotta potted plant. Four tan woven baskets, textured and sturdy, are arranged—one under the first wall shelf, another stacked next to a muted teal fabric bin, a third near a mustard yellow floor cushion, and the fourth positioned next to another fabric bin. The desk lamp sits atop the rolling cart, which is 0.3 meters from a natural bamboo yarn holder. The pegboard is adjacent to a brushed nickel scissors rack, while a matte gray ceramic vase rests on the second wall shelf. Two terracotta potted plants, earthy and rustic, are placed—one on the third wall shelf and another nearby. Two mustard yellow floor cushions, plush and square, are arranged beside each other, with one near a fabric bin. Three muted teal fabric bins, collapsible and roomy, are stacked—one on top of another, one under the second wall shelf, and the third next to a woven basket. A matte black hanging pendant light is suspended above the rolling cart, while a dark walnut paintbrush stand sits on the first wall shelf, and the scissors rack is mounted beside the pegboard. The craft room is connected to the outside via a warm brown solid oak door with subtle geometric carvings.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"sentence\": \"A/An <<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "```json\n{\"sentence\": \"A compact craft room with an earthy design, polished wooden floor, and thoughtfully arranged furniture and decor for a peaceful atmosphere.\"}\n```"
+        }
+      ]
+    }
+  }
+}

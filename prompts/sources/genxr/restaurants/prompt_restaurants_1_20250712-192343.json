@@ -1,0 +1,524 @@
+{
+  "buildings": "restaurants",
+  "config": {
+    "llm": "v3",
+    "temperature": 0.7,
+    "max_n_per_object": 5,
+    "n_rooms": 1,
+    "n_prompts": 5,
+    "max_retries": 10,
+    "max_threads": 4,
+    "parent_dir": "genxr-dataset",
+    "verbose": true
+  },
+  "log_path": "genxr-dataset/restaurants/1/prompt_restaurants_1_20250712-192343.json",
+  "n_rooms": 1,
+  "rooms": {
+    "game room": {
+      "adjectives": [
+        "muted",
+        "grand",
+        "ethereal",
+        "charming",
+        "gloomy",
+        "messy",
+        "rustic",
+        "vibrant",
+        "inviting",
+        "shady",
+        "versatile",
+        "refined",
+        "lavish",
+        "artsy"
+      ],
+      "description": "The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch.",
+      "objects_list": [
+        "arcade machine 1",
+        "arcade machine 2",
+        "vintage pinball machine",
+        "leather sofa 1",
+        "leather sofa 2",
+        "antique chandelier",
+        "wall mounted dartboard",
+        "handcrafted wooden bar",
+        "industrial floor lamp 1",
+        "industrial floor lamp 2",
+        "luxury rug",
+        "vinyl record player",
+        "retro neon sign"
+      ],
+      "objects_desc": {
+        "arcade machine 1": "A vibrant arcade machine made with glossy plastic that is sleek and eye-catching.",
+        "arcade machine 2": "A vibrant arcade machine made with glossy plastic that is sleek and eye-catching.",
+        "vintage pinball machine": "A retro pinball machine made with polished metal and wood that is intricately detailed.",
+        "leather sofa 1": "A rich brown leather sofa made with supple leather that is plush and inviting.",
+        "leather sofa 2": "A rich brown leather sofa made with supple leather that is plush and inviting.",
+        "antique chandelier": "A golden antique chandelier made with wrought iron and crystal that is ornate and elegant.",
+        "wall mounted dartboard": "A classic wall mounted dartboard made with cork and wood that is sturdy and well-crafted.",
+        "handcrafted wooden bar": "A dark oak handcrafted wooden bar made with solid wood that is smooth and polished.",
+        "industrial floor lamp 1": "A matte black industrial floor lamp made with metal that is minimalist and sturdy.",
+        "industrial floor lamp 2": "A matte black industrial floor lamp made with metal that is minimalist and sturdy.",
+        "luxury rug": "A deep red luxury rug made with plush wool that is soft and intricately patterned.",
+        "vinyl record player": "A vintage vinyl record player made with wood and metal that is retro and stylish.",
+        "retro neon sign": "A glowing retro neon sign made with glass and metal that is vibrant and nostalgic."
+      },
+      "object_relations": [
+        [
+          "arcade machine 1",
+          "placed adjacent to",
+          "arcade machine 2"
+        ],
+        [
+          "arcade machine 1",
+          "positioned 1.5 meters away from",
+          "vintage pinball machine"
+        ],
+        [
+          "vintage pinball machine",
+          "centered between",
+          "leather sofa 1"
+        ],
+        [
+          "leather sofa 1",
+          "facing towards",
+          "leather sofa 2"
+        ],
+        [
+          "leather sofa 2",
+          "placed near",
+          "handcrafted wooden bar"
+        ],
+        [
+          "antique chandelier",
+          "hanging directly above",
+          "luxury rug"
+        ],
+        [
+          "wall mounted dartboard",
+          "mounted on the wall opposite",
+          "industrial floor lamp 1"
+        ],
+        [
+          "industrial floor lamp 1",
+          "positioned next to",
+          "leather sofa 1"
+        ],
+        [
+          "industrial floor lamp 2",
+          "positioned next to",
+          "leather sofa 2"
+        ],
+        [
+          "luxury rug",
+          "placed beneath",
+          "handcrafted wooden bar"
+        ],
+        [
+          "vinyl record player",
+          "placed on top of",
+          "handcrafted wooden bar"
+        ],
+        [
+          "retro neon sign",
+          "mounted on the wall above",
+          "handcrafted wooden bar"
+        ],
+        [
+          "handcrafted wooden bar",
+          "positioned against the wall opposite",
+          "arcade machine 1"
+        ]
+      ],
+      "summary": "In this room, looking from the entrance, two vibrant arcade machines made with glossy plastic that are sleek and eye-catching are placed adjacent to each other, with arcade machine 1 positioned 1.5 meters away from a retro pinball machine made with polished metal and wood that is intricately detailed. The vintage pinball machine is centered between two rich brown leather sofas made with supple leather that are plush and inviting, with leather sofa 1 facing towards leather sofa 2. Leather sofa 2 is placed near a dark oak handcrafted wooden bar made with solid wood that is smooth and polished, which is positioned against the wall opposite arcade machine 1. A golden antique chandelier made with wrought iron and crystal that is ornate and elegant hangs directly above a deep red luxury rug made with plush wool that is soft and intricately patterned, which is placed beneath the handcrafted wooden bar. On top of the bar sits a vintage vinyl record player made with wood and metal that is retro and stylish, while a glowing retro neon sign made with glass and metal that is vibrant and nostalgic is mounted on the wall above the bar. A classic wall mounted dartboard made with cork and wood that is sturdy and well-crafted is mounted on the wall opposite a matte black industrial floor lamp made with metal that is minimalist and sturdy, which is positioned next to leather sofa 1. Another identical industrial floor lamp is positioned next to leather sofa 2."
+    }
+  },
+  "connections": [
+    {
+      "region_a": "game room",
+      "region_b": "__outside__",
+      "conn_type": "door",
+      "description": "A rustic wooden door made with reclaimed oak that is weathered yet sturdy, featuring intricate carvings and a muted bronze handle."
+    },
+    {
+      "region_a": "game room",
+      "region_b": "__outside__",
+      "conn_type": "window",
+      "description": "A muted bronze window made with tempered glass that is sleek, expansive, and framed with rustic iron detailing."
+    }
+  ],
+  "summaries": {
+    "overall": "The building features a single game room with a rustic charm, vibrant decor, and a variety of retro gaming and lounge elements.",
+    "connections": "The game room is connected to the outside via a rustic wooden door made with reclaimed oak, featuring intricate carvings and a muted bronze handle, and a muted bronze window made with tempered glass, framed with rustic iron detailing."
+  },
+  "prompts": {
+    "full": "The building features a single game room with a rustic charm, vibrant decor, and a variety of retro gaming and lounge elements. The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch. In this room, looking from the entrance, two vibrant arcade machines made with glossy plastic that are sleek and eye-catching are placed adjacent to each other, with arcade machine 1 positioned 1.5 meters away from a retro pinball machine made with polished metal and wood that is intricately detailed. The vintage pinball machine is centered between two rich brown leather sofas made with supple leather that are plush and inviting, with leather sofa 1 facing towards leather sofa 2. Leather sofa 2 is placed near a dark oak handcrafted wooden bar made with solid wood that is smooth and polished, which is positioned against the wall opposite arcade machine 1. A golden antique chandelier made with wrought iron and crystal that is ornate and elegant hangs directly above a deep red luxury rug made with plush wool that is soft and intricately patterned, which is placed beneath the handcrafted wooden bar. On top of the bar sits a vintage vinyl record player made with wood and metal that is retro and stylish, while a glowing retro neon sign made with glass and metal that is vibrant and nostalgic is mounted on the wall above the bar. A classic wall mounted dartboard made with cork and wood that is sturdy and well-crafted is mounted on the wall opposite a matte black industrial floor lamp made with metal that is minimalist and sturdy, which is positioned next to leather sofa 1. Another identical industrial floor lamp is positioned next to leather sofa 2. The game room is connected to the outside via a rustic wooden door made with reclaimed oak, featuring intricate carvings and a muted bronze handle, and a muted bronze window made with tempered glass, framed with rustic iron detailing.",
+    "humanized": "A game room with rustic charm and vibrant decor awaits, featuring a grand layout with muted, artsy walls and a refined, vibrant floor. Two sleek, glossy arcade machines stand 1.5 meters from an intricately detailed retro pinball machine, centered between two plush, rich brown leather sofas. One sofa faces the other, which sits near a smooth, dark oak handcrafted bar against the wall. Above a deep red luxury rug beneath the bar hangs an ornate golden antique chandelier. The bar boasts a retro vinyl record player and is topped by a vibrant neon sign, while a sturdy dartboard and minimalist industrial floor lamps flank the sofas. A rustic wooden door with intricate carvings and a muted bronze window connect this inviting space to the outside.",
+    "sentence": "A rustic-chic game room featuring retro arcade machines, a vintage pinball machine, leather sofas, a handcrafted oak bar, and nostalgic decor elements like a neon sign and vinyl player.",
+    "pct_change_humanized": -0.6376811594202898,
+    "pct_change_sentence": -0.9159420289855073
+  },
+  "edits": [
+    {
+      "instruction": "Modify the vintage pinball machine to a glossy black finish with neon blue accents and rotate it 90 degrees to face the entrance.",
+      "prompts": {
+        "full": "The building features a single game room with a rustic charm, vibrant decor, and a variety of retro gaming and lounge elements. The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch. In this room, looking from the entrance, two vibrant arcade machines made with glossy plastic that are sleek and eye-catching are placed adjacent to each other, with arcade machine 1 positioned 1.5 meters away from a retro pinball machine made with polished metal and wood that is intricately detailed, now with a glossy black finish and neon blue accents, and rotated 90 degrees to face the entrance. The vintage pinball machine is centered between two rich brown leather sofas made with supple leather that are plush and inviting, with leather sofa 1 facing towards leather sofa 2. Leather sofa 2 is placed near a dark oak handcrafted wooden bar made with solid wood that is smooth and polished, which is positioned against the wall opposite arcade machine 1. A golden antique chandelier made with wrought iron and crystal that is ornate and elegant hangs directly above a deep red luxury rug made with plush wool that is soft and intricately patterned, which is placed beneath the handcrafted wooden bar. On top of the bar sits a vintage vinyl record player made with wood and metal that is retro and stylish, while a glowing retro neon sign made with glass and metal that is vibrant and nostalgic is mounted on the wall above the bar. A classic wall mounted dartboard made with cork and wood that is sturdy and well-crafted is mounted on the wall opposite a matte black industrial floor lamp made with metal that is minimalist and sturdy, which is positioned next to leather sofa 1. Another identical industrial floor lamp is positioned next to leather sofa 2. The game room is connected to the outside via a rustic wooden door made with reclaimed oak, featuring intricate carvings and a muted bronze handle, and a muted bronze window made with tempered glass, framed with rustic iron detailing.",
+        "humanized": null,
+        "sentence": "A rustic and vibrant game room features retro arcade machines, a pinball machine, leather sofas, a handcrafted wooden bar with a vintage record player, a neon sign, a dartboard, industrial floor lamps, and elegant decor elements like a chandelier and luxury rug.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    },
+    {
+      "instruction": "Add a retro jukebox made with chrome and colored glass, placing it next to the dark oak handcrafted wooden bar.",
+      "prompts": {
+        "full": "The building features a single game room with a rustic charm, vibrant decor, and a variety of retro gaming and lounge elements. The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch. In this room, looking from the entrance, two vibrant arcade machines made with glossy plastic that are sleek and eye-catching are placed adjacent to each other, with arcade machine 1 positioned 1.5 meters away from a retro pinball machine made with polished metal and wood that is intricately detailed. The vintage pinball machine is centered between two rich brown leather sofas made with supple leather that are plush and inviting, with leather sofa 1 facing towards leather sofa 2. Leather sofa 2 is placed near a dark oak handcrafted wooden bar made with solid wood that is smooth and polished, which is positioned against the wall opposite arcade machine 1. A golden antique chandelier made with wrought iron and crystal that is ornate and elegant hangs directly above a deep red luxury rug made with plush wool that is soft and intricately patterned, which is placed beneath the handcrafted wooden bar. On top of the bar sits a vintage vinyl record player made with wood and metal that is retro and stylish, while a glowing retro neon sign made with glass and metal that is vibrant and nostalgic is mounted on the wall above the bar. A retro jukebox made with chrome and colored glass is placed next to the dark oak handcrafted wooden bar. A classic wall mounted dartboard made with cork and wood that is sturdy and well-crafted is mounted on the wall opposite a matte black industrial floor lamp made with metal that is minimalist and sturdy, which is positioned next to leather sofa 1. Another identical industrial floor lamp is positioned next to leather sofa 2. The game room is connected to the outside via a rustic wooden door made with reclaimed oak, featuring intricate carvings and a muted bronze handle, and a muted bronze window made with tempered glass, framed with rustic iron detailing.",
+        "humanized": null,
+        "sentence": "A rustic and vibrant game room features retro arcade machines, a pinball machine, leather sofas, a dark oak bar with a vinyl record player and neon sign, a jukebox, dartboard, industrial floor lamps, and elegant decor elements like a chandelier and luxury rug, all connected via a rustic wooden door and window.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    },
+    {
+      "instruction": "Change the deep red luxury rug to a geometric-patterned rug in shades of gray and white, placing it beneath the leather sofas instead.",
+      "prompts": {
+        "full": "The building features a single game room with a rustic charm, vibrant decor, and a variety of retro gaming and lounge elements. The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch. In this room, looking from the entrance, two vibrant arcade machines made with glossy plastic that are sleek and eye-catching are placed adjacent to each other, with arcade machine 1 positioned 1.5 meters away from a retro pinball machine made with polished metal and wood that is intricately detailed. The vintage pinball machine is centered between two rich brown leather sofas made with supple leather that are plush and inviting, with leather sofa 1 facing towards leather sofa 2. Leather sofa 2 is placed near a dark oak handcrafted wooden bar made with solid wood that is smooth and polished, which is positioned against the wall opposite arcade machine 1. A golden antique chandelier made with wrought iron and crystal that is ornate and elegant hangs directly above a geometric-patterned rug in shades of gray and white, which is placed beneath the leather sofas. On top of the bar sits a vintage vinyl record player made with wood and metal that is retro and stylish, while a glowing retro neon sign made with glass and metal that is vibrant and nostalgic is mounted on the wall above the bar. A classic wall mounted dartboard made with cork and wood that is sturdy and well-crafted is mounted on the wall opposite a matte black industrial floor lamp made with metal that is minimalist and sturdy, which is positioned next to leather sofa 1. Another identical industrial floor lamp is positioned next to leather sofa 2. The game room is connected to the outside via a rustic wooden door made with reclaimed oak, featuring intricate carvings and a muted bronze handle, and a muted bronze window made with tempered glass, framed with rustic iron detailing.",
+        "humanized": null,
+        "sentence": "A rustic and vibrant game room features retro arcade machines, a pinball machine, leather sofas, a dark oak bar, a vintage record player, a neon sign, a dartboard, industrial floor lamps, and a geometric-patterned rug, all under an ornate chandelier, with access via a carved wooden door and bronze window.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    }
+  ],
+  "conversations": {
+    "rooms_description": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 5.237011875025928,
+      "prompt_tokens": 314,
+      "completion_tokens": 50,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are given some room types that can be found in restaurants.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"game room\": [\"muted\", \"grand\", \"ethereal\", \"charming\", \"gloomy\", \"messy\", \"rustic\", \"vibrant\", \"inviting\", \"shady\", \"versatile\", \"refined\", \"lavish\", \"artsy\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"game room\": \"The game room <FILL_IN>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "```json\n{\"game room\": \"The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch.\"}\n```"
+        }
+      ]
+    },
+    "connections_description": [
+      {
+        "model": "deepseek-chat",
+        "base_url": "https://api.deepseek.com/",
+        "max_tokens": 8192,
+        "temperature": 0.7,
+        "duration": 5.085742625000421,
+        "prompt_tokens": 685,
+        "completion_tokens": 33,
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are given some room types that can be found in restaurants.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"game room\": [\"muted\", \"grand\", \"ethereal\", \"charming\", \"gloomy\", \"messy\", \"rustic\", \"vibrant\", \"inviting\", \"shady\", \"versatile\", \"refined\", \"lavish\", \"artsy\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"game room\": \"The game room <FILL_IN>\"}"
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": "```json\n{\"game room\": \"The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch.\"}\n```"
+          },
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are designing one that contains (1) \"game room\" and (2) \"__outside__\".\n(1) \"game room\" has the following description: _{description1}_\n(2) \"__outside__\" has the following description: _{description2}_\nThese two rooms are connected with a door.\nUsing your imagination, generate a concise description of the door's appearance (color, material, attributes; \"attributes\" refers to extra descriptive phrases that are solely about the object's appearance and are independent of other objects).\nA description **MUST** be able to resemble the following sentence: \"A/An `color` <<OBJECT_NAME>> made with `material` that is `attributes`.\"\n\n## Known information\n\n_{description1}_: The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch.\n\n_{description2}_: the space outside the final building, which could be indoor or outdoor\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"description\": \"<<FILL_IN>>\"}"
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": "```json\n{\"description\": \"A rustic wooden door made with reclaimed oak that is weathered yet sturdy, featuring intricate carvings and a muted bronze handle.\"}\n```"
+          }
+        ]
+      },
+      {
+        "model": "deepseek-chat",
+        "base_url": "https://api.deepseek.com/",
+        "max_tokens": 8192,
+        "temperature": 0.7,
+        "duration": 3.961089750053361,
+        "prompt_tokens": 685,
+        "completion_tokens": 30,
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are given some room types that can be found in restaurants.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"game room\": [\"muted\", \"grand\", \"ethereal\", \"charming\", \"gloomy\", \"messy\", \"rustic\", \"vibrant\", \"inviting\", \"shady\", \"versatile\", \"refined\", \"lavish\", \"artsy\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"game room\": \"The game room <FILL_IN>\"}"
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": "```json\n{\"game room\": \"The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch.\"}\n```"
+          },
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are designing one that contains (1) \"game room\" and (2) \"__outside__\".\n(1) \"game room\" has the following description: _{description1}_\n(2) \"__outside__\" has the following description: _{description2}_\nThese two rooms are connected with a window.\nUsing your imagination, generate a concise description of the window's appearance (color, material, attributes; \"attributes\" refers to extra descriptive phrases that are solely about the object's appearance and are independent of other objects).\nA description **MUST** be able to resemble the following sentence: \"A/An `color` <<OBJECT_NAME>> made with `material` that is `attributes`.\"\n\n## Known information\n\n_{description1}_: The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch.\n\n_{description2}_: the space outside the final building, which could be indoor or outdoor\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"description\": \"<<FILL_IN>>\"}"
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": "```json\n{\"description\": \"A muted bronze window made with tempered glass that is sleek, expansive, and framed with rustic iron detailing.\"}\n```"
+          }
+        ]
+      }
+    ],
+    "rooms_objects": {
+      "room_objects": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 9.842757917009294,
+          "prompt_tokens": 698,
+          "completion_tokens": 148,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are given some room types that can be found in restaurants.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"game room\": [\"muted\", \"grand\", \"ethereal\", \"charming\", \"gloomy\", \"messy\", \"rustic\", \"vibrant\", \"inviting\", \"shady\", \"versatile\", \"refined\", \"lavish\", \"artsy\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"game room\": \"The game room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"game room\": \"The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nParticularly, you are working on a game room with the following description: _{description}_\nNow, generate the objects (each with its quantity) that should exist in this room.\n\n## Guidance\n\n- Besides generating objects that can be found in a typical game room, unleash your imagination and generate objects that are likely to be associated with the given description.\n- You **MUST** generate at least one lighting unit (i.e., an object made for illumination).\n- Do **NOT** generate door, doorframe, window, or stair.\n- Do **NOT** use plural form, even if the quantity of that object is more than one.\n- Do **NOT** use underscore in object name.\n- Make sure the quantity is an integer greater than 0.\n- Refrain from repeatedly generating identical or similar objects.\n\n## Known information\n\n_{description}_: The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"<<FILL_IN_OBJECT>>\": <<FILL_IN_QUANTITY>>}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"pool table\": 1,\n  \"arcade machine\": 2,\n  \"chess table\": 1,\n  \"vintage pinball machine\": 1,\n  \"leather sofa\": 2,\n  \"wooden bookshelf\": 1,\n  \"antique chandelier\": 1,\n  \"wall mounted dartboard\": 1,\n  \"handcrafted wooden bar\": 1,\n  \"abstract art piece\": 3,\n  \"industrial floor lamp\": 2,\n  \"luxury rug\": 1,\n  \"vinyl record player\": 1,\n  \"custom poker table\": 1,\n  \"retro neon sign\": 1\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_objects_description": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 15.801559833984356,
+          "prompt_tokens": 816,
+          "completion_tokens": 337,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are given some room types that can be found in restaurants.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"game room\": [\"muted\", \"grand\", \"ethereal\", \"charming\", \"gloomy\", \"messy\", \"rustic\", \"vibrant\", \"inviting\", \"shady\", \"versatile\", \"refined\", \"lavish\", \"artsy\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"game room\": \"The game room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"game room\": \"The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nParticularly, you are working on a game room with the following description: _{description}_\nThis room contains the following objects: _{objects}_\nNow, for each object, generate a concise description about the object's appearance (color, material, attributes; \"attributes\" refers to extra descriptive phrases that are solely about the object's appearance and are independent of other objects).\nA description **MUST** be able to resemble the following sentence: \"A/An `color` <<OBJECT_NAME>> made with `material` that is `attributes`.\"\n\n## Guidance\n\n- **All** objects **MUST** be used.\n- If you expect several objects to be identical, their descriptions **MUST** also be identical.\n- In the description, do **NOT** mention other objects. Also, do **NOT** include the object's position relative to other objects.\n\n## Known information\n\n_{description}_: The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch.\n\n_{objects}_: [\"arcade machine 1\", \"arcade machine 2\", \"vintage pinball machine\", \"leather sofa 1\", \"leather sofa 2\", \"antique chandelier\", \"wall mounted dartboard\", \"handcrafted wooden bar\", \"industrial floor lamp 1\", \"industrial floor lamp 2\", \"luxury rug\", \"vinyl record player\", \"retro neon sign\"]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\nYou **MUST** include **all** provided object names **as is**.\n\n{\"<<USE_PROVIDED_OBJECT_NAME>>\": \"<<FILL_IN_DESCRIPTION>>\", ...}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"arcade machine 1\": \"A vibrant arcade machine made with glossy plastic that is sleek and eye-catching.\",\n  \"arcade machine 2\": \"A vibrant arcade machine made with glossy plastic that is sleek and eye-catching.\",\n  \"vintage pinball machine\": \"A retro pinball machine made with polished metal and wood that is intricately detailed.\",\n  \"leather sofa 1\": \"A rich brown leather sofa made with supple leather that is plush and inviting.\",\n  \"leather sofa 2\": \"A rich brown leather sofa made with supple leather that is plush and inviting.\",\n  \"antique chandelier\": \"A golden antique chandelier made with wrought iron and crystal that is ornate and elegant.\",\n  \"wall mounted dartboard\": \"A classic wall mounted dartboard made with cork and wood that is sturdy and well-crafted.\",\n  \"handcrafted wooden bar\": \"A dark oak handcrafted wooden bar made with solid wood that is smooth and polished.\",\n  \"industrial floor lamp 1\": \"A matte black industrial floor lamp made with metal that is minimalist and sturdy.\",\n  \"industrial floor lamp 2\": \"A matte black industrial floor lamp made with metal that is minimalist and sturdy.\",\n  \"luxury rug\": \"A deep red luxury rug made with plush wool that is soft and intricately patterned.\",\n  \"vinyl record player\": \"A vintage vinyl record player made with wood and metal that is retro and stylish.\",\n  \"retro neon sign\": \"A glowing retro neon sign made with glass and metal that is vibrant and nostalgic.\"\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_objects_relations": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 14.630504290980753,
+          "prompt_tokens": 1119,
+          "completion_tokens": 282,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are given some room types that can be found in restaurants.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"game room\": [\"muted\", \"grand\", \"ethereal\", \"charming\", \"gloomy\", \"messy\", \"rustic\", \"vibrant\", \"inviting\", \"shady\", \"versatile\", \"refined\", \"lavish\", \"artsy\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"game room\": \"The game room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"game room\": \"The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nParticularly, you are working on a game room with the following description: _{description}_\nThis room contains the following objects (each coupled with a description): _{objects}_\nNow, be as creative as you can (but remain realistic and practical) and generate sufficient 3-tuples of [objectA, relation, objectB] (which encode different relations between pairs of objects).\n`objectA` and `objectB` are object names; `relation` is a phrase or an incomplete sentence (numerical values can be optionally included, such as a desired distance (meter) between two objects) that describes how `objectA` is physically related to `objectB` according to `relation`.\nIn other words, a 3-tuple should be able to resemble the following sentence: \"`objectA` is `relation` `objectB`.\"\nFor example, if a coffee cup is placed on top of a table, you could generate `[\"coffee cup\", \"on\", \"table\"]`.\n\n## Guidance\n\n- **All** objects **MUST** be used at least once.\n\n## Known information\n\n_{description}_: The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch.\n\n_{objects}_: {\"arcade machine 1\": \"A vibrant arcade machine made with glossy plastic that is sleek and eye-catching.\", \"arcade machine 2\": \"A vibrant arcade machine made with glossy plastic that is sleek and eye-catching.\", \"vintage pinball machine\": \"A retro pinball machine made with polished metal and wood that is intricately detailed.\", \"leather sofa 1\": \"A rich brown leather sofa made with supple leather that is plush and inviting.\", \"leather sofa 2\": \"A rich brown leather sofa made with supple leather that is plush and inviting.\", \"antique chandelier\": \"A golden antique chandelier made with wrought iron and crystal that is ornate and elegant.\", \"wall mounted dartboard\": \"A classic wall mounted dartboard made with cork and wood that is sturdy and well-crafted.\", \"handcrafted wooden bar\": \"A dark oak handcrafted wooden bar made with solid wood that is smooth and polished.\", \"industrial floor lamp 1\": \"A matte black industrial floor lamp made with metal that is minimalist and sturdy.\", \"industrial floor lamp 2\": \"A matte black industrial floor lamp made with metal that is minimalist and sturdy.\", \"luxury rug\": \"A deep red luxury rug made with plush wool that is soft and intricately patterned.\", \"vinyl record player\": \"A vintage vinyl record player made with wood and metal that is retro and stylish.\", \"retro neon sign\": \"A glowing retro neon sign made with glass and metal that is vibrant and nostalgic.\"}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\nYou **MUST** use **all** provided object names **as is**.\n\n{\n  \"relations\": [\n    [\"<<USE_PROVIDED_OBJECT_NAME>>\", \"<<FILL_IN_RELATION>>\", \"<<USE_PROVIDED_OBJECT_NAME>>\"],\n    ...\n  ]\n}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"relations\": [\n    [\"arcade machine 1\", \"placed adjacent to\", \"arcade machine 2\"],\n    [\"arcade machine 1\", \"positioned 1.5 meters away from\", \"vintage pinball machine\"],\n    [\"vintage pinball machine\", \"centered between\", \"leather sofa 1\"],\n    [\"leather sofa 1\", \"facing towards\", \"leather sofa 2\"],\n    [\"leather sofa 2\", \"placed near\", \"handcrafted wooden bar\"],\n    [\"antique chandelier\", \"hanging directly above\", \"luxury rug\"],\n    [\"wall mounted dartboard\", \"mounted on the wall opposite\", \"industrial floor lamp 1\"],\n    [\"industrial floor lamp 1\", \"positioned next to\", \"leather sofa 1\"],\n    [\"industrial floor lamp 2\", \"positioned next to\", \"leather sofa 2\"],\n    [\"luxury rug\", \"placed beneath\", \"handcrafted wooden bar\"],\n    [\"vinyl record player\", \"placed on top of\", \"handcrafted wooden bar\"],\n    [\"retro neon sign\", \"mounted on the wall above\", \"handcrafted wooden bar\"],\n    [\"handcrafted wooden bar\", \"positioned against the wall opposite\", \"arcade machine 1\"]\n  ]\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_summary": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 14.77582183299819,
+          "prompt_tokens": 1394,
+          "completion_tokens": 307,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are given some room types that can be found in restaurants.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"game room\": [\"muted\", \"grand\", \"ethereal\", \"charming\", \"gloomy\", \"messy\", \"rustic\", \"vibrant\", \"inviting\", \"shady\", \"versatile\", \"refined\", \"lavish\", \"artsy\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"game room\": \"The game room <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"game room\": \"The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nParticularly, you are working on a game room with the following description: _{description}_\nThis room contains the following objects (each coupled with a description): _{objects}_\nThese objects are related to one another: _{object-relations}_\nNow, using _{objects}_ and _{object-relations}_, generate a **one-paragraph** summary regarding the objects in this room as well as where they are exactly placed and how they are exactly related.\nYou **MUST** keep every object's description.\n\n## Guidance\n\n- **All** given objects must be used, but you can use them in any order you want.\n- If there is a collection of similar/identical objects, you **MUST explicitly** mention the **number** of objects (e.g., \"five books\" instead of \"a collection of books\").\n- Each element in _{object-relations}_ is a 3-tuple [objectA, relation, objectB] which encodes a relation between a pair of objects.\n`objectA` and `objectB` are object names; `relation` is a phrase or an incomplete sentence (numerical values can be optionally included) that describes how `objectA` is physically related to `objectB` according to `relation`.\n- You may use \"looking from ...\" to describe the room from a specific perspective, making the summary more vivid.\n\n## Known information\n\n_{description}_: The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch.\n\n_{objects}_: {\"arcade machine 1\": \"A vibrant arcade machine made with glossy plastic that is sleek and eye-catching.\", \"arcade machine 2\": \"A vibrant arcade machine made with glossy plastic that is sleek and eye-catching.\", \"vintage pinball machine\": \"A retro pinball machine made with polished metal and wood that is intricately detailed.\", \"leather sofa 1\": \"A rich brown leather sofa made with supple leather that is plush and inviting.\", \"leather sofa 2\": \"A rich brown leather sofa made with supple leather that is plush and inviting.\", \"antique chandelier\": \"A golden antique chandelier made with wrought iron and crystal that is ornate and elegant.\", \"wall mounted dartboard\": \"A classic wall mounted dartboard made with cork and wood that is sturdy and well-crafted.\", \"handcrafted wooden bar\": \"A dark oak handcrafted wooden bar made with solid wood that is smooth and polished.\", \"industrial floor lamp 1\": \"A matte black industrial floor lamp made with metal that is minimalist and sturdy.\", \"industrial floor lamp 2\": \"A matte black industrial floor lamp made with metal that is minimalist and sturdy.\", \"luxury rug\": \"A deep red luxury rug made with plush wool that is soft and intricately patterned.\", \"vinyl record player\": \"A vintage vinyl record player made with wood and metal that is retro and stylish.\", \"retro neon sign\": \"A glowing retro neon sign made with glass and metal that is vibrant and nostalgic.\"}\n\n_{object-relations}_: [[\"arcade machine 1\", \"placed adjacent to\", \"arcade machine 2\"], [\"arcade machine 1\", \"positioned 1.5 meters away from\", \"vintage pinball machine\"], [\"vintage pinball machine\", \"centered between\", \"leather sofa 1\"], [\"leather sofa 1\", \"facing towards\", \"leather sofa 2\"], [\"leather sofa 2\", \"placed near\", \"handcrafted wooden bar\"], [\"antique chandelier\", \"hanging directly above\", \"luxury rug\"], [\"wall mounted dartboard\", \"mounted on the wall opposite\", \"industrial floor lamp 1\"], [\"industrial floor lamp 1\", \"positioned next to\", \"leather sofa 1\"], [\"industrial floor lamp 2\", \"positioned next to\", \"leather sofa 2\"], [\"luxury rug\", \"placed beneath\", \"handcrafted wooden bar\"], [\"vinyl record player\", \"placed on top of\", \"handcrafted wooden bar\"], [\"retro neon sign\", \"mounted on the wall above\", \"handcrafted wooden bar\"], [\"handcrafted wooden bar\", \"positioned against the wall opposite\", \"arcade machine 1\"]]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"summary\": \"In this room, <<FILL_IN>>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"summary\": \"In this room, looking from the entrance, two vibrant arcade machines made with glossy plastic that are sleek and eye-catching are placed adjacent to each other, with arcade machine 1 positioned 1.5 meters away from a retro pinball machine made with polished metal and wood that is intricately detailed. The vintage pinball machine is centered between two rich brown leather sofas made with supple leather that are plush and inviting, with leather sofa 1 facing towards leather sofa 2. Leather sofa 2 is placed near a dark oak handcrafted wooden bar made with solid wood that is smooth and polished, which is positioned against the wall opposite arcade machine 1. A golden antique chandelier made with wrought iron and crystal that is ornate and elegant hangs directly above a deep red luxury rug made with plush wool that is soft and intricately patterned, which is placed beneath the handcrafted wooden bar. On top of the bar sits a vintage vinyl record player made with wood and metal that is retro and stylish, while a glowing retro neon sign made with glass and metal that is vibrant and nostalgic is mounted on the wall above the bar. A classic wall mounted dartboard made with cork and wood that is sturdy and well-crafted is mounted on the wall opposite a matte black industrial floor lamp made with metal that is minimalist and sturdy, which is positioned next to leather sofa 1. Another identical industrial floor lamp is positioned next to leather sofa 2.\"}\n```"
+            }
+          ]
+        }
+      ]
+    },
+    "basic_summaries": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 8.259859166981187,
+      "prompt_tokens": 735,
+      "completion_tokens": 86,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of restaurants.\nYou are designing one with 1 room(s) (each has its own summary): _{rooms}_\nSome of these rooms are connected (with or without a door): _{connections}_\nNow, generate two concise summaries in your own words.\nThe first one is a one-sentence overall description of the building's configuration (floor plan).\nThe second one consists of all connections in this building (i.e., all pairs of rooms that are connected, how they are connected, and the appearance of connection objects).\n\n## Guidance\n\n- In _{connections}_, region \"__outside__\" refers to the space outside the final building, which could be indoor or outdoor.\n- A connection type of \"open\" refers to the absence of a shared boundary between two rooms.\n\n## Known information\n\n_{rooms}_: {\"game room\": \"The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch. In this room, looking from the entrance, two vibrant arcade machines made with glossy plastic that are sleek and eye-catching are placed adjacent to each other, with arcade machine 1 positioned 1.5 meters away from a retro pinball machine made with polished metal and wood that is intricately detailed. The vintage pinball machine is centered between two rich brown leather sofas made with supple leather that are plush and inviting, with leather sofa 1 facing towards leather sofa 2. Leather sofa 2 is placed near a dark oak handcrafted wooden bar made with solid wood that is smooth and polished, which is positioned against the wall opposite arcade machine 1. A golden antique chandelier made with wrought iron and crystal that is ornate and elegant hangs directly above a deep red luxury rug made with plush wool that is soft and intricately patterned, which is placed beneath the handcrafted wooden bar. On top of the bar sits a vintage vinyl record player made with wood and metal that is retro and stylish, while a glowing retro neon sign made with glass and metal that is vibrant and nostalgic is mounted on the wall above the bar. A classic wall mounted dartboard made with cork and wood that is sturdy and well-crafted is mounted on the wall opposite a matte black industrial floor lamp made with metal that is minimalist and sturdy, which is positioned next to leather sofa 1. Another identical industrial floor lamp is positioned next to leather sofa 2.\"}\n\n_{connections}_: [{\"region_a\": \"game room\", \"region_b\": \"__outside__\", \"conn_type\": \"door\", \"description\": \"A rustic wooden door made with reclaimed oak that is weathered yet sturdy, featuring intricate carvings and a muted bronze handle.\"}, {\"region_a\": \"game room\", \"region_b\": \"__outside__\", \"conn_type\": \"window\", \"description\": \"A muted bronze window made with tempered glass that is sleek, expansive, and framed with rustic iron detailing.\"}]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"overall_summary\": \"<<FILL_IN>>\", \"connections_summary\": \"<<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "{\n  \"overall_summary\": \"The building features a single game room with a rustic charm, vibrant decor, and a variety of retro gaming and lounge elements.\",\n  \"connections_summary\": \"The game room is connected to the outside via a rustic wooden door made with reclaimed oak, featuring intricate carvings and a muted bronze handle, and a muted bronze window made with tempered glass, framed with rustic iron detailing.\"\n}"
+        }
+      ]
+    },
+    "humanized_prompt": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 10.009546542016324,
+      "prompt_tokens": 609,
+      "completion_tokens": 166,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional real estate agent who excels at introducing any type of real estate to your clients.\nYou are given a very comprehensive description of one of the latest restaurants in your area: _{description}_\nNow, rewrite the description into a one-paragraph natural speech (starting with \"A\"/\"An\") that is easy to understand and appealing to your clients.\n\n## Guidance\n\n- You **MUST** use all provided information from the description in your prompt.\n\n## Known information\n\n_{description}_: The building features a single game room with a rustic charm, vibrant decor, and a variety of retro gaming and lounge elements. The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch. In this room, looking from the entrance, two vibrant arcade machines made with glossy plastic that are sleek and eye-catching are placed adjacent to each other, with arcade machine 1 positioned 1.5 meters away from a retro pinball machine made with polished metal and wood that is intricately detailed. The vintage pinball machine is centered between two rich brown leather sofas made with supple leather that are plush and inviting, with leather sofa 1 facing towards leather sofa 2. Leather sofa 2 is placed near a dark oak handcrafted wooden bar made with solid wood that is smooth and polished, which is positioned against the wall opposite arcade machine 1. A golden antique chandelier made with wrought iron and crystal that is ornate and elegant hangs directly above a deep red luxury rug made with plush wool that is soft and intricately patterned, which is placed beneath the handcrafted wooden bar. On top of the bar sits a vintage vinyl record player made with wood and metal that is retro and stylish, while a glowing retro neon sign made with glass and metal that is vibrant and nostalgic is mounted on the wall above the bar. A classic wall mounted dartboard made with cork and wood that is sturdy and well-crafted is mounted on the wall opposite a matte black industrial floor lamp made with metal that is minimalist and sturdy, which is positioned next to leather sofa 1. Another identical industrial floor lamp is positioned next to leather sofa 2. The game room is connected to the outside via a rustic wooden door made with reclaimed oak, featuring intricate carvings and a muted bronze handle, and a muted bronze window made with tempered glass, framed with rustic iron detailing.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"speech\": \"A/An <<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "```json\n{\"speech\": \"A game room with rustic charm and vibrant decor awaits, featuring a grand layout with muted, artsy walls and a refined, vibrant floor. Two sleek, glossy arcade machines stand 1.5 meters from an intricately detailed retro pinball machine, centered between two plush, rich brown leather sofas. One sofa faces the other, which sits near a smooth, dark oak handcrafted bar against the wall. Above a deep red luxury rug beneath the bar hangs an ornate golden antique chandelier. The bar boasts a retro vinyl record player and is topped by a vibrant neon sign, while a sturdy dartboard and minimalist industrial floor lamps flank the sofas. A rustic wooden door with intricate carvings and a muted bronze window connect this inviting space to the outside.\"}\n```"
+        }
+      ]
+    },
+    "sentence_prompt": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 5.1374732500407845,
+      "prompt_tokens": 575,
+      "completion_tokens": 51,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional real estate agent who excels at introducing any type of real estate to your clients.\nYou are given a very comprehensive description of one of the latest restaurants in your area: _{description}_\nNow, summarize the description into one concise sentence (starting with \"A\"/\"An\").\n\n## Known information\n\n_{description}_: The building features a single game room with a rustic charm, vibrant decor, and a variety of retro gaming and lounge elements. The game room has a grand, versatile layout with a rustic charm. The walls are adorned in muted, artsy tones, while the floor features a refined, vibrant material that adds an inviting touch. In this room, looking from the entrance, two vibrant arcade machines made with glossy plastic that are sleek and eye-catching are placed adjacent to each other, with arcade machine 1 positioned 1.5 meters away from a retro pinball machine made with polished metal and wood that is intricately detailed. The vintage pinball machine is centered between two rich brown leather sofas made with supple leather that are plush and inviting, with leather sofa 1 facing towards leather sofa 2. Leather sofa 2 is placed near a dark oak handcrafted wooden bar made with solid wood that is smooth and polished, which is positioned against the wall opposite arcade machine 1. A golden antique chandelier made with wrought iron and crystal that is ornate and elegant hangs directly above a deep red luxury rug made with plush wool that is soft and intricately patterned, which is placed beneath the handcrafted wooden bar. On top of the bar sits a vintage vinyl record player made with wood and metal that is retro and stylish, while a glowing retro neon sign made with glass and metal that is vibrant and nostalgic is mounted on the wall above the bar. A classic wall mounted dartboard made with cork and wood that is sturdy and well-crafted is mounted on the wall opposite a matte black industrial floor lamp made with metal that is minimalist and sturdy, which is positioned next to leather sofa 1. Another identical industrial floor lamp is positioned next to leather sofa 2. The game room is connected to the outside via a rustic wooden door made with reclaimed oak, featuring intricate carvings and a muted bronze handle, and a muted bronze window made with tempered glass, framed with rustic iron detailing.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"sentence\": \"A/An <<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "```json\n{\"sentence\": \"A rustic-chic game room featuring retro arcade machines, a vintage pinball machine, leather sofas, a handcrafted oak bar, and nostalgic decor elements like a neon sign and vinyl player.\"}\n```"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vlmunr"
+dynamic = ["version"]
+dependencies = [
+  "clip@git+https://github.com/openai/CLIP.git",
+  "datasets",
+  "defaultlist",
+  "ftfy",
+  "inflect",
+  "json_repair",
+  "open_clip_torch",
+  "openai",
+  "opencv-python",
+  "pillow",
+  "pydantic",
+  "pytorch-lightning",
+  "pyyaml",
+  "requests",
+  "rich",
+  "sentence-transformers",
+  "torchmetrics[multimodal]",
+  "tqdm",
+]
+requires-python = ">=3.13"
+readme = "README.md"
+
+[project.optional-dependencies]
+# Everything now co-installs in ONE Python 3.13 environment. `bpy` forces 3.13;
+# `transformers==4.49.0` is shared by the vqa extra and (a patched) LAVIS.
+blender = ["bpy==5.1.2", "diffusers"]
+vqa = [
+  "hydra-core==1.3.2",
+  "t2v-metrics@git+https://github.com/linzhiqiu/t2v_metrics.git@98f184daaaa4a28be494c7dd8eb3b9e9f763aace",
+  "transformers==4.49.0",
+]
+# NOTE: BLIP scoring needs `salesforce-lavis`, but it is intentionally NOT listed
+# here so this file never embeds a personal fork URL. Install it as a separate
+# step from the vendored local checkout described in README.md.
+
+# `open3d` ships no Python 3.13 wheel (caps at cp312) and `bpy==5.1.2` requires
+# 3.13 *exclusively*, so the two cannot share an environment. `open3d` is only
+# used by the `sv2ply` point-cloud→PLY data-prep CLI (no metric/model touches it),
+# so it lives in its own extra. The all-in-one metrics env (`.[blender,vqa]` + the
+# patched LAVIS) stays on 3.13; install `.[sv2ply]` in a *separate* 3.12 env only
+# when you need to convert SceneVerse `.pth` scenes — see README.md.
+sv2ply = ["open3d"]
+
+[project.scripts]
+blipscore = "vlmunr.metrics.blipscore:_cli"
+clipscore = "vlmunr.metrics.clipscore:_cli"
+
+[tool.setuptools]
+packages = ["vlmunr"]
+
+[tool.setuptools.dynamic]
+version = { attr = "vlmunr.__version__" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers --strict-config"

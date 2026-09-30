@@ -1,0 +1,493 @@
+{
+  "buildings": "offices",
+  "config": {
+    "llm": "v3",
+    "temperature": 0.7,
+    "max_n_per_object": 5,
+    "n_rooms": 1,
+    "n_prompts": 5,
+    "max_retries": 10,
+    "max_threads": 4,
+    "parent_dir": "genxr-dataset",
+    "verbose": true
+  },
+  "log_path": "genxr-dataset/offices/1/prompt_offices_1_20250712-191131.json",
+  "n_rooms": 1,
+  "rooms": {
+    "private office": {
+      "adjectives": [
+        "dim",
+        "whimsical",
+        "moody",
+        "gloomy",
+        "messy",
+        "organized",
+        "ethereal",
+        "ornamental",
+        "refined",
+        "eclectic",
+        "arid",
+        "cluttered",
+        "opulent"
+      ],
+      "description": "The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere.",
+      "objects_list": [
+        "ornamental chandelier",
+        "vintage desk",
+        "velvet armchair 1",
+        "velvet armchair 2",
+        "antique bookshelf",
+        "crystal decanter set",
+        "moody oil painting 1",
+        "moody oil painting 2",
+        "moody oil painting 3",
+        "brass floor lamp",
+        "marble side table",
+        "intricate Persian rug",
+        "quill and ink set",
+        "opulent wall sconce 1",
+        "opulent wall sconce 2",
+        "leather-bound journal",
+        "stained glass desk lamp"
+      ],
+      "objects_desc": {
+        "ornamental chandelier": "A golden ornamental chandelier made with brass that is intricately detailed with swirling patterns.",
+        "vintage desk": "A mahogany vintage desk made with aged wood that is carved with elegant, time-worn edges.",
+        "velvet armchair 1": "A deep emerald velvet armchair made with plush fabric that is tufted and regal in appearance.",
+        "velvet armchair 2": "A deep emerald velvet armchair made with plush fabric that is tufted and regal in appearance.",
+        "antique bookshelf": "A dark oak antique bookshelf made with solid wood that is lined with delicate scrollwork.",
+        "crystal decanter set": "A clear crystal decanter set made with cut glass that is polished and refracts light beautifully.",
+        "moody oil painting 1": "A shadowy moody oil painting made with rich pigments that is textured with dramatic brushstrokes.",
+        "moody oil painting 2": "A shadowy moody oil painting made with rich pigments that is textured with dramatic brushstrokes.",
+        "moody oil painting 3": "A shadowy moody oil painting made with rich pigments that is textured with dramatic brushstrokes.",
+        "brass floor lamp": "A polished brass floor lamp made with gleaming metal that is slender and topped with a frosted glass shade.",
+        "marble side table": "A veined marble side table made with smooth stone that is cool to the touch and elegantly minimalist.",
+        "intricate Persian rug": "A jewel-toned intricate Persian rug made with fine wool that is woven with elaborate floral motifs.",
+        "quill and ink set": "A black quill and ink set made with ebony wood and glass that is delicately crafted with ornate detailing.",
+        "opulent wall sconce 1": "A gilded opulent wall sconce made with burnished metal that is adorned with leaf-like flourishes.",
+        "opulent wall sconce 2": "A gilded opulent wall sconce made with burnished metal that is adorned with leaf-like flourishes.",
+        "leather-bound journal": "A rich brown leather-bound journal made with supple hide that is embossed with gold lettering.",
+        "stained glass desk lamp": "A multicolored stained glass desk lamp made with vibrant glass panels that is shaped like a miniature cathedral."
+      },
+      "object_relations": [
+        [
+          "ornamental chandelier",
+          "hangs directly above",
+          "vintage desk"
+        ],
+        [
+          "velvet armchair 1",
+          "is placed 0.5 meters away from",
+          "vintage desk"
+        ],
+        [
+          "velvet armchair 2",
+          "is placed 0.5 meters away from",
+          "vintage desk"
+        ],
+        [
+          "antique bookshelf",
+          "stands against the wall opposite",
+          "vintage desk"
+        ],
+        [
+          "crystal decanter set",
+          "rests on top of",
+          "marble side table"
+        ],
+        [
+          "moody oil painting 1",
+          "hangs on the wall behind",
+          "vintage desk"
+        ],
+        [
+          "moody oil painting 2",
+          "hangs on the wall adjacent to",
+          "antique bookshelf"
+        ],
+        [
+          "moody oil painting 3",
+          "hangs on the wall beside",
+          "opulent wall sconce 1"
+        ],
+        [
+          "brass floor lamp",
+          "stands 0.3 meters to the left of",
+          "velvet armchair 1"
+        ],
+        [
+          "intricate Persian rug",
+          "lies centered under",
+          "vintage desk"
+        ],
+        [
+          "quill and ink set",
+          "sits neatly on",
+          "vintage desk"
+        ],
+        [
+          "opulent wall sconce 1",
+          "is mounted on the wall next to",
+          "moody oil painting 3"
+        ],
+        [
+          "opulent wall sconce 2",
+          "is mounted on the wall opposite",
+          "ornamental chandelier"
+        ],
+        [
+          "stained glass desk lamp",
+          "stands at the corner of",
+          "vintage desk"
+        ]
+      ],
+      "summary": "In this room, looking from the entrance, the vintage desk, a mahogany piece with aged wood and elegant carvings, sits prominently with an intricate Persian rug centered beneath it. Above the desk hangs the golden ornamental chandelier, its brass swirls casting a refined glow. Two deep emerald velvet armchairs, each plush and tufted, are placed 0.5 meters away from the desk, while a polished brass floor lamp stands 0.3 meters to the left of the first armchair. On the desk, a black quill and ink set with ornate detailing sits neatly beside a multicolored stained glass desk lamp shaped like a miniature cathedral. Against the opposite wall stands the dark oak antique bookshelf, lined with delicate scrollwork, flanked by two moody oil paintings—one behind the desk and another adjacent to the bookshelf. A third moody oil painting hangs beside a gilded opulent wall sconce adorned with leaf-like flourishes, while a second matching sconce is mounted opposite the chandelier. Nearby, a veined marble side table holds a clear crystal decanter set that refracts light beautifully, and a rich brown leather-bound journal with gold embossing rests on the desk."
+    }
+  },
+  "connections": [
+    {
+      "region_a": "private office",
+      "region_b": "__outside__",
+      "conn_type": "sliding door",
+      "description": "A sleek charcoal sliding door made with tempered glass and brushed metal that is minimalist yet elegant, featuring subtle geometric patterns."
+    }
+  ],
+  "summaries": {
+    "overall": "The building features a single private office with an eclectic and opulent design, connected to the outside via a sleek sliding door.",
+    "connections": "The private office is connected to the outside by a sleek charcoal sliding door made with tempered glass and brushed metal, featuring subtle geometric patterns."
+  },
+  "prompts": {
+    "full": "The building features a single private office with an eclectic and opulent design, connected to the outside via a sleek sliding door. The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere. In this room, looking from the entrance, the vintage desk, a mahogany piece with aged wood and elegant carvings, sits prominently with an intricate Persian rug centered beneath it. Above the desk hangs the golden ornamental chandelier, its brass swirls casting a refined glow. Two deep emerald velvet armchairs, each plush and tufted, are placed 0.5 meters away from the desk, while a polished brass floor lamp stands 0.3 meters to the left of the first armchair. On the desk, a black quill and ink set with ornate detailing sits neatly beside a multicolored stained glass desk lamp shaped like a miniature cathedral. Against the opposite wall stands the dark oak antique bookshelf, lined with delicate scrollwork, flanked by two moody oil paintings—one behind the desk and another adjacent to the bookshelf. A third moody oil painting hangs beside a gilded opulent wall sconce adorned with leaf-like flourishes, while a second matching sconce is mounted opposite the chandelier. Nearby, a veined marble side table holds a clear crystal decanter set that refracts light beautifully, and a rich brown leather-bound journal with gold embossing rests on the desk. The private office is connected to the outside by a sleek charcoal sliding door made with tempered glass and brushed metal, featuring subtle geometric patterns.",
+    "humanized": "An exquisite private office awaits, boasting an eclectic and opulent design with refined, whimsical details. The moody, dim-hued walls and a floor of mixed refined materials create an organized yet enchanting atmosphere. At its heart, a vintage mahogany desk with elegant carvings stands proudly atop an intricate Persian rug, illuminated by a golden ornamental chandelier with brass swirls. Two plush, tufted emerald velvet armchairs sit nearby, accompanied by a polished brass floor lamp. The desk is adorned with a black quill and ink set, a multicolored stained glass desk lamp shaped like a miniature cathedral, and a rich brown leather-bound journal with gold embossing. Against the opposite wall, a dark oak antique bookshelf with delicate scrollwork is flanked by moody oil paintings, while gilded opulent wall sconces with leaf-like flourishes add a touch of grandeur. A veined marble side table holds a crystal decanter set that refracts light beautifully. This luxurious space is seamlessly connected to the outside via a sleek charcoal sliding door with tempered glass, brushed metal, and subtle geometric patterns, offering both privacy and style.",
+    "sentence": "An opulent private office with eclectic decor, featuring a vintage mahogany desk, velvet armchairs, ornamental chandeliers, and a sleek sliding door.",
+    "pct_change_humanized": -0.3382899628252788,
+    "pct_change_sentence": -0.9219330855018587
+  },
+  "edits": [
+    {
+      "instruction": "Change the style of the private office to a minimalist Scandinavian design with light wood tones and neutral colors.",
+      "prompts": {
+        "full": "The building features a single private office with a minimalist Scandinavian design, connected to the outside via a sleek sliding door. The private office has a clean, simple shape with light wood tones and neutral colors. The walls are adorned in soft, neutral hues, while the floor features light wood materials, creating a calm and organized atmosphere. In this room, looking from the entrance, the vintage desk, a light oak piece with clean lines, sits prominently with a simple neutral rug centered beneath it. Above the desk hangs a sleek, modern pendant light, its minimalist design casting a soft glow. Two light beige fabric armchairs, each with simple upholstery, are placed 0.5 meters away from the desk, while a polished metal floor lamp stands 0.3 meters to the left of the first armchair. On the desk, a black quill and ink set with clean detailing sits neatly beside a simple glass desk lamp. Against the opposite wall stands the light oak bookshelf, lined with minimalistic design, flanked by two neutral-toned prints—one behind the desk and another adjacent to the bookshelf. A third neutral-toned print hangs beside a simple wall sconce with clean lines, while a second matching sconce is mounted opposite the pendant light. Nearby, a light wood side table holds a clear glass decanter set, and a simple leather-bound journal rests on the desk. The private office is connected to the outside by a sleek charcoal sliding door made with tempered glass and brushed metal, featuring subtle geometric patterns.",
+        "humanized": null,
+        "sentence": "A minimalist Scandinavian-designed private office features light wood tones, neutral colors, a vintage desk, modern lighting, and sleek sliding doors.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    },
+    {
+      "instruction": "Modify the vintage desk to a sleek, modern glass-top desk with chrome legs.",
+      "prompts": {
+        "full": "The building features a single private office with an eclectic and opulent design, connected to the outside via a sleek sliding door. The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere. In this room, looking from the entrance, the sleek, modern glass-top desk with chrome legs sits prominently with an intricate Persian rug centered beneath it. Above the desk hangs the golden ornamental chandelier, its brass swirls casting a refined glow. Two deep emerald velvet armchairs, each plush and tufted, are placed 0.5 meters away from the desk, while a polished brass floor lamp stands 0.3 meters to the left of the first armchair. On the desk, a black quill and ink set with ornate detailing sits neatly beside a multicolored stained glass desk lamp shaped like a miniature cathedral. Against the opposite wall stands the dark oak antique bookshelf, lined with delicate scrollwork, flanked by two moody oil paintings—one behind the desk and another adjacent to the bookshelf. A third moody oil painting hangs beside a gilded opulent wall sconce adorned with leaf-like flourishes, while a second matching sconce is mounted opposite the chandelier. Nearby, a veined marble side table holds a clear crystal decanter set that refracts light beautifully, and a rich brown leather-bound journal with gold embossing rests on the desk. The private office is connected to the outside by a sleek charcoal sliding door made with tempered glass and brushed metal, featuring subtle geometric patterns.",
+        "humanized": null,
+        "sentence": "An opulent private office with eclectic design features a sleek glass-top desk, velvet armchairs, ornamental chandelier, antique bookshelf, moody oil paintings, and a charcoal sliding door connecting to the outside.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    },
+    {
+      "instruction": "Replace the deep emerald velvet armchairs with mid-century modern leather lounge chairs.",
+      "prompts": {
+        "full": "The building features a single private office with an eclectic and opulent design, connected to the outside via a sleek sliding door. The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere. In this room, looking from the entrance, the vintage desk, a mahogany piece with aged wood and elegant carvings, sits prominently with an intricate Persian rug centered beneath it. Above the desk hangs the golden ornamental chandelier, its brass swirls casting a refined glow. Two mid-century modern leather lounge chairs are placed 0.5 meters away from the desk, while a polished brass floor lamp stands 0.3 meters to the left of the first lounge chair. On the desk, a black quill and ink set with ornate detailing sits neatly beside a multicolored stained glass desk lamp shaped like a miniature cathedral. Against the opposite wall stands the dark oak antique bookshelf, lined with delicate scrollwork, flanked by two moody oil paintings—one behind the desk and another adjacent to the bookshelf. A third moody oil painting hangs beside a gilded opulent wall sconce adorned with leaf-like flourishes, while a second matching sconce is mounted opposite the chandelier. Nearby, a veined marble side table holds a clear crystal decanter set that refracts light beautifully, and a rich brown leather-bound journal with gold embossing rests on the desk. The private office is connected to the outside by a sleek charcoal sliding door made with tempered glass and brushed metal, featuring subtle geometric patterns.",
+        "humanized": null,
+        "sentence": "An opulent private office with eclectic design features a vintage mahogany desk, mid-century modern lounge chairs, an antique bookshelf, moody oil paintings, and ornate lighting, connected to the outside by a sleek sliding door.",
+        "pct_change_humanized": null,
+        "pct_change_sentence": null
+      }
+    }
+  ],
+  "conversations": {
+    "rooms_description": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 5.521639625017997,
+      "prompt_tokens": 310,
+      "completion_tokens": 54,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of offices.\nYou are given some room types that can be found in offices.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"private office\": [\"dim\", \"whimsical\", \"moody\", \"gloomy\", \"messy\", \"organized\", \"ethereal\", \"ornamental\", \"refined\", \"eclectic\", \"arid\", \"cluttered\", \"opulent\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"private office\": \"The private office <FILL_IN>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "```json\n{\"private office\": \"The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere.\"}\n```"
+        }
+      ]
+    },
+    "connections_description": [
+      {
+        "model": "deepseek-chat",
+        "base_url": "https://api.deepseek.com/",
+        "max_tokens": 8192,
+        "temperature": 0.7,
+        "duration": 5.386828042042907,
+        "prompt_tokens": 691,
+        "completion_tokens": 32,
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of offices.\nYou are given some room types that can be found in offices.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"private office\": [\"dim\", \"whimsical\", \"moody\", \"gloomy\", \"messy\", \"organized\", \"ethereal\", \"ornamental\", \"refined\", \"eclectic\", \"arid\", \"cluttered\", \"opulent\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"private office\": \"The private office <FILL_IN>\"}"
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": "```json\n{\"private office\": \"The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere.\"}\n```"
+          },
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of offices.\nYou are designing one that contains (1) \"private office\" and (2) \"__outside__\".\n(1) \"private office\" has the following description: _{description1}_\n(2) \"__outside__\" has the following description: _{description2}_\nThese two rooms are connected with a sliding door.\nUsing your imagination, generate a concise description of the sliding door's appearance (color, material, attributes; \"attributes\" refers to extra descriptive phrases that are solely about the object's appearance and are independent of other objects).\nA description **MUST** be able to resemble the following sentence: \"A/An `color` <<OBJECT_NAME>> made with `material` that is `attributes`.\"\n\n## Known information\n\n_{description1}_: The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere.\n\n_{description2}_: the space outside the final building, which could be indoor or outdoor\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"description\": \"<<FILL_IN>>\"}"
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": "```json\n{\"description\": \"A sleek charcoal sliding door made with tempered glass and brushed metal that is minimalist yet elegant, featuring subtle geometric patterns.\"}\n```"
+          }
+        ]
+      }
+    ],
+    "rooms_objects": {
+      "room_objects": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 8.503547292028088,
+          "prompt_tokens": 702,
+          "completion_tokens": 152,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of offices.\nYou are given some room types that can be found in offices.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"private office\": [\"dim\", \"whimsical\", \"moody\", \"gloomy\", \"messy\", \"organized\", \"ethereal\", \"ornamental\", \"refined\", \"eclectic\", \"arid\", \"cluttered\", \"opulent\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"private office\": \"The private office <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"private office\": \"The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of offices.\nParticularly, you are working on a private office with the following description: _{description}_\nNow, generate the objects (each with its quantity) that should exist in this room.\n\n## Guidance\n\n- Besides generating objects that can be found in a typical private office, unleash your imagination and generate objects that are likely to be associated with the given description.\n- You **MUST** generate at least one lighting unit (i.e., an object made for illumination).\n- Do **NOT** generate door, doorframe, window, or stair.\n- Do **NOT** use plural form, even if the quantity of that object is more than one.\n- Do **NOT** use underscore in object name.\n- Make sure the quantity is an integer greater than 0.\n- Refrain from repeatedly generating identical or similar objects.\n\n## Known information\n\n_{description}_: The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"<<FILL_IN_OBJECT>>\": <<FILL_IN_QUANTITY>>}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"ornamental chandelier\": 1,\n  \"vintage desk\": 1,\n  \"velvet armchair\": 2,\n  \"gilded mirror\": 1,\n  \"antique bookshelf\": 1,\n  \"crystal decanter set\": 1,\n  \"moody oil painting\": 3,\n  \"brass floor lamp\": 1,\n  \"marble side table\": 1,\n  \"intricate Persian rug\": 1,\n  \"quill and ink set\": 1,\n  \"opulent wall sconce\": 2,\n  \"leather-bound journal\": 1,\n  \"stained glass desk lamp\": 1\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_objects_description": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 22.387147208035458,
+          "prompt_tokens": 862,
+          "completion_tokens": 521,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of offices.\nYou are given some room types that can be found in offices.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"private office\": [\"dim\", \"whimsical\", \"moody\", \"gloomy\", \"messy\", \"organized\", \"ethereal\", \"ornamental\", \"refined\", \"eclectic\", \"arid\", \"cluttered\", \"opulent\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"private office\": \"The private office <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"private office\": \"The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of offices.\nParticularly, you are working on a private office with the following description: _{description}_\nThis room contains the following objects: _{objects}_\nNow, for each object, generate a concise description about the object's appearance (color, material, attributes; \"attributes\" refers to extra descriptive phrases that are solely about the object's appearance and are independent of other objects).\nA description **MUST** be able to resemble the following sentence: \"A/An `color` <<OBJECT_NAME>> made with `material` that is `attributes`.\"\n\n## Guidance\n\n- **All** objects **MUST** be used.\n- If you expect several objects to be identical, their descriptions **MUST** also be identical.\n- In the description, do **NOT** mention other objects. Also, do **NOT** include the object's position relative to other objects.\n\n## Known information\n\n_{description}_: The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere.\n\n_{objects}_: [\"ornamental chandelier\", \"vintage desk\", \"velvet armchair 1\", \"velvet armchair 2\", \"antique bookshelf\", \"crystal decanter set\", \"moody oil painting 1\", \"moody oil painting 2\", \"moody oil painting 3\", \"brass floor lamp\", \"marble side table\", \"intricate Persian rug\", \"quill and ink set\", \"opulent wall sconce 1\", \"opulent wall sconce 2\", \"leather-bound journal\", \"stained glass desk lamp\"]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\nYou **MUST** include **all** provided object names **as is**.\n\n{\"<<USE_PROVIDED_OBJECT_NAME>>\": \"<<FILL_IN_DESCRIPTION>>\", ...}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"ornamental chandelier\": \"A golden ornamental chandelier made with brass that is intricately detailed with swirling patterns.\",\n  \"vintage desk\": \"A mahogany vintage desk made with aged wood that is carved with elegant, time-worn edges.\",\n  \"velvet armchair 1\": \"A deep emerald velvet armchair made with plush fabric that is tufted and regal in appearance.\",\n  \"velvet armchair 2\": \"A deep emerald velvet armchair made with plush fabric that is tufted and regal in appearance.\",\n  \"antique bookshelf\": \"A dark oak antique bookshelf made with solid wood that is lined with delicate scrollwork.\",\n  \"crystal decanter set\": \"A clear crystal decanter set made with cut glass that is polished and refracts light beautifully.\",\n  \"moody oil painting 1\": \"A shadowy moody oil painting made with rich pigments that is textured with dramatic brushstrokes.\",\n  \"moody oil painting 2\": \"A shadowy moody oil painting made with rich pigments that is textured with dramatic brushstrokes.\",\n  \"moody oil painting 3\": \"A shadowy moody oil painting made with rich pigments that is textured with dramatic brushstrokes.\",\n  \"brass floor lamp\": \"A polished brass floor lamp made with gleaming metal that is slender and topped with a frosted glass shade.\",\n  \"marble side table\": \"A veined marble side table made with smooth stone that is cool to the touch and elegantly minimalist.\",\n  \"intricate Persian rug\": \"A jewel-toned intricate Persian rug made with fine wool that is woven with elaborate floral motifs.\",\n  \"quill and ink set\": \"A black quill and ink set made with ebony wood and glass that is delicately crafted with ornate detailing.\",\n  \"opulent wall sconce 1\": \"A gilded opulent wall sconce made with burnished metal that is adorned with leaf-like flourishes.\",\n  \"opulent wall sconce 2\": \"A gilded opulent wall sconce made with burnished metal that is adorned with leaf-like flourishes.\",\n  \"leather-bound journal\": \"A rich brown leather-bound journal made with supple hide that is embossed with gold lettering.\",\n  \"stained glass desk lamp\": \"A multicolored stained glass desk lamp made with vibrant glass panels that is shaped like a miniature cathedral.\"\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_objects_relations": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 17.7843003749731,
+          "prompt_tokens": 1303,
+          "completion_tokens": 386,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of offices.\nYou are given some room types that can be found in offices.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"private office\": [\"dim\", \"whimsical\", \"moody\", \"gloomy\", \"messy\", \"organized\", \"ethereal\", \"ornamental\", \"refined\", \"eclectic\", \"arid\", \"cluttered\", \"opulent\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"private office\": \"The private office <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"private office\": \"The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of offices.\nParticularly, you are working on a private office with the following description: _{description}_\nThis room contains the following objects (each coupled with a description): _{objects}_\nNow, be as creative as you can (but remain realistic and practical) and generate sufficient 3-tuples of [objectA, relation, objectB] (which encode different relations between pairs of objects).\n`objectA` and `objectB` are object names; `relation` is a phrase or an incomplete sentence (numerical values can be optionally included, such as a desired distance (meter) between two objects) that describes how `objectA` is physically related to `objectB` according to `relation`.\nIn other words, a 3-tuple should be able to resemble the following sentence: \"`objectA` is `relation` `objectB`.\"\nFor example, if a coffee cup is placed on top of a table, you could generate `[\"coffee cup\", \"on\", \"table\"]`.\n\n## Guidance\n\n- **All** objects **MUST** be used at least once.\n\n## Known information\n\n_{description}_: The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere.\n\n_{objects}_: {\"ornamental chandelier\": \"A golden ornamental chandelier made with brass that is intricately detailed with swirling patterns.\", \"vintage desk\": \"A mahogany vintage desk made with aged wood that is carved with elegant, time-worn edges.\", \"velvet armchair 1\": \"A deep emerald velvet armchair made with plush fabric that is tufted and regal in appearance.\", \"velvet armchair 2\": \"A deep emerald velvet armchair made with plush fabric that is tufted and regal in appearance.\", \"antique bookshelf\": \"A dark oak antique bookshelf made with solid wood that is lined with delicate scrollwork.\", \"crystal decanter set\": \"A clear crystal decanter set made with cut glass that is polished and refracts light beautifully.\", \"moody oil painting 1\": \"A shadowy moody oil painting made with rich pigments that is textured with dramatic brushstrokes.\", \"moody oil painting 2\": \"A shadowy moody oil painting made with rich pigments that is textured with dramatic brushstrokes.\", \"moody oil painting 3\": \"A shadowy moody oil painting made with rich pigments that is textured with dramatic brushstrokes.\", \"brass floor lamp\": \"A polished brass floor lamp made with gleaming metal that is slender and topped with a frosted glass shade.\", \"marble side table\": \"A veined marble side table made with smooth stone that is cool to the touch and elegantly minimalist.\", \"intricate Persian rug\": \"A jewel-toned intricate Persian rug made with fine wool that is woven with elaborate floral motifs.\", \"quill and ink set\": \"A black quill and ink set made with ebony wood and glass that is delicately crafted with ornate detailing.\", \"opulent wall sconce 1\": \"A gilded opulent wall sconce made with burnished metal that is adorned with leaf-like flourishes.\", \"opulent wall sconce 2\": \"A gilded opulent wall sconce made with burnished metal that is adorned with leaf-like flourishes.\", \"leather-bound journal\": \"A rich brown leather-bound journal made with supple hide that is embossed with gold lettering.\", \"stained glass desk lamp\": \"A multicolored stained glass desk lamp made with vibrant glass panels that is shaped like a miniature cathedral.\"}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\nYou **MUST** use **all** provided object names **as is**.\n\n{\n  \"relations\": [\n    [\"<<USE_PROVIDED_OBJECT_NAME>>\", \"<<FILL_IN_RELATION>>\", \"<<USE_PROVIDED_OBJECT_NAME>>\"],\n    ...\n  ]\n}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\n  \"relations\": [\n    [\"ornamental chandelier\", \"hangs directly above\", \"vintage desk\"],\n    [\"velvet armchair 1\", \"is placed 0.5 meters away from\", \"vintage desk\"],\n    [\"velvet armchair 2\", \"is placed 0.5 meters away from\", \"vintage desk\"],\n    [\"antique bookshelf\", \"stands against the wall opposite\", \"vintage desk\"],\n    [\"crystal decanter set\", \"rests on top of\", \"marble side table\"],\n    [\"moody oil painting 1\", \"hangs on the wall behind\", \"vintage desk\"],\n    [\"moody oil painting 2\", \"hangs on the wall adjacent to\", \"antique bookshelf\"],\n    [\"moody oil painting 3\", \"hangs on the wall beside\", \"opulent wall sconce 1\"],\n    [\"brass floor lamp\", \"stands 0.3 meters to the left of\", \"velvet armchair 1\"],\n    [\"marble side table\", \"is placed between\", \"velvet armchair 1 and velvet armchair 2\"],\n    [\"intricate Persian rug\", \"lies centered under\", \"vintage desk\"],\n    [\"quill and ink set\", \"sits neatly on\", \"vintage desk\"],\n    [\"opulent wall sconce 1\", \"is mounted on the wall next to\", \"moody oil painting 3\"],\n    [\"opulent wall sconce 2\", \"is mounted on the wall opposite\", \"ornamental chandelier\"],\n    [\"leather-bound journal\", \"is placed beside\", \"quill and ink set on the vintage desk\"],\n    [\"stained glass desk lamp\", \"stands at the corner of\", \"vintage desk\"]\n  ]\n}\n```"
+            }
+          ]
+        }
+      ],
+      "room_summary": [
+        {
+          "model": "deepseek-chat",
+          "base_url": "https://api.deepseek.com/",
+          "max_tokens": 8192,
+          "temperature": 0.7,
+          "duration": 23.291085625009146,
+          "prompt_tokens": 1632,
+          "completion_tokens": 262,
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of offices.\nYou are given some room types that can be found in offices.\nThese room types will be used to construct corresponding rooms in a one-storey building.\nEach room is associated with some adjectives: _{rooms}_\nNow, for each room, generate a short and concise description of the room's shape as well as the colors and materials of its floor and wall in your own words using the given adjectives (and the given room name).\n\n## Guidance\n\n- It is not a must to use the exact wordings of the given adjectives.\n- For each room, if some adjectives are contradicting one another, randomly pick only one of them to use.\n\n## Known information\n\n_{rooms}_: {\"private office\": [\"dim\", \"whimsical\", \"moody\", \"gloomy\", \"messy\", \"organized\", \"ethereal\", \"ornamental\", \"refined\", \"eclectic\", \"arid\", \"cluttered\", \"opulent\"]}\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"private office\": \"The private office <FILL_IN>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"private office\": \"The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere.\"}\n```"
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of offices.\nParticularly, you are working on a private office with the following description: _{description}_\nThis room contains the following objects (each coupled with a description): _{objects}_\nThese objects are related to one another: _{object-relations}_\nNow, using _{objects}_ and _{object-relations}_, generate a **one-paragraph** summary regarding the objects in this room as well as where they are exactly placed and how they are exactly related.\nYou **MUST** keep every object's description.\n\n## Guidance\n\n- **All** given objects must be used, but you can use them in any order you want.\n- If there is a collection of similar/identical objects, you **MUST explicitly** mention the **number** of objects (e.g., \"five books\" instead of \"a collection of books\").\n- Each element in _{object-relations}_ is a 3-tuple [objectA, relation, objectB] which encodes a relation between a pair of objects.\n`objectA` and `objectB` are object names; `relation` is a phrase or an incomplete sentence (numerical values can be optionally included) that describes how `objectA` is physically related to `objectB` according to `relation`.\n- You may use \"looking from ...\" to describe the room from a specific perspective, making the summary more vivid.\n\n## Known information\n\n_{description}_: The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere.\n\n_{objects}_: {\"ornamental chandelier\": \"A golden ornamental chandelier made with brass that is intricately detailed with swirling patterns.\", \"vintage desk\": \"A mahogany vintage desk made with aged wood that is carved with elegant, time-worn edges.\", \"velvet armchair 1\": \"A deep emerald velvet armchair made with plush fabric that is tufted and regal in appearance.\", \"velvet armchair 2\": \"A deep emerald velvet armchair made with plush fabric that is tufted and regal in appearance.\", \"antique bookshelf\": \"A dark oak antique bookshelf made with solid wood that is lined with delicate scrollwork.\", \"crystal decanter set\": \"A clear crystal decanter set made with cut glass that is polished and refracts light beautifully.\", \"moody oil painting 1\": \"A shadowy moody oil painting made with rich pigments that is textured with dramatic brushstrokes.\", \"moody oil painting 2\": \"A shadowy moody oil painting made with rich pigments that is textured with dramatic brushstrokes.\", \"moody oil painting 3\": \"A shadowy moody oil painting made with rich pigments that is textured with dramatic brushstrokes.\", \"brass floor lamp\": \"A polished brass floor lamp made with gleaming metal that is slender and topped with a frosted glass shade.\", \"marble side table\": \"A veined marble side table made with smooth stone that is cool to the touch and elegantly minimalist.\", \"intricate Persian rug\": \"A jewel-toned intricate Persian rug made with fine wool that is woven with elaborate floral motifs.\", \"quill and ink set\": \"A black quill and ink set made with ebony wood and glass that is delicately crafted with ornate detailing.\", \"opulent wall sconce 1\": \"A gilded opulent wall sconce made with burnished metal that is adorned with leaf-like flourishes.\", \"opulent wall sconce 2\": \"A gilded opulent wall sconce made with burnished metal that is adorned with leaf-like flourishes.\", \"leather-bound journal\": \"A rich brown leather-bound journal made with supple hide that is embossed with gold lettering.\", \"stained glass desk lamp\": \"A multicolored stained glass desk lamp made with vibrant glass panels that is shaped like a miniature cathedral.\"}\n\n_{object-relations}_: [[\"ornamental chandelier\", \"hangs directly above\", \"vintage desk\"], [\"velvet armchair 1\", \"is placed 0.5 meters away from\", \"vintage desk\"], [\"velvet armchair 2\", \"is placed 0.5 meters away from\", \"vintage desk\"], [\"antique bookshelf\", \"stands against the wall opposite\", \"vintage desk\"], [\"crystal decanter set\", \"rests on top of\", \"marble side table\"], [\"moody oil painting 1\", \"hangs on the wall behind\", \"vintage desk\"], [\"moody oil painting 2\", \"hangs on the wall adjacent to\", \"antique bookshelf\"], [\"moody oil painting 3\", \"hangs on the wall beside\", \"opulent wall sconce 1\"], [\"brass floor lamp\", \"stands 0.3 meters to the left of\", \"velvet armchair 1\"], [\"intricate Persian rug\", \"lies centered under\", \"vintage desk\"], [\"quill and ink set\", \"sits neatly on\", \"vintage desk\"], [\"opulent wall sconce 1\", \"is mounted on the wall next to\", \"moody oil painting 3\"], [\"opulent wall sconce 2\", \"is mounted on the wall opposite\", \"ornamental chandelier\"], [\"stained glass desk lamp\", \"stands at the corner of\", \"vintage desk\"]]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"summary\": \"In this room, <<FILL_IN>>\"}"
+                }
+              ]
+            },
+            {
+              "role": "assistant",
+              "content": "```json\n{\"summary\": \"In this room, looking from the entrance, the vintage desk, a mahogany piece with aged wood and elegant carvings, sits prominently with an intricate Persian rug centered beneath it. Above the desk hangs the golden ornamental chandelier, its brass swirls casting a refined glow. Two deep emerald velvet armchairs, each plush and tufted, are placed 0.5 meters away from the desk, while a polished brass floor lamp stands 0.3 meters to the left of the first armchair. On the desk, a black quill and ink set with ornate detailing sits neatly beside a multicolored stained glass desk lamp shaped like a miniature cathedral. Against the opposite wall stands the dark oak antique bookshelf, lined with delicate scrollwork, flanked by two moody oil paintings—one behind the desk and another adjacent to the bookshelf. A third moody oil painting hangs beside a gilded opulent wall sconce adorned with leaf-like flourishes, while a second matching sconce is mounted opposite the chandelier. Nearby, a veined marble side table holds a clear crystal decanter set that refracts light beautifully, and a rich brown leather-bound journal with gold embossing rests on the desk.\"}\n```"
+            }
+          ]
+        }
+      ]
+    },
+    "basic_summaries": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 5.912121375033166,
+      "prompt_tokens": 646,
+      "completion_tokens": 69,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional interior designer who excels at interior design of offices.\nYou are designing one with 1 room(s) (each has its own summary): _{rooms}_\nSome of these rooms are connected (with or without a door): _{connections}_\nNow, generate two concise summaries in your own words.\nThe first one is a one-sentence overall description of the building's configuration (floor plan).\nThe second one consists of all connections in this building (i.e., all pairs of rooms that are connected, how they are connected, and the appearance of connection objects).\n\n## Guidance\n\n- In _{connections}_, region \"__outside__\" refers to the space outside the final building, which could be indoor or outdoor.\n- A connection type of \"open\" refers to the absence of a shared boundary between two rooms.\n\n## Known information\n\n_{rooms}_: {\"private office\": \"The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere. In this room, looking from the entrance, the vintage desk, a mahogany piece with aged wood and elegant carvings, sits prominently with an intricate Persian rug centered beneath it. Above the desk hangs the golden ornamental chandelier, its brass swirls casting a refined glow. Two deep emerald velvet armchairs, each plush and tufted, are placed 0.5 meters away from the desk, while a polished brass floor lamp stands 0.3 meters to the left of the first armchair. On the desk, a black quill and ink set with ornate detailing sits neatly beside a multicolored stained glass desk lamp shaped like a miniature cathedral. Against the opposite wall stands the dark oak antique bookshelf, lined with delicate scrollwork, flanked by two moody oil paintings—one behind the desk and another adjacent to the bookshelf. A third moody oil painting hangs beside a gilded opulent wall sconce adorned with leaf-like flourishes, while a second matching sconce is mounted opposite the chandelier. Nearby, a veined marble side table holds a clear crystal decanter set that refracts light beautifully, and a rich brown leather-bound journal with gold embossing rests on the desk.\"}\n\n_{connections}_: [{\"region_a\": \"private office\", \"region_b\": \"__outside__\", \"conn_type\": \"sliding door\", \"description\": \"A sleek charcoal sliding door made with tempered glass and brushed metal that is minimalist yet elegant, featuring subtle geometric patterns.\"}]\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"overall_summary\": \"<<FILL_IN>>\", \"connections_summary\": \"<<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "{\n  \"overall_summary\": \"The building features a single private office with an eclectic and opulent design, connected to the outside via a sleek sliding door.\",\n  \"connections_summary\": \"The private office is connected to the outside by a sleek charcoal sliding door made with tempered glass and brushed metal, featuring subtle geometric patterns.\"\n}"
+        }
+      ]
+    },
+    "humanized_prompt": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 11.075118708016817,
+      "prompt_tokens": 551,
+      "completion_tokens": 245,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional real estate agent who excels at introducing any type of real estate to your clients.\nYou are given a very comprehensive description of one of the latest offices in your area: _{description}_\nNow, rewrite the description into a one-paragraph natural speech (starting with \"A\"/\"An\") that is easy to understand and appealing to your clients.\n\n## Guidance\n\n- You **MUST** use all provided information from the description in your prompt.\n\n## Known information\n\n_{description}_: The building features a single private office with an eclectic and opulent design, connected to the outside via a sleek sliding door. The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere. In this room, looking from the entrance, the vintage desk, a mahogany piece with aged wood and elegant carvings, sits prominently with an intricate Persian rug centered beneath it. Above the desk hangs the golden ornamental chandelier, its brass swirls casting a refined glow. Two deep emerald velvet armchairs, each plush and tufted, are placed 0.5 meters away from the desk, while a polished brass floor lamp stands 0.3 meters to the left of the first armchair. On the desk, a black quill and ink set with ornate detailing sits neatly beside a multicolored stained glass desk lamp shaped like a miniature cathedral. Against the opposite wall stands the dark oak antique bookshelf, lined with delicate scrollwork, flanked by two moody oil paintings—one behind the desk and another adjacent to the bookshelf. A third moody oil painting hangs beside a gilded opulent wall sconce adorned with leaf-like flourishes, while a second matching sconce is mounted opposite the chandelier. Nearby, a veined marble side table holds a clear crystal decanter set that refracts light beautifully, and a rich brown leather-bound journal with gold embossing rests on the desk. The private office is connected to the outside by a sleek charcoal sliding door made with tempered glass and brushed metal, featuring subtle geometric patterns.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"speech\": \"A/An <<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "```json\n{\"speech\": \"An exquisite private office awaits, boasting an eclectic and opulent design with refined, whimsical details. The moody, dim-hued walls and a floor of mixed refined materials create an organized yet enchanting atmosphere. At its heart, a vintage mahogany desk with elegant carvings stands proudly atop an intricate Persian rug, illuminated by a golden ornamental chandelier with brass swirls. Two plush, tufted emerald velvet armchairs sit nearby, accompanied by a polished brass floor lamp. The desk is adorned with a black quill and ink set, a multicolored stained glass desk lamp shaped like a miniature cathedral, and a rich brown leather-bound journal with gold embossing. Against the opposite wall, a dark oak antique bookshelf with delicate scrollwork is flanked by moody oil paintings, while gilded opulent wall sconces with leaf-like flourishes add a touch of grandeur. A veined marble side table holds a crystal decanter set that refracts light beautifully. This luxurious space is seamlessly connected to the outside via a sleek charcoal sliding door with tempered glass, brushed metal, and subtle geometric patterns, offering both privacy and style.\"}\n```"
+        }
+      ]
+    },
+    "sentence_prompt": {
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "duration": 5.3716463330201805,
+      "prompt_tokens": 517,
+      "completion_tokens": 43,
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "## Task description\n\nYou are a professional real estate agent who excels at introducing any type of real estate to your clients.\nYou are given a very comprehensive description of one of the latest offices in your area: _{description}_\nNow, summarize the description into one concise sentence (starting with \"A\"/\"An\").\n\n## Known information\n\n_{description}_: The building features a single private office with an eclectic and opulent design, connected to the outside via a sleek sliding door. The private office has a refined, eclectic shape with opulent ornamental details. The walls are adorned in moody, dim hues, while the floor features a mix of refined materials, creating a whimsical yet organized atmosphere. In this room, looking from the entrance, the vintage desk, a mahogany piece with aged wood and elegant carvings, sits prominently with an intricate Persian rug centered beneath it. Above the desk hangs the golden ornamental chandelier, its brass swirls casting a refined glow. Two deep emerald velvet armchairs, each plush and tufted, are placed 0.5 meters away from the desk, while a polished brass floor lamp stands 0.3 meters to the left of the first armchair. On the desk, a black quill and ink set with ornate detailing sits neatly beside a multicolored stained glass desk lamp shaped like a miniature cathedral. Against the opposite wall stands the dark oak antique bookshelf, lined with delicate scrollwork, flanked by two moody oil paintings—one behind the desk and another adjacent to the bookshelf. A third moody oil painting hangs beside a gilded opulent wall sconce adorned with leaf-like flourishes, while a second matching sconce is mounted opposite the chandelier. Nearby, a veined marble side table holds a clear crystal decanter set that refracts light beautifully, and a rich brown leather-bound journal with gold embossing rests on the desk. The private office is connected to the outside by a sleek charcoal sliding door made with tempered glass and brushed metal, featuring subtle geometric patterns.\n\n## Output format\n\nYou **MUST** respond using **ONLY** JSON without preamble or postamble, and without any additional commentary or Markdown formatting.\nDo **NOT** miss any fields or add extra fields.\nYour JSON **MUST** be complete (i.e., from a proper start to a proper end) and correctly formatted (e.g., strings are enclosed by double quotation marks).\n\n{\"sentence\": \"A/An <<FILL_IN>>\"}"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "```json\n{\"sentence\": \"An opulent private office with eclectic decor, featuring a vintage mahogany desk, velvet armchairs, ornamental chandeliers, and a sleek sliding door.\"}\n```"
+        }
+      ]
+    }
+  }
+}

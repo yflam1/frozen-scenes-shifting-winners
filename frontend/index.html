@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Primary Meta Tags -->
+    <meta
+      name="title"
+      content="Frozen Scenes, Shifting Winners: Configuration Fragility in Text-to-3D Evaluation"
+    />
+    <meta
+      name="description"
+      content="An audit of rendered-image text-to-3D evaluation: camera and caption configuration choices move scores and can change leaderboard winners while every generated scene stays fixed. 300 frozen scenes, six generators, 19 alignment evaluators plus one control."
+    />
+    <meta
+      name="keywords"
+      content="text-to-3D, scene generation, evaluation audit, vision-language models, CLIP, metric reliability, configuration fragility, benchmark stability"
+    />
+    <meta name="author" content="Anson Y. Lam, Shuqing Li, Michael R. Lyu" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:site_name"
+      content="The Chinese University of Hong Kong"
+    />
+    <meta
+      property="og:title"
+      content="Frozen Scenes, Shifting Winners: Configuration Fragility in Text-to-3D Evaluation"
+    />
+    <meta
+      property="og:description"
+      content="Camera and caption configuration choices move scores and can change leaderboard winners while every generated scene stays fixed."
+    />
+    <meta
+      property="og:url"
+      content="https://yflam1.github.io/frozen-scenes-shifting-winners/"
+    />
+    <meta
+      property="og:image"
+      content="https://yflam1.github.io/frozen-scenes-shifting-winners/figures/montage_pitch.png"
+    />
+    <meta property="og:image:width" content="1090" />
+    <meta property="og:image:height" content="418" />
+    <meta
+      property="og:image:alt"
+      content="The same frozen 3D room rendered at three camera pitches"
+    />
+    <meta
+      property="article:published_time"
+      content="2026-09-28T00:00:00.000Z"
+    />
+    <meta property="article:author" content="Anson Y. Lam" />
+    <meta property="article:section" content="Research" />
+    <meta property="article:tag" content="text-to-3D" />
+    <meta property="article:tag" content="evaluation audit" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Frozen Scenes, Shifting Winners: Configuration Fragility in Text-to-3D Evaluation"
+    />
+    <meta
+      name="twitter:description"
+      content="Camera and caption configuration choices move scores and can change leaderboard winners while every generated scene stays fixed."
+    />
+    <meta
+      name="twitter:image"
+      content="https://yflam1.github.io/frozen-scenes-shifting-winners/figures/montage_pitch.png"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="The same frozen 3D room rendered at three camera pitches"
+    />
+
+    <!-- Academic/Research Specific -->
+    <meta
+      name="citation_title"
+      content="Frozen Scenes, Shifting Winners: Configuration Fragility in Text-to-3D Evaluation"
+    />
+    <meta name="citation_author" content="Lam, Anson Y." />
+    <meta name="citation_author" content="Li, Shuqing" />
+    <meta name="citation_author" content="Lyu, Michael R." />
+    <meta name="citation_publication_date" content="2026" />
+
+    <!-- Additional SEO -->
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="msapplication-TileColor" content="#2563eb" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+
+    <title>
+      Frozen Scenes, Shifting Winners: Configuration Fragility in Text-to-3D
+      Evaluation | Anson Y. Lam, Shuqing Li, Michael R. Lyu
+    </title>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Academicons (arXiv mark) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
+
+    <!-- MathJax: typesets the paper math in the abstract, \( ... \) inline -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [["\\(", "\\)"]],
+          displayMath: [["\\[", "\\]"]],
+          packages: { "[+]": ["ams", "boldsymbol"] },
+        },
+        options: {
+          skipHtmlTags: [
+            "script",
+            "noscript",
+            "style",
+            "textarea",
+            "pre",
+            "code",
+          ],
+        },
+        chtml: { scale: 0.98 },
+      };
+    </script>
+    <script
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+
+    <!-- Structured Data for Academic Papers -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ScholarlyArticle",
+        "headline": "Frozen Scenes, Shifting Winners: Configuration Fragility in Text-to-3D Evaluation",
+        "description": "An audit of rendered-image text-to-3D evaluation in which camera and caption configuration choices move scores and can change leaderboard winners while every generated scene stays fixed.",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Anson Y. Lam",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "The Chinese University of Hong Kong"
+            }
+          },
+          {
+            "@type": "Person",
+            "name": "Shuqing Li",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "The Chinese University of Hong Kong"
+            }
+          },
+          {
+            "@type": "Person",
+            "name": "Michael R. Lyu",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "The Chinese University of Hong Kong"
+            }
+          }
+        ],
+        "datePublished": "2026-09-28",
+        "url": "https://yflam1.github.io/frozen-scenes-shifting-winners/",
+        "image": "https://yflam1.github.io/frozen-scenes-shifting-winners/figures/montage_pitch.png",
+        "keywords": [
+          "text-to-3D",
+          "scene generation",
+          "evaluation audit",
+          "vision-language models",
+          "CLIP",
+          "metric reliability"
+        ],
+        "abstract": "Can a text-to-3D leaderboard change when every generated scene stays fixed? We audit this question for rendered-image evaluation, where camera settings and caption wording become part of the measurement protocol. Across 300 frozen scenes from six generators, we vary eight render and caption factors for 19 alignment evaluators plus one perceptual-quality control, then test four targeted scene degradations. Peak configuration variance exceeds between-generator variance for 17/19 alignment evaluators, with prompt-bootstrap lower bounds above 1 for 11/19. Rankings are more stable than scores, yet 18/19 evaluators change their point-estimate winner under some configuration. Pairwise protocol margin envelopes show which comparisons keep their direction across the tested settings. Selected pairs have opposite pointwise intervals, but no reversal survives simultaneous inference over the full search. Thus the observed winner changes are descriptive, not confirmed changes in generator superiority. Sensitivity remains separate: no evaluator, even the prompt-free control, exceeds 67% tie-adjusted directional discrimination on layout scrambling, which is diagnostic rather than human-validated ground truth. The audit separates score stability, decision uncertainty, and targeted sensitivity, and recommends reporting (generator, score, card ID) with protocol-dependent comparisons and selection-aware uncertainty.",
+        "isAccessibleForFree": true,
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "mainEntity": {
+          "@type": "WebPage",
+          "@id": "https://yflam1.github.io/frozen-scenes-shifting-winners/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
