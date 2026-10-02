@@ -16,7 +16,7 @@
 <!-- Add an arXiv link here once the preprint is up. -->
 <p align="center">
   <a href="https://yflam1.github.io/frozen-scenes-shifting-winners/"><strong>Project Page</strong></a> |
-  <a href="https://arxiv.org/abs/XXXX.XXXXX"><strong>arXiv</strong></a>
+  <a href="https://arxiv.org/abs/2610.00447"><strong>arXiv</strong></a>
 </p>
 
 ## 📝 Abstract
@@ -69,7 +69,7 @@ If you find this code useful, please cite our paper.
 @article{lam2026frozen,
   title={Frozen Scenes, Shifting Winners: Configuration Fragility in Text-to-3D Evaluation},
   author={Lam, Anson Y. and Li, Shuqing and Lyu, Michael R.},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  journal={arXiv preprint arXiv:2610.00447},
   year={2026}
 }
 ```

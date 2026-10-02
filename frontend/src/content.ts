@@ -57,7 +57,7 @@ export const HERO = {
     {
       icon: "ai ai-arxiv",
       label: "arXiv",
-      url: "https://arxiv.org/abs/XXXX.XXXXX",
+      url: "https://arxiv.org/abs/2610.00447",
     },
   ] as ButtonLink[],
 };
@@ -141,7 +141,7 @@ export const SECTIONS = [
 ] as Section[];
 
 export const BIBTEX =
-  "@article{lam2026frozen,\n  title={Frozen Scenes, Shifting Winners: Configuration Fragility in Text-to-3D Evaluation},\n  author={Lam, Anson Y. and Li, Shuqing and Lyu, Michael R.},\n  journal={arXiv preprint arXiv:XXXX.XXXXX},\n  year={2026}\n}";
+  "@article{lam2026frozen,\n  title={Frozen Scenes, Shifting Winners: Configuration Fragility in Text-to-3D Evaluation},\n  author={Lam, Anson Y. and Li, Shuqing and Lyu, Michael R.},\n  journal={arXiv preprint arXiv:2610.00447},\n  year={2026}\n}";
 
 export const TEMPLATE_CREDIT_HTML =
   'This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page. ' +
